@@ -1,0 +1,8 @@
+{
+  "label": "System Pass Through",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "System Pass Through description"
+  }
+}

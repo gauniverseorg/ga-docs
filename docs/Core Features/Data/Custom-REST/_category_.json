@@ -1,0 +1,8 @@
+{
+  "label": "Custom REST",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Custom REST description"
+  }
+}

@@ -114,32 +114,32 @@ The main differences are:
 - Adaptability, no code applications are more adaptable and agile than
   traditional code applications
 
-  - Benefits of no code
+- Benefits of no code
 
-    - Lower cost
+  - Lower cost
 
-      - No-code applications does not require as many experienced programmers, resulting in significantly lower development costs.
+    - No-code applications does not require as many experienced programmers, resulting in significantly lower development costs.
 
-      - You can save cost by decreasing the number of programmers
+    - You can save cost by decreasing the number of programmers
 
-      - Reduce costs by reducing development time
+    - Reduce costs by reducing development time
 
-    - Agile
+  - Agile
 
-      - Developing with no code is proven to be more agile
+    - Developing with no code is proven to be more agile
 
-      - Applications can incorporate a set of templates that can be easily utilized when needed
+    - Applications can incorporate a set of templates that can be easily utilized when needed
 
-      - Redesigning and changing the application's themes is easier
+    - Redesigning and changing the application's themes is easier
 
-    - More productivity
+  - More productivity
 
-      - With no/low code, you can have a more productive development
+    - With no/low code, you can have a more productive development
 
-    - Digitalization
+  - Digitalization
 
-      - Digitalization involves transforming traditional processes into a digital format.
+    - Digitalization involves transforming traditional processes into a digital format.
 
-      - This can be helped by many technologies, among them is no/low code
+    - This can be helped by many technologies, among them is no/low code
 
-      - This is the biggest benefit of no code
+    - This is the biggest benefit of no code

@@ -5,13 +5,13 @@ sidebar_position: 4
 
 
 The Table Detail page consists of a table control for displaying data and an input option for entering new data.
-![Table page overview](Images/Aspose.Words.4a2aeb46-7bb9-47ec-8223-5acb2ad913fb.005.png)
+![Table page overview](../../../../../static/img/Aspose.Words.4a2aeb46-7bb9-47ec-8223-5acb2ad913fb.005.png)
 
 The appropriate data model and container need to be chosen to display and store the relevant data records 
-![Selecting a data model](Images/Aspose.Words.4a2aeb46-7bb9-47ec-8223-5acb2ad913fb.006.png)
+![Selecting a data model](../../../../../static/img/Aspose.Words.4a2aeb46-7bb9-47ec-8223-5acb2ad913fb.006.png)
 
 Then the user must select the appropriate settings
-![Selecting Settings](Images/Aspose.Words.4a2aeb46-7bb9-47ec-8223-5acb2ad913fb.007.png)
+![Selecting Settings](../../../../../static/img/Aspose.Words.4a2aeb46-7bb9-47ec-8223-5acb2ad913fb.007.png)
 
 The available properties are:
 
@@ -30,7 +30,7 @@ The available properties are:
 |Styles|Style definition for table|
 
 The user must then select the members to show
-![Select members](Images/Aspose.Words.4a2aeb46-7bb9-47ec-8223-5acb2ad913fb.008.png)
+![Select members ](../../../../../static/img/Aspose.Words.4a2aeb46-7bb9-47ec-8223-5acb2ad913fb.008.png)
 
 |**Property**|**Description**|
 | :- | :- |

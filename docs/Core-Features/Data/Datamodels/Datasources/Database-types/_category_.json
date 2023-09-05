@@ -1,0 +1,8 @@
+{
+  "label": "Database Types Supported",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "The following database types are supported in GA_Universe"
+  }
+}

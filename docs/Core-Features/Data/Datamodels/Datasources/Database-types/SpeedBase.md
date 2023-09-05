@@ -1,0 +1,10 @@
+# SpeedBase
+
+Required information of Database:
+
+| Property            | Description                                                                                                                                                                                                                                                                                                                |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ServerURL           | URL for access                                                                                                                                                                                                                                                                                                             |
+| SecurityPassThrough | If the user has a database role with dimension data restrictions, it is queried for filters/selects on the AS which dimension elements the user is allowed to see. If the checkmark is not set, the software uses the database role to calculate which dimension elements are displayed for the user in the filter/select. |
+| Username            | Username for database access                                                                                                                                                                                                                                                                                               |
+| Password            | Password for database access                                                                                                                                                                                                                                                                                               |

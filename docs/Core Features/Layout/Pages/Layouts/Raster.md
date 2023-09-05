@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 ---
+# Raster
 
 Raster allows you to place elements wherever you want on the page. Accessing the Raster tab allows you to set the following:
 
@@ -16,8 +17,8 @@ Raster allows you to place elements wherever you want on the page. Accessing the
 | MinimumItemColumns | The minimum item per column                                                                                                                    |
 | MaximumItemRows    | The maximum Items per row                                                                                                                      |
 | MinimumItemRows    | The minimum item per row.                                                                                                                      |
-| Grid Type          | One of: <li>Fit</li><li>ScrollVertical</li><li>ScrollHorizontal</li><li>Fixed</li><li>Vertical Fixed</li><li>Fit</li><li>Horizontal Fixed</li> |
-| Display grid       | One of:<li>Always</li><li>OnDragAndResize</li><li>None</li>                                                                                    |
+| Grid Type          |<p> One of:</p> <p>- Fit</p><p>- ScrollVertical</p><p>- ScrollHorizontal</p><p>- Fixed</p><p>- Vertical Fixed</p><p>- Horizontal Fixed</p> |
+| Display grid       | One of:<p> - Always</p><p>- OnDragAndResize</p><p>- None</p>                                                                                    |
 | Mobile breakpoint  | When width is reached, grid is switched to MobileMode                                                                                          |
 | Push items         | Items can be pushed                                                                                                                            |
 | Draggable          | Items can be dragged                                                                                                                           |

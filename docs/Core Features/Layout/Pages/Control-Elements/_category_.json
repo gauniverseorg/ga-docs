@@ -1,0 +1,8 @@
+{
+  "label": "Control Elements",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description":"Control elements are used to control what happens inside the page, and they are:"
+  }
+}

@@ -1,1 +1,7 @@
-# TEST
+---
+sidebar_position: 1
+---
+
+# Overview
+
+Datamodels are the tables for your data. They dictate how many data fields you have, their types, and tables relations. They can have different data sources like an SQL Database (PostgreSQL), NoSQL (MongoDB), and many more. The individual data models are divided into various data sources and corresponding types of data containers.

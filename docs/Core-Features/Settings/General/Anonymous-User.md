@@ -1,0 +1,7 @@
+---
+sidebar_position: 1
+---
+
+# Anonymous User
+
+Select a user that is automatically logged in for anyone that opens the instance url, please note that the user here should have minimum roles, if it has an initial admin role it will pose a security risk to your data.

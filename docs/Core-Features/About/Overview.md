@@ -18,7 +18,8 @@ Here you can view all the tracked changed that happened in the current instance 
 3. Workflows
 4. Scripts
 
-You can either accept or delete any change made by any user, before accepting that changes are all local into their machine, after accepting its public for all users on the instance.
+You can either accept or delete any change made by a user. All changes are saved to their account until they are accepted and made public for all accounts.
+
 When accepting a change you can select an overwrite If overwrite is checked, then no new version of the element (layout, workflow, etc.) will be created and the currently active version will be overwritten. This means that the previous state can no longer be restored. If the checkbox is unchecked (default), then the currently active version is saved and set to inactive and the new version is set to active.
 
 ## Versioning Overview

@@ -6,5 +6,5 @@ sidebar_position: 1
 The library is imported into the script as follows
 
 ~~~ typescript
-import { RestFilter, Comparer, Guid, Concat, FilterColumn } from "Models";
+import { WorkflowStatus, Global, ContainerAccess, Math /*, ClassName*/ } from "System";
 ~~~

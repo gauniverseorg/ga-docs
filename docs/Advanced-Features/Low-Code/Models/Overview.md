@@ -7,5 +7,4 @@ The library is imported into the script as follows
 
 ~~~ typescript
 import { RestFilter, Comparer, Guid, Concat, FilterColumn /*, ClassName*/} from "Models";
-
 ~~~

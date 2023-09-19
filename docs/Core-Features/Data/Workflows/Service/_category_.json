@@ -1,0 +1,8 @@
+{
+  "label": "Service",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Service workflows are mostly used by site admins or called by client side workflows, they offer more complex features as compared to the client side, and they are: "
+  }
+}

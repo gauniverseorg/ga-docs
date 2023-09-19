@@ -1,0 +1,8 @@
+{
+  "label": "System",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "This library is used to interact with the GA_Universe system"
+  }
+}

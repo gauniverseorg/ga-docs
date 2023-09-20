@@ -8,6 +8,6 @@ Offline values are available also when for example the internet stops unexpected
 
 | Name                 | Description                                     | Parameters                                                                | Result |
 | -------------------- | ----------------------------------------------- | ------------------------------------------------------------------------- | ------ |
-| Read Offline Value   | Read the values stored inside the offline cache | Key: Key name that holds the value specified                              |        |
-| Set Offline Value    | Set the values stored inside the cache          | Key: Key name under which the current parameter is written to the cache   |
-| Delete Offline Value | Delete values from the cache                    | Key: Key name under which the current parameter is deleted from the cache |        |
+| Read Offline Value   | Read the values stored inside the offline cache | Key: Key name that holds the value specified                              |    N/A    |
+| Set Offline Value    | Set the values stored inside the cache          | Key: Key name under which the current parameter is written to the cache   |N/A
+| Delete Offline Value | Delete values from the cache                    | Key: Key name under which the current parameter is deleted from the cache |   N/A     |

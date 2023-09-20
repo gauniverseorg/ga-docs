@@ -74,7 +74,7 @@ parts:
 
 For implementing your logic, the workflow has 14 different categories.
 You can use commands like: Read data, write data, etc. You can read more
-about it [here](#).
+about it [here](/category/workflows-1/).
 
 You can use different components for different purposes, like a
 condition switch which determines the workflow path based on a set

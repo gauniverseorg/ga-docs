@@ -3,6 +3,6 @@
   "position": 2,
   "link": {
     "type": "generated-index",
-    "description": "Workflows description"
+    "description": "Workflows are the functionality of the pages. They are designed using no code components or with the help of low amount of coding to do a certain functions in the page. They can be activated using certain events in the page or in the control elements. "
   }
 }

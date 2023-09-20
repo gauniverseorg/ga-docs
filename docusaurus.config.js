@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
+  title: "Docs",
   tagline: "Dinosaurs are cool",
   favicon: "img/favicon.ico",
 
@@ -18,8 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "AbdulrahmanAlosaimi", // Usually your GitHub org/user name.
+  projectName: "ga-docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -43,7 +43,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/AbdulrahmanAlosaimi/ga-docs/tree/master/",
         },
         blog: false,
         theme: {
@@ -59,13 +59,12 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "My Site",
         logo: {
-          alt: "My Site Logo",
+          alt: "GA_Universe Logo",
           src: "img/logo.svg",
         },
         items: [
-          {
+          /*{
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
@@ -76,7 +75,7 @@ const config = {
             sidebarId: "trainingSidebar",
             position: "left",
             label: "Guides",
-          },
+          },*/
           {
             href: "https://github.com/AbdulrahmanAlosaimi/ga-docs",
             label: "GitHub",
@@ -87,7 +86,7 @@ const config = {
       footer: {
         style: "dark",
         links: [
-          {
+          /*{
             title: "Docs",
             items: [
               {
@@ -125,9 +124,9 @@ const config = {
                 href: "https://github.com/facebook/docusaurus",
               },
             ],
-          },
+          },*/
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} GA_Universe. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

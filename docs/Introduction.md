@@ -19,8 +19,6 @@ development process, also without writing a single line of code, or
 writing the minimum required code. It can be used for many different use
 cases and reasons, of which:
 
-- Building applications
-
 - Building new applications from scratch to solve a problem or
   process
 
@@ -45,13 +43,13 @@ using the low code/no code aspects.
 
 Utilizing GA is as easy as:
 
-1.  Opening the page
+1. Opening the page
 
-2.  Dragging the needed components
+2. Dragging the needed components
 
-3.  Edit it to your liking
+3. Edit it to your liking
 
-4.  Rinse and repeat!
+4. Rinse and repeat!
 
 ## Tutorials
 
@@ -66,11 +64,11 @@ Workflows are the logic of your application; you can think of it like
 the lines of code but much easier. Each workflow consists of three
 parts:
 
-1.  Start: The starting point of the workflow
+1. Start: The starting point of the workflow
 
-2.  Logic: what the workflow is used for
+2. Logic: what the workflow is used for
 
-3.  End: The ending point of the workflow
+3. End: The ending point of the workflow
 
 For implementing your logic, the workflow has 14 different categories.
 You can use commands like: Read data, write data, etc. You can read more

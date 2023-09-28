@@ -64,18 +64,24 @@ const config = {
           src: "img/logo.svg",
         },
         items: [
-          /*{
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Tutorial",
-          },
           {
-            type: "docSidebar",
-            sidebarId: "trainingSidebar",
+            to: "/",
+            label: "Docs",
             position: "left",
-            label: "Guides",
-          },*/
+          },
+          // {
+          //   type: "docSidebar",
+          //   sidebarId: "docsSidebar",
+          //   position: "left",
+          //   label: "Docs",
+          // },
+          // {
+          //   type: "docSidebar",
+          //   sidebarId: "tutorialSidebar",
+          //   position: "left",
+          //   label: "Tutorials",
+          // },
+
           {
             href: "https://github.com/AbdulrahmanAlosaimi/ga-docs",
             label: "GitHub",

@@ -1,0 +1,99 @@
+---
+sidebar_position: 2
+---
+
+# Pages and Navigations
+
+Pages are essentially your canvas. The page can have all the control elements and layouts on it. It also can have multiple views for reactive web pages. I.E mobile view.
+
+## Pages
+
+### Creating a page
+
+1. Navigate to the settings backend
+2. Go to layout tab
+3. Go to the Pages tab
+4. Click the + button in the bottom left corner
+5. Name your page URL. Note: The URL is how you navigate to it and the name is how you can search for it in the backend
+6. Choose the type of page (Empty page, Copy page, List Detail page, Table Detail page)
+7. Click OK
+8. After creating the page, you can edit it using the editing button
+9. Create a navigation so the page can be accessed from the URL
+
+<center>
+
+![Hello world gif](../../static/img/placeholder.gif)
+
+</center>
+
+### Page Types
+
+| Page Type    | Description                                                                                                                               |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| Empty        | Clean page that can be built from scratch to your liking                                                                                  |
+| Copy         | A copy of an already existing page. It is not a reference, so changes will not be synchronized between them                               |
+| List Detail  | Template for a page that already has a data table so the data can be manipulated. A datasource need to be selected prior to page creation |
+| Table Detail | Similar to List Detail in functionality but differs in format                                                                             |
+
+## Navigation
+
+Navigations are a set of nodes and sub nodes that represent the URL and path to the pages. Each navigation can have different settings and themes.
+
+### Creating a navigation
+
+1. Navigate to the settings backend
+2. Go to layout tab
+3. Go to the navigation tab
+4. Go to the overview tab
+5. Click the + button in the bottom left corner
+6. After naming and selecting a home page of the page created, go to the URL of the navigation and open it
+
+<center>
+
+![Hello world gif](../../static/img/placeholder.gif)
+
+</center>
+
+## Elements and Workflows
+
+To access the page elements and workflows, open the AppBuilder by clicking F2
+
+<center>
+
+![Hello world gif](../../static/img/placeholder.gif)
+
+</center>
+
+### Layouts
+
+These are the frames of the page. By default, the page would have a grid.
+
+Each type of layout has different properties, like how a grid is mostly rigid and a bootstrap grid is more flexible.
+
+<center>
+
+![Hello world gif](../../static/img/placeholder.gif)
+
+</center>
+
+### Control Elements
+
+Each page has control elements which are in essense the content of the page, like (TextBlocks, Buttons, etc)
+
+<center>
+
+![Hello world gif](../../static/img/placeholder.gif)
+
+</center>
+
+<center>
+
+![Hello world gif](../../static/img/placeholder.gif)
+
+</center>
+
+<center>
+
+![Hello world gif](../../static/img/placeholder.gif)
+
+</center>

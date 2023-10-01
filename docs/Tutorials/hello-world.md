@@ -7,14 +7,14 @@ slug: /tutorials
 
 How to use GA to create your first "Hello, world!" page
 
-## Using GA is as simple as:
+## Using GA is as simple as
 
 - Creating the page
 - Choosing the control elements you want to use
 - Dropping in place
 - Configure as needed
 
-## Create a page from settings.
+## Create a page from settings
 
 1.  Navigate to /default/settings/
 

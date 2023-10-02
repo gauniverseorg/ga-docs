@@ -64,7 +64,7 @@ Note: Because HelloPage is the homepage for the navigation, there is no need to 
 3. Open the controls tab
 4. Find TextBlock element. (You can use the search bar if you're having trouble finding an element)
 5. Drag the TextBlock and drop it into the base grid
-6. Click on the TextBlock and modifiy the properties which can be found on the right
+6. Click on the TextBlock and modify the properties which can be found on the right
 7. When modifying the TextBlock properties, change the text property to "Hello World!
 8. Save and close the AppBuilder using F2
 

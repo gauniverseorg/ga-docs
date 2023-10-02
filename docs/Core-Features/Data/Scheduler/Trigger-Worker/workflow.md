@@ -6,6 +6,6 @@ sidebar_position: 2
 
 Trigger a workflow based on the options selected
 
-| Proprty  | Description                                                             |
+| Property  | Description                                                             |
 | -------- | ----------------------------------------------------------------------- |
 | Workflow | Selection from Workflow - Service to be run when scheduler is triggered |

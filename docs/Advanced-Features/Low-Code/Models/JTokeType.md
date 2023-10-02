@@ -14,7 +14,7 @@ The JTokenType enum represents the types of tokens that can be encountered when 
 - Integer: An integer value.
 - Float: A float value.
 - String: A string value.
-- Boolean: A boolean value.
+- Boolean: A Boolean value.
 - Null: A null value.
 - Undefined: An undefined value.
 - Date: A date value.

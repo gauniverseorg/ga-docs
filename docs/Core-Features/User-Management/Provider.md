@@ -16,7 +16,7 @@ Definition of the providers available for the users, providers are used when the
 | LockoutOptions – AllowedForNewUsers | for new users, blocking is permitted if the password is entered incorrectly |
 | LockoutOptions – MaxFailedAccessAttempts | Maximal wrong attempts |
 | LockoutOptions - DefaultLockoutTimeSpan l | lockout time span |
-| UserOptions – AlowedUserNameCharacters | usable characters |
+| UserOptions – AllowedUserNameCharacters | usable characters |
 | UserOptions – RequireUniqueEmail | required unique E-Mail |
 | SignInOptions – RequireConfirmedEmail | required confirmed E-Mail |
 | SignInOptions – RequireConfirmedPhoneNumber | required confirmed phone number |

@@ -5,7 +5,7 @@ sidebar_position: 30
 
 The ContainerFieldFilter class has the following properties:
 
-- IgnoreFormula (boolean): Indicates whether to ignore any formula associated with the field filter.
+- IgnoreFormula (Boolean): Indicates whether to ignore any formula associated with the field filter.
 - FieldName (string): The name of the field.
 - FieldId (Guid): The ID of the field.
 - Value (object): The value to compare with the field.

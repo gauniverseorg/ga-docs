@@ -5,16 +5,16 @@ sidebar_position: 32
 
 A class which represents a media source entity. Here's an overview of the properties and their purpose:
 
-- KeepSettings: A boolean indicating whether to keep the settings for the media source.
-- ExportData: A boolean indicating whether to export data for the media source.
+- KeepSettings: A Boolean indicating whether to keep the settings for the media source.
+- ExportData: A Boolean indicating whether to export data for the media source.
 - URL: The URL of the media source.
 - Port: The port number of the media source.
 - UserName: The username for accessing the media source.
 - Password: The password for accessing the media source.
 - BucketName: The name of the bucket associated with the media source.
-- Private: A boolean indicating whether the media source is private.
-- SystemUsage: A boolean indicating whether the media source is used for system purposes.
-- NonEditable: A boolean indicating whether the media source is non-editable.
+- Private: A Boolean indicating whether the media source is private.
+- SystemUsage: A Boolean indicating whether the media source is used for system purposes.
+- NonEditable: A Boolean indicating whether the media source is non-editable.
 - ClientType: The client type associated with the media source, represented by a GUID.
 - ClientId: The client ID associated with the media source.
 - ClientSecret: The client secret associated with the media source.

@@ -40,7 +40,7 @@ Available properties:
 
 ## Hierarchies
 
-Here you can create hierarchies if needed, thes hierarchies can be automatically used by the queries if designed correctly.
+Here you can create hierarchies if needed, these hierarchies can be automatically used by the queries if designed correctly.
 
 Available properties:
 

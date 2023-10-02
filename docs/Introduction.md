@@ -53,10 +53,9 @@ Utilizing GA is as easy as:
 
 ## Tutorials
 
-- [Building your first hello world page](#)
+- [Building your first hello world page](./Tutorials/hello-world.md)
 
-- [Building a fully functional full-stack
-  application](#)
+- [](#)
 
 ## Workflows
 

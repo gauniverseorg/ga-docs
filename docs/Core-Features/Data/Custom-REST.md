@@ -21,7 +21,7 @@ Here is defined the custom REST for the external access of data and also the sta
 | Datasource | Select a specific data table inside the data mode. |
 | Type | Type of access to the data table, one of the following:<li> Save</li><li> Force Save</li><li>Delete</li><li> Force Delete</li><li>Delete By filter</li><li> Search Objects</li><li> Count Objects</li><li> Open Cached Query</li><li> Close Cached Query</li><li> Execute Cached Count Query</li><li> Execute Cached Query</li><li> Execute Query</li><li> Execute Object Query</li>|
 | HeaderMapping | Override API's request and response parameters |
-| AutentificationHeaders | Credentials to authenticate a user agent with a server.If left empty, the user should use basic auth when calling this API endpoint. |
+| AuthentificationHeaders | Credentials to authenticate a user agent with a server.If left empty, the user should use basic auth when calling this API endpoint. |
 | URL | URL path used to get to this current API endpoint. |
 | Method | The type of method which will be used |
 | Headers | What header values should be included in the request. |

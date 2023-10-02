@@ -78,7 +78,7 @@ Each type of layout has different properties, like how a grid is mostly rigid an
 
 ### Control Elements
 
-Each page has control elements which are in essense the content of the page, like (TextBlocks, Buttons, etc)
+Each page has control elements which are in essence the content of the page, like (TextBlocks, Buttons, etc)
 
 <center>
 

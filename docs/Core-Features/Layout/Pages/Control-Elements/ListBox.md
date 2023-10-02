@@ -3,7 +3,7 @@ sidebar_position: 17
 ---
 # ListBox
 
-A list that supports data binding and provides fitler/search functionality
+A list that supports data binding and provides filter/search functionality
 
 | **Property** | **Description** |
 | --- | --- |

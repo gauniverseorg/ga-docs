@@ -17,13 +17,13 @@ The User class represents a user entity in the application. Here's a breakdown o
   - LastName: A string property representing the last name of the user.
   - Email: A string property representing the email address of the user.
   - Image: A string property representing the image of the user.
-  - IstermsAndCondition: A boolean property indicating whether the user has accepted the terms and conditions.
-  - IsExtern: A boolean property indicating whether the user is an external user.
+  - IstermsAndCondition: A Boolean property indicating whether the user has accepted the terms and conditions.
+  - IsExtern: A Boolean property indicating whether the user is an external user.
   - IdentityId: A string property representing the identity ID of the user.
-  - Disabled: A boolean property indicating whether the user is disabled.
-  - IsAdministrator: A boolean property indicating whether the user is an administrator.
-  - IsValidated: A boolean property indicating whether the user has been validated.
-  - IsManagedByPortal: A boolean property indicating whether the user is managed by a portal.
+  - Disabled: A Boolean property indicating whether the user is disabled.
+  - IsAdministrator: A Boolean property indicating whether the user is an administrator.
+  - IsValidated: A Boolean property indicating whether the user has been validated.
+  - IsManagedByPortal: A Boolean property indicating whether the user is managed by a portal.
   - Companies: A list of CompanyPermissions objects representing the companies associated with the user.
   - Instances: A list of InstanceAssignment objects representing the instances assigned to the user.
   - LCID: An integer property representing the language code identifier of the user.

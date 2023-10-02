@@ -35,7 +35,7 @@ Available properties are:
 
 4. Click on the add (button) to add new fields
 
-5. Fill the related field informations
+5. Fill the related field information
 
    1. Name: Unique name, under which the dataobject is saved
 

@@ -51,8 +51,8 @@ A bold marking shows that authorizations have been set for individual points. He
 | AdminRight – Translation | Access Settings – Translations |
 | AgentRight – Register | DBAgent User can register |
 | AgentRight – SendResult | DBAgent User can send data |
-| GlobalVariableRight – Delete | Settings - Data – delete Gobal Variables |
-| GlobalVariableRight – Save | Settings - Data – save Gobal Variables |
+| GlobalVariableRight – Delete | Settings - Data – delete Global Variables |
+| GlobalVariableRight – Save | Settings - Data – save Global Variables |
 | DesignerRight – Class | Settings- Data - Data model - Data structure - Edit data objects |
 | DesignerRight – Enum | Settings- Data - Data model - Data structure - Edit enums |
 | DesignerRight – Layouts | AppBuilder - Toolbox - Layouts usage |
@@ -70,10 +70,10 @@ A bold marking shows that authorizations have been set for individual points. He
 
 ### Settings
 
-| MultidimensionalContainerRight - ContainerCube | Access and visibility of Data – Data Model – Multidimesional – ContainerCube |
+| MultidimensionalContainerRight - ContainerCube | Access and visibility of Data – Data Model – Multidimensional – ContainerCube |
 | --- | --- |
-| MultidimensionalContainerRight - ContainerDimension | Access and visibility of Data – Data Model – Multidimesional – ContainerDimension |
-| MultidimentsonalContainerRight - Multidimensional | Access and visibility of Data – Data Model – Multidimesional |
+| MultidimensionalContainerRight - ContainerDimension | Access and visibility of Data – Data Model – Multidimensional – ContainerDimension |
+| MultidimensionalContainerRight - Multidimensional | Access and visibility of Data – Data Model – Multidimensional |
 | ObjectContainerRight – ContainerJson | Access and visibility of Data – Data Model – Object –ContainerJson |
 | ObjectContainerRight – ContainerObjectView | Access and visibility of Data – Data Model – Object – ContainerObjectView |
 | ObjectContainerRight – ContainerRest | Access and visibility of Data – Data Model – Object – ContainerRest |

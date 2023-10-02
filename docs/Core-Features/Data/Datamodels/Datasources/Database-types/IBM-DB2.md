@@ -10,5 +10,5 @@ Required information of Database:
 | User name | Username for database access                                                    |
 | Password  | Password for database access                                                    |
 | Company   | Company of Lexbizz server                                                       |
-| SSPI      | Security support proivder interface                                             |
+| SSPI      | Security support provider interface                                             |
 | Timeout   | Number of seconds before a timeout occurs to the database from the admin client |

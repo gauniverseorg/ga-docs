@@ -8,8 +8,8 @@ You can insert this chart when you want to display the data from a query that wa
 
 | Property | Description |
 | --- | --- |
-| Chart type | The type of the chart to display:  <li>Area chart </li> <li>Bar chart </li> <li>Bubble chart </li> <li>Column chart </li> <li>Combo chart </li> <li>Candel stick chart </li> <li>Donut chart </li> <li>Histogram </li> <li>Line chart </li> <li>Pie chart </li> <li>Scatter chart </li><li>Stepped Area chart </li> <li>Gauge</li>  <li>Radar</li> <li>Polar area</li> <li>Radial bar</li> <li>Heat Map</li> | 
-| General – Disable Autoload | Deactivite automatic update on loading |
+| Chart type | The type of the chart to display:  <li>Area chart </li> <li>Bar chart </li> <li>Bubble chart </li> <li>Column chart </li> <li>Combo chart </li> <li>Candlestick chart </li> <li>Donut chart </li> <li>Histogram </li> <li>Line chart </li> <li>Pie chart </li> <li>Scatter chart </li><li>Stepped Area chart </li> <li>Gauge</li>  <li>Radar</li> <li>Polar area</li> <li>Radial bar</li> <li>Heat Map</li> | 
+| General – Disable Autoload | Deactivate automatic update on loading |
 | Data Mapping – Rows on second value axis. | Place the rows on a second value axis |
 | Data Mapping – Minimum | Minimum value set |
 | Data Mapping – Initial Value | Initial Value set |

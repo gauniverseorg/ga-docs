@@ -14,7 +14,7 @@ Available properties:
 | Translation    | Name of the table in different languages                                                                                              |
 | Scheme         | The scheme where the table is stored                                                                                                  |
 | Datasource     | Data source where the table is created                                                                                                |
-| Case sensitive | Toggle case sensivity on/off                                                                                                          |
+| Case sensitive | Toggle case sensitivity  on/off                                                                                                          |
 | +              | Add new column into the table                                                                                                         |
 | 👁              | Preview the data                                                                                                                      |
 | 🌐             | Set translations in different languages                                                                                               |

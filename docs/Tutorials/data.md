@@ -8,7 +8,7 @@ This data tutorial will be going over Datamodels, DataObjects, and Enums.
 
 ## Datamodels
 
-Datamodels are the container that contains all your data, useful for containing data for different seperate functions (User interaction, Database, Reporting).
+Datamodels are the container that contains all your data, useful for containing data for different separate functions (User interaction, Database, Reporting).
 
 ### Creating Datamodel
 
@@ -122,7 +122,7 @@ This requires 2 different workflows
 #### Selection
 
 1. Drop a "Get List Item" WFB and set it to get the first entry. Note: this is done because when we later select any item from the datatable the selection is always an array of objects and what we are doing here is just casting it into one object
-2. Drop a "Read Properties" WFB and set it to read the property name "\_Id" and assign it a ststus key (Ex. idToDelete)
+2. Drop a "Read Properties" WFB and set it to read the property name "\_Id" and assign it a status key (Ex. idToDelete)
 3. Drop a "Read Data" WFB and select your datasource and filter it by comparing "\_Id" with "idToDelete"
 4. Drop a "Get List Item" WFB once again
 5. Drop a "Set Values" WFB and select the flex element

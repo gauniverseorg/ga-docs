@@ -9,7 +9,7 @@ This class represents a wrapper object used to update a column in some context. 
 - Increment: A nullable double representing the increment value for the column (if applicable).
 - Factor: A nullable double representing the factor value for the column (if applicable).
 - SourceColumn: A string representing the source column to be updated.
-- IsArrayUpdate: A boolean indicating whether the update operation is for an array (if applicable).
+- IsArrayUpdate: A Boolean indicating whether the update operation is for an array (if applicable).
 - ArrayPart: A list of WhereArrayPart objects representing the parts of the array to be updated.
 - Column: A Column object representing the column to be updated.
 

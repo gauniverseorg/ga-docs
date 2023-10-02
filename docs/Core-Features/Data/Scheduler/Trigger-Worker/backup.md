@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Trigger a backup based on the options selected
 
-| Proprty      | Description                                                                |
+| Property      | Description                                                                |
 | ------------ | -------------------------------------------------------------------------- |
 | Name         | Name of the file                                                           |
 | Media Source | Selection of the maintained MediaSources                                   |

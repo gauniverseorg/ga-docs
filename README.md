@@ -30,6 +30,13 @@ $ npm run build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
+#### Serve
+
+```
+$ npx docusaurus serve --host IPADDRESS
+```
+This command serves the build directory on the specified IP Address.
+
 ### Deployment
 
 Using SSH:

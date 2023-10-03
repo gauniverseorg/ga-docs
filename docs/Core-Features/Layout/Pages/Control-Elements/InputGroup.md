@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 # InputGroup
 
-Input box that allows user to type into. Placeholder and tooltip can be set
+Input box that allows user to write or select from, the user can add buttons before or after the input for better clarity. Since the input group is only used in bootstrap, the current theme must be a bootstrap theme and not a material theme.
 
 | **Property** | **Description** |
 | --- | --- |
@@ -11,7 +11,7 @@ Input box that allows user to type into. Placeholder and tooltip can be set
 | Input Mode | None, Text, Decimal, Numeric, Telephone, Search, Email, URL |
 | Read-only | Unable to edit box |
 | Use Validation | Checkbox to allow validation use |
-| **Use Validation – Filter Type** | pint (positive integer), int, pnum (positive number), money, num, hex (hexadecimal), email, alpha (alphabetical), alphanum (alphanumerical), regex (regular expression) |
+| Use Validation – Filter Type | pint (positive integer), int, pnum (positive number), money, num, hex (hexadecimal), email, alpha (alphabetical), alphanum (alphanumerical), regex (regular expression) |
 | Use Validation – Validation Only | Validates when a key is pressed and triggered event |
 | Use Validation – CheckWholeExpression | Validates complete text and raises event. Depending on Validate Only only in connection with RegEx |
 | Use Validation – Message | Displays message if validation failed |

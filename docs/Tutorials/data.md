@@ -66,6 +66,9 @@ For this example, we assume that you have already made a data object that has 3 
 
 1. Navigate to the page where you want your data table
 2. Open the AppBuilder by clicking F2
+
+    - Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
+
 3. Divide the base grid into 2 different rows
 4. In the first row, add a flex add 3 TextBoxes and Buttons inside that flex
 5. Customize the elements as wanted
@@ -253,3 +256,5 @@ Inside the workflow drop the following:
 ![Hello world gif](../../static/img/placeholder.gif)
 
 </center>
+
+Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.

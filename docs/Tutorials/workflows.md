@@ -10,6 +10,8 @@ Workflows can be activated using page events, elements events, or based on sched
 
 ## Service Side
 
+To use service side workflow block, please navigate to the data data section in the settings area and then select workflows followed bed service side workflows.
+
 In this example we will be creating a workflow that sends an API request to an [API](https://www.nlp-api.com/) used for topic tagging. For this example we assume an email server has already been set
 
 1. Drop a "Define Values" WFB, and assign the following values which are needed.
@@ -27,12 +29,17 @@ In this example we will be creating a workflow that sends an API request to an [
 
 That's it, run it and wait for the email to be sent!
 
+Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings
+
 ## Client Side
 
 Here is an example where client side workflows are used to read the value of a textbox and display value as a message to the user
 
-1. Navigate to a page
-2. Modify the base grid's properties, and change the rowdefinition to add a new row and column
+1. Navigate to a page, and open the app builder
+
+   - Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
+
+2. Modify the base grid's properties, and change the row definition to add a new row and column
 3. Add a textbox in the first row and first column and modify it's properties to make it editable. You can also change how the elements look and customize them to your liking
 4. Add a button in the first row, second column.
 5. Create the workflow by navigating to the workflow tab and clicking the + button
@@ -50,7 +57,7 @@ Here is an example where client side workflows are used to read the value of a t
 
 </center>
 
-7. Click on the button in the first row, second column, navigate to the element events tab, toggle the mouseClick event and bind it to the previously created workflow
+13. Click on the button in the first row, second column, navigate to the element events tab, toggle the mouseClick event and bind it to the previously created workflow
 
 <center>
 
@@ -58,7 +65,7 @@ Here is an example where client side workflows are used to read the value of a t
 
 </center>
 
-8. Save the app and close the AppBuilder
+14. Save the app and close the AppBuilder
 
 Now try it out! Add text in the textbox and click on the button, and a message box with your text should pop out.
 
@@ -69,3 +76,5 @@ Now try it out! Add text in the textbox and click on the button, and a message b
 </center>
 
 You can explore and try different things in the workflow editor! Try to create a similar workflow that validates if input equals to a certain value and print a specific message respectively (Hint: use DataSwitch WFB)
+
+Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.

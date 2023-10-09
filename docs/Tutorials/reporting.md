@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# Creating Reporting Dashboards in GA_Universe
+# Reporting Dashboards
 
 Welcome to this tutorial on creating reporting dashboards in GA Universe. This guide will walk you through the significance of reporting and the steps involved in crafting dashboards in the GA Universe platform.
 
@@ -869,7 +869,10 @@ Preview:
 
 ### Constructing a GA Query for In-Page Analysis, Top 3 Customers of all time
 
-1. Access Data Description.
+1. Open a page and open the AppBuilder followed by Access Data Description:
+
+    - Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
+
 2. Click Add New Query.
 3. Remove the default Relational Query.
 4. Add the model and Order Cube.
@@ -946,6 +949,8 @@ Possible charts:
 ![Available Charts](../../static/img/reporting33.png)
 
 </center>
+
+Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.
 
 ## Conclusion
 

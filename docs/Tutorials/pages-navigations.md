@@ -58,6 +58,8 @@ Navigations are a set of nodes and sub nodes that represent the URL and path to 
 
 To access the page elements and workflows, open the AppBuilder by clicking F2
 
+- Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
+
 <center>
 
 ![Hello world gif](../../static/img/placeholder.gif)
@@ -97,3 +99,5 @@ Each page has control elements which are in essence the content of the page, lik
 ![Hello world gif](../../static/img/placeholder.gif)
 
 </center>
+
+Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.

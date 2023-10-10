@@ -1,6 +1,11 @@
 {
   "index_name": "docs",
-  "start_urls": ["http://192.168.1.224:3000/"],
+  "start_urls": [
+    "http://192.168.1.224:3000/",
+    "http://192.168.1.224:3000/category/tutorials",
+    "http://192.168.1.224:3000/category/core-features",
+    "http://192.168.1.224:3000/category/advanced-features"
+  ],
   "sitemap_urls": ["http://192.168.1.224:3000/sitemap.xml"],
   "sitemap_alternate_links": true,
   "stop_urls": ["/tests"],

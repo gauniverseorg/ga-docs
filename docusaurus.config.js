@@ -98,7 +98,7 @@ const config = {
               protocol: process.env.TYPESENSE_PROTOCOL,
             },
           ],
-          apiKey: process.env.TYPESENSE_API_KEY,
+          apiKey: process.env.TYPESENSE_SEARCH_API_KEY,
         },
 
         // Optional: Typesense search parameters: https://typesense.org/docs/0.24.0/api/search.html#search-parameters

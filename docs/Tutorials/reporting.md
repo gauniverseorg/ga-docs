@@ -12,9 +12,9 @@ Reporting is a cornerstone in today's business environment. By harnessing data v
 
 ### Prerequisites for Reporting
 
-Before delving into reporting, it's essential to lay down the basics. Central to any solid reporting mechanism are data objects, which need to be diligently populated with relevant data. This ensures the analyzed and reported information is both accurate and pertinent. The quality of this data can have a significant bearing on the insights derived and decisions made.
+Before delving into reporting, it's essential to lay down the basics. Central to any solid reporting mechanism are DataObjects, which need to be diligently populated with relevant data. This ensures the analyzed and reported information is both accurate and pertinent. The quality of this data can have a significant bearing on the insights derived and decisions made.
 
-A vital component in reporting is the ROLAP (Relational Online Analytical Processing) data source, a potent tool enabling dynamic multidimensional analysis of extensive data. Moreover, transitioning data objects to a structured, query-optimized setting is crucial. Here, relational tables come into the picture, ensuring seamless data object migration and preserving data integrity
+A vital component in reporting is the ROLAP (Relational Online Analytical Processing) data source, a potent tool enabling dynamic multidimensional analysis of extensive data. Moreover, transitioning DataObjects to a structured, query-optimized setting is crucial. Here, relational tables come into the picture, ensuring seamless DataObject migration and preserving data integrity
 
 ### Overview of the Steps
 
@@ -22,11 +22,11 @@ GA Universe offers a structured process for report generation, demanding meticul
 
 #### Data Migration and Timetable Creation
 
-Start with migrating data from data objects to relational objects, optimizing data structures for advanced queries. Once data is structured appropriately, create a Timetable for date-based queries, essential for time-series analyses
+Start with migrating data from DataObjects to relational objects, optimizing data structures for advanced queries. Once data is structured appropriately, create a Timetable for date-based queries, essential for time-series analyses
 
 #### Dimensions, Cubes, and Chart Implementation
 
-With data set and timetable in place, create dimensions for each data object, aiding data categorization. Following this, set up a ROLAP cube with specific measurements. Lastly, use chart elements for data visualization.
+With data set and timetable in place, create dimensions for each DataObject, aiding data categorization. Following this, set up a ROLAP cube with specific measurements. Lastly, use chart elements for data visualization.
 
 #### Final Steps - Querying and Assigning to Charts
 
@@ -388,7 +388,7 @@ We want to migrate it into a relational table, like the one shown below:
 
 </center>
 
-So we will use a one time ran script shown below:
+So we will run the one time script shown below:
 
 ```typescript
 import {
@@ -667,7 +667,7 @@ To prevent data inconsistencies from deleting a product with linked orders:
 2. **Default Product Assignment**: Assign orders to a default product instead of deletion.
 3. **Custom Solutions**: Flag deleted products, filtering them during queries, or implement cascading deletes.
 
-I will now show you how to do delete orders linked to a specific product:
+We will now show you how to do delete orders linked to a specific product:
 
 The first step is to create a new service side workflow, and name it Delete Effected Products, and inside of it do the following:
 
@@ -675,7 +675,7 @@ The first step is to create a new service side workflow, and name it Delete Effe
 
 ![Parameters](../../static/img/parameters.png)
 
-2. Insert a read workflow block and query the order data object
+2. Insert a read workflow block and query the order DataObject
 3. Insert a for loop that loops over the orders and inside of the for loop do the following:
     1. Insert a read properties and read the products and the _Id, and save them as: productList and orderID
         - Set the productList as the current parameter.
@@ -696,7 +696,7 @@ The second step is more simple, and it is just calling the workflow whenever you
 
 1. Read the values on the element where the product is stored.
 2. Read the _Id from the product and name it productId
-3. Delete the product from the data object table
+3. Delete the product from the DataObject table
 4. Refresh the table on the browser
 5. Undo styles on layout that allows editing of data
 6. Run the workflow that was created in step 1, make sure to pass the productId to it.
@@ -761,21 +761,21 @@ Preview:
 
 #### Crafting a Customer Dimension
 
-1. Navigate to the Multidimensional section.
-2. Choose Container Dimension.
-3. Select Add a New One.
-4. Name it
-5. Select ROLAP Data source.
-6. Edit the Query Definition to incorporate the Customer table.
-7. Select all fields
-8. Click OK
-9. Add 1 attribute:
-   • Name: Customer
-   • Description: Customer
-   • Key Column CustomerForDashboard (1) -> CustomerId (2)
-   • Name Column: CustomerForDashboard (1) -> DisplayName (3)
-   • Type: Regular
-   • Key Flag: True
+1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
+2. Click the + button in the bottom left corner
+3. Assign the table a name
+    - Note: This name can't be changed
+4. Select ROLAP Data source
+5. Edit the Query Definition to incorporate the Customer table
+6. Select all fields
+7. Click OK
+8. Add 1 attribute:
+   - Name: Customer
+   - Description: Customer
+   - Key Column CustomerForDashboard (1) -> CustomerId (2)
+   - Name Column: CustomerForDashboard (1) -> DisplayName (3)
+   - Type: Regular
+   - Key Flag: True
 10. Save
 
 <center>
@@ -786,22 +786,22 @@ Preview:
 
 #### Constructing an Order Status Dimension
 
-1. Navigate to the Multidimensional section.
-2. Choose Container Dimension.
-3. Select Add a New One.
-4. Name it
-5. Select ROLAP Data source.
-6. Edit the Query Definition to incorporate the OrderStatus table.
-7. Select all fields
-8. Click OK
-9. Add 1 attribute:
-   • Name: OrderStatus
-   • Description: OrderStatus
-   • Key Column: OrderStatusForDashboard (5) -> ID (6)
-   • Name Column: OrderStatusForDashboard (5) -> Name (7)
-   • Type: Regular
-   • Key Flag: True
-10. Save
+1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
+2. Click the + button in the bottom left corner
+3. Assign the table a name
+    - Note: This name can't be changed
+4. Select ROLAP Data source
+5. Edit the Query Definition to incorporate the OrderStatus table
+6. Select all fields
+7. Click OK
+8. Add 1 attribute:
+   - Name: OrderStatus
+   - Description: OrderStatus
+   - Key Column: OrderStatusForDashboard (5) -> ID (6)
+   - Name Column: OrderStatusForDashboard (5) -> Name (7)
+   - Type: Regular
+   - Key Flag: True
+9. Save
 
 <center>
 
@@ -811,39 +811,41 @@ Preview:
 
 #### Constructing a Time Dimension
 
-1. Navigate to the Multidimensional section.
-2. Select Container Dimension.
-3. Click Add a New One and choose ROLAP.
-4. Mark IsTimeDim.
-5. Edit the Query Definition to include the TimeTable.
-6. Select these elements:
-   • Key
-   • Day
-   • Month
-   • Year
-7. Click ok
-8. Add first attribute:
-   • Name: Date
-   • Description: Date
-   • Key Column: TimeTable (1) -> Key (2)
-   • Name Column: TimeTable (1) -> Day (3)
-   • Type: TimeDays
-   • Key Flag: True
-9. Add Second attribute:
-   • Name: Year
-   • Description: Year
-   • Key Column: TimeTable (1) -> Key (2)
-   • Name Column: TimeTable (1) -> Year (6)
-   • Type: TimeYears
-   • Key Flag: False
-10. Add Third attribute:
-    • Name: Month
-    • Description: Month
-    • Key Column: TimeTable (1) -> Key (2)
-    • Name Column: TimeTable (1) -> Month (4)
-    • Type: TimeMonths
-    • Key Flag: False
-11. Save
+1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
+2. Click the + button in the bottom left corner
+3. Assign the table a name
+    - Note: This name can't be changed
+4. Select ROLAP Data source
+5. Mark IsTimeDim
+6. Edit the Query Definition to include the TimeTable
+7. Select these elements:
+   - Key
+   - Day
+   - Month
+   - Year
+8. Click ok
+9. Add first attribute:
+   - Name: Date
+   - Description: Date
+   - Key Column: TimeTable (1) -> Key (2)
+   - Name Column: TimeTable (1) -> Day (3)
+   - Type: TimeDays
+   - Key Flag: True
+10. Add Second attribute:
+    - Name: Year
+    - Description: Year
+    - Key Column: TimeTable (1) -> Key (2)
+    - Name Column: TimeTable (1) -> Year (6)
+    - Type: TimeYears
+    - Key Flag: False
+11. Add Third attribute:
+    - Name: Month
+    - Description: Month
+    - Key Column: TimeTable (1) -> Key (2)
+    - Name Column: TimeTable (1) -> Month (4)
+    - Type: TimeMonths
+    - Key Flag: False
+12. Save
 
 <center>
 
@@ -857,23 +859,24 @@ Preview:
 
 ### Crafting an Order Cube
 
-1. Navigate to the Multidimensional section.
-2. Select Container Cube.
-3. Click Add New One.
+1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
+2. Click the + button in the bottom left corner
+3. Assign the table a name
+    - Note: This name can't be changed
 4. Select ROLAP
-5. Add the Customer, Status and time dimensions.
+5. Add the Customer, Status and time dimensions
 6. Define values for ItemCount and TotalPrice
-   • Both are of double type and aggregations are sum
+   - Both are of double type and aggregations are sum
 7. Go to Data mapping
 8. Select Edit Query Definition
 9. Select Full Order Table
 10. Select All Fields
 11. Map the fields to each item correctly:
-    • Time: OrderForDashboard (1) -> Date(7)
-    • Customer: OrderForDashboard (1) -> Customer(3)
-    • Status: OrderForDashboard (1) -> Status(4)
-    • ItemCount: OrderForDashboard (1) -> ItemCount(5)
-    • TotalPrice: OrderForDashboard (1) -> TotalPrice(6)
+    - Time: OrderForDashboard (1) -> Date(7)
+    - Customer: OrderForDashboard (1) -> Customer(3)
+    - Status: OrderForDashboard (1) -> Status(4)
+    - ItemCount: OrderForDashboard (1) -> ItemCount(5)
+    - TotalPrice: OrderForDashboard (1) -> TotalPrice(6)
 12. Save
 
 <center>
@@ -884,11 +887,12 @@ Preview:
 
 ### Crafting an Order Details Cube
 
-1. Navigate to the Multidimensional section.
-2. Select Container Cube.
-3. Click Add New One.
+1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
+2. Click the + button in the bottom left corner
+3. Assign the table a name
+    - Note: This name can't be changed
 4. Select ROLAP
-5. Add the Customer, Status, Product, and Time dimensions.
+5. Add the Customer, Status, Product, and Time dimensions
 6. Define values for ItemPrice
    • double type
    • aggregations sum
@@ -897,11 +901,11 @@ Preview:
 9. Select Details Order Table
 10. Select All Fields
 11. Map the fields to each item correctly:
-    • Time: OrderDetailForDashboard (1) -> Date (5)
-    • Customer: OrderDetailForDashboard (1) -> Customer(4)
-    • Status: OrderDetailForDashboard (1) -> Status(6)
-    • Status: OrderDetailForDashboard (1) -> Item(3)
-    • ItemPrice: OrderDetailForDashboard (1) -> ItemPrice(7)
+    - Time: OrderDetailForDashboard (1) -> Date (5)
+    - Customer: OrderDetailForDashboard (1) -> Customer(4)
+    - Status: OrderDetailForDashboard (1) -> Status(6)
+    - Status: OrderDetailForDashboard (1) -> Item(3)
+    - ItemPrice: OrderDetailForDashboard (1) -> ItemPrice(7)
 12. Save
 
 <center>
@@ -915,31 +919,30 @@ Preview:
 1. Open a page and open the AppBuilder followed by Access Data Description:
 
     - Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
-
-2. Click Add New Query.
-3. Remove the default Relational Query.
-4. Add the model and Order Cube.
+2. Click the + button in the top left corner to add a new query
+3. Remove the default Relational Query
+4. Add the model and Order Cube
 5. Add Item count and Total price on X axis
-   • Found on the values tab
+   - Found on the values tab
 6. Add Customer on Y Axis
 7. Test the setup.
 8. Hide the Item count and Total price
-   • By right clicking and hiding
+   - By right clicking and hiding
 9. Insert Calculated value, name it Average
-   • Found on Special tab
+   - Found on Special tab
 10. Insert 2 tasks in the Tasks Tab:
-    • Average will have the value: M6/M5
-    • M6 is total price
-    • M5 is Item count
-    • Average – Customer – TopDown
-    • Will take the value of the average
-    • Take the customer level
-    • Set the status at the top
-    • Only 3 values
-    • And add up the rest
-11. Save and rename.
+    - Average will have the value: M6/M5
+    - M6 is total price
+    - M5 is Item count
+    - Average – Customer – TopDown
+    - Will take the value of the average
+    - Take the customer level
+    - Set the status at the top
+    - Only 3 values
+    - And add up the rest
+11. Save and rename
 
-Select Tab:
+Select Tab should look similar to this:
 
 <center>
 
@@ -947,7 +950,7 @@ Select Tab:
 
 </center>
 
-Average Task:
+Average Task should look similar to this:
 
 <center>
 
@@ -955,7 +958,7 @@ Average Task:
 
 </center>
 
-Average – Customer – TopDown:
+Average – Customer – TopDown should look similar to this:
 
 <center>
 

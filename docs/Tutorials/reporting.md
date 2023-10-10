@@ -38,7 +38,7 @@ While theoretical understanding is crucial, applying these steps in real scenari
 
 #### Data Structure
 
-"Product Sales" mainly deals with three tables: Products, Orders and Customers. Every Order has a list of unique IDs, referenced in the Product table, and a customer ID maintaining structured data management.
+"Product Sales" mainly deals with three tables: Products, Orders and Customers. Every Order has a list of unique IDs, referenced in the Product table, and a customer ID.
 
 #### Migration to Relational Tables
 
@@ -56,11 +56,12 @@ Visualize average order values using application chart elements, like a bar char
 
 Establishing a ROLAP data source in GA Universe is straightforward:
 
-1. Navigate to Data Sources.
-2. Select Add New Data Source.
-3. Assign a descriptive name.
-4. Choose ROLAP as the data source type.
-5. Save your settings.
+1. Navigate to Data Sources under the Data tab
+2. Click the + button in the bottom left corner
+3. Assign a descriptive name
+    - Note: This name can't be changed
+4. Choose ROLAP as the data source type
+5. Save your settings
 
 <center>
 
@@ -70,7 +71,7 @@ Establishing a ROLAP data source in GA Universe is straightforward:
 
 ### Creating a Product Relational Table
 
-The dataobject structure for the products is:
+The DataObject structure for the products object is:
 
 <center>
 
@@ -78,23 +79,30 @@ The dataobject structure for the products is:
 
 </center>
 
-Preview:
+Preview of the products object's data:
 
 <center>
 
-![Products DataObject Structure](../../static/img/reporting3.png)
+![Preview of the products object's data](../../static/img/reporting3.png)
 
 </center>
 
-Now you will create a relational table to hold this data, you can ignore images since they are not useful in generating reports, to do this in GA do the following.
+Now you will create a relational table to hold this data, you can ignore images since they are not useful in generating reports, to do this in GA do the following:
 
-1. Select Create a Relational Table in GA.
-2. Assign the table a name.
-3. Specify a schema name.
-4. Select the data source.
-5. Add fields: ID (primary string, length 50), Product (string, length 50), and Product_Name_en (string, length 50), Product_Name_sa (string, length 50). You can ignore the en and sa values if you will generate reports in one language.
+1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables 
+2. Click the + button in the bottom left corner
+3. Assign the table a name
+    - Note: This name can't be changed
+4. Specify a schema name
+5. Select the data source
+6. Add fields:
+    - ID (primary string, length 50)
+    - Product (string, length 50)
+    - Product_Name_en (string, length 50) 
+    - Product_Name_sa (string, length 50)
+    - Note: You can ignore the en and sa values if you will generate reports in one language
 
-Table structure is:
+The table structure is:
 
 <center>
 
@@ -104,7 +112,7 @@ Table structure is:
 
 #### Data Migration Process
 
-Transition product data from data objects to relational tables. The provided TypeScript code facilitates this migration.
+The Data Migration Process is the transition of the product data from DataObjects to relational tables. The provided TypeScript code facilitates this migration.
 
 ```typescript
 import {
@@ -194,36 +202,10 @@ export class Main {
 Note, the translation methods were created in a script library, the code is found here:
 
 ```typescript
-import { Comparer, FilterColumn, RestFilter } from "Models";
-import {
-  WorkflowStatus,
-  Global,
-  Email,
-  ContainerAccess,
-  MediaClient,
-} from "System";
 export class Utilities {
-  static _MediaClient: MediaClient;
   constructor() {}
   run(): void {}
   stop(): void {}
-
-  static sendEmail(
-    address: string,
-    header: string,
-    body: string,
-    attachments?: string[]
-  ): any {
-    this._MediaClient = Global.GetMediaClient("Images");
-    let email = new Email("Office");
-    if (attachments != null && attachments.length != 0) {
-      for (let attachment of attachments) {
-        let emailAttachment = this._MediaClient.GetObject(attachment);
-        email.AddAttachmentToMail(attachment, emailAttachment);
-      }
-    }
-    email.SendMail(address, header, body);
-  }
 
   public static getTranslationByLcidOrDefault(translationString, lcid): any {
     let retVal = "";
@@ -254,7 +236,7 @@ export class Utilities {
 }
 ```
 
-Product results are:
+The resulted relational table after the migration of the Product DataObject:
 
 <center>
 
@@ -264,7 +246,7 @@ Product results are:
 
 ### Create Customer Relational Table
 
-Customer data object has the following structure:
+The customer DataObject has the following structure:
 
 <center>
 
@@ -272,7 +254,7 @@ Customer data object has the following structure:
 
 </center>
 
-Preview:
+Preview of the Customer object's data:
 
 <center>
 
@@ -280,13 +262,20 @@ Preview:
 
 </center>
 
-We will migrate this into a relational table, to do this use the following steps
+We will migrate this into a relational table, the steps are the same steps we did for the Product data migration process with some minor changes. To migrate the data follow the following steps:
 
-1. In GA, choose to Create a Relational Table.
-2. Assign the table a name.
-3. Specify the schema name used for the Product table.
-4. Select the correct data source.
-5. Add fields: CustomerId (string, length 50), DisplayName (String, length 50)
+1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables 
+2. Click the + button in the bottom left corner
+3. Assign the table a name
+    - Note: This name can't be changed
+4. Specify the schema name used for the Product table
+5. Select the correct data source
+6. Add fields: 
+    - CustomerId (string, length 50)
+    - DisplayName (String, length 50)
+
+
+The table structure is:
 
 <center>
 
@@ -296,7 +285,7 @@ We will migrate this into a relational table, to do this use the following steps
 
 #### Data Migration Process
 
-Migrate order data from data objects to relational tables using the provided TypeScript code.
+Migrate The Order data from DataObjects to relational tables using the provided TypeScript code.
 
 ```typescript
 import {
@@ -374,7 +363,7 @@ export class Main {
 }
 ```
 
-Results for Customer table:
+The resulted relational table after the migration of the Customer DataObject:
 
 <center>
 
@@ -384,7 +373,7 @@ Results for Customer table:
 
 ### Create Order Status Relational Table
 
-We have an ENUM for order status as shown below.
+We have an ENUM for the order status as shown below.
 
 <center>
 
@@ -467,7 +456,8 @@ export class Main {
 }
 ```
 
-Results Status table:
+The resulted relational table after the migration of the OrderStatus ENUM:
+
 
 <center>
 
@@ -477,7 +467,7 @@ Results Status table:
 
 ### Create 2 Order Relational Tables
 
-We have an order data object as shown in the table below:
+We have an order DataObject as shown in the table below:
 
 <center>
 
@@ -485,7 +475,7 @@ We have an order data object as shown in the table below:
 
 </center>
 
-Preview:
+Preview of the Order object's data:
 
 <center>
 
@@ -497,11 +487,19 @@ Since we have a list of products in each order, we will need to create 2 tables 
 
 #### Relational Table Full Order
 
-1. In GA, choose to Create a Relational Table.
-2. Assign the table a name.
-3. Specify the schema name used for the Product table.
-4. Select the correct data source.
-5. Add fields: OrderId (string, length 50), Customer (string, length 50), Status (string, length 50), ItemCount (double), TotalPrice (double), Date (Date)
+1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables 
+2. Click the + button in the bottom left corner
+3. Assign the table a name
+    - Note: This name can't be changed
+4. Specify the schema name used for the Product table
+5. Select the correct data source
+6. Add fields: 
+    - OrderId (string, length 50)
+    - Customer (string, length 50)
+    - Status (string, length 50)
+    - ItemCount (double)
+    - TotalPrice (double)
+    - Date (Date)
 
 <center>
 
@@ -511,15 +509,23 @@ Since we have a list of products in each order, we will need to create 2 tables 
 
 #### Relational Table Each Product
 
-1. In GA, choose to Create a Relational Table.
-2. Assign the table a name.
-3. Specify the schema name used for the Product table.
-4. Select the correct data source.
-5. Add fields: OrderId (string, length 50), Item (string, length 50),Customer (string, length 50), Status (string, length 50), ItemPrice (double), Date (Date)
+1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables 
+2. Click the + button in the bottom left corner
+3. Assign the table a name
+    - Note: This name can't be changed
+4. Specify the schema name used for the Product table.
+5. Select the correct data source.
+6. Add fields: 
+    - OrderId (string, length 50)
+    - Item (string, length 50)
+    - Customer (string, length 50)
+    - Status (string, length 50)
+    - ItemPrice (double)
+    - Date (Date)
 
 ##### Data Migration Process
 
-Migrate order data from data objects to relational tables using the provided TypeScript code.
+Migrate order data from DataObjects to relational tables using the provided TypeScript code.
 
 ```typescript
 import {
@@ -637,7 +643,7 @@ export class Main {
 }
 ```
 
-Results Full Order:
+The resulted relational table after the migration of the Full Order DataObject:
 
 <center>
 
@@ -645,7 +651,7 @@ Results Full Order:
 
 </center>
 
-Results Order Per Product:
+The resulted relational table after the migration of the Per Order DataObject:
 
 <center>
 
@@ -655,9 +661,9 @@ Results Order Per Product:
 
 ### Running the Workflows
 
-Run the data migration scripts to transfer product, order, customer, and statud data data. Implement schedulers or invoke workflows after data object changes for real-time migration. To prevent data inconsistencies from deleting a product with linked orders:
+Run the data migration scripts to transfer Product, Order, Customer, and OrderStatus data. Implement schedulers or invoke workflows after DataObject changes for real-time migration. To prevent data inconsistencies from deleting a product with linked orders:
 
-1. **Review Deletion**: Delete linked orders before removing a product.
+1. **Order Deletion**: Delete linked orders before removing a product.
 2. **Default Product Assignment**: Assign orders to a default product instead of deletion.
 3. **Custom Solutions**: Flag deleted products, filtering them during queries, or implement cascading deletes.
 
@@ -665,14 +671,15 @@ Run the data migration scripts to transfer product, order, customer, and statud 
 
 Timetables are vital for date-based queries. Here's how to create one in GA Universe:
 
-1. Navigate to the Relational section.
-2. Select Container DateTime.
-3. Choose Add a New One.
-4. Name the timetable.
-5. Assign a data source.
-6. Define the Start Date.
-7. Configure the time span using Years Offset.
-8. Select languages if needed.
+1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Datetime 
+2. Click the + button in the bottom left corner
+3. Assign the table a name
+    - Note: This name can't be changed
+4. Assign a data source.
+5. Define the Start Date.
+6. Configure the time span using Years Offset.
+    - Note: the offset is how many years to be generated after the start date. 
+7. Select languages if needed.
 
 <center>
 
@@ -691,24 +698,23 @@ Preview:
 ### Creating Dimensions
 
 #### Crafting a Product Dimension
-
-1. Navigate to the Multidimensional section.
-2. Choose Container Dimension.
-3. Select Add a New One.
-4. Name it
-5. Select ROLAP Data source.
-6. Edit the Query Definition to incorporate the product table.
-7. Select all fields
-8. Click OK
-9. Add 1 attribute:
-   • Name: Product
-   • Descreption: Product
-   • Key Column: ProductsForDashBoard (6) -> ID (8)
-   • Name Column: ProductsForDashBoard (6) -> Product (7)
-   • Type: Regular
-   • Key Flag: True
-   • Add translation if needed.
-10. Save
+1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension 
+2. Click the + button in the bottom left corner
+3. Assign the table a name
+    - Note: This name can't be changed
+4. Select ROLAP Data source
+5. Edit the Query Definition to incorporate the product table
+6. Select all fields
+7. Click OK
+8. Add 1 attribute:
+    - Name: Product
+    - Description: Product
+    - Key Column: ProductsForDashBoard (6) -> ID (8)
+    - Name Column: ProductsForDashBoard (6) -> Product (7)
+    - Type: Regular
+    - Key Flag: True
+    - Add translation if needed.
+9. Save
 
 <center>
 
@@ -728,7 +734,7 @@ Preview:
 8. Click OK
 9. Add 1 attribute:
    • Name: Customer
-   • Descreption: Customer
+   • Description: Customer
    • Key Column CustomerForDashboard (1) -> CustomerId (2)
    • Name Column: CustomerForDashboard (1) -> DisplayName (3)
    • Type: Regular
@@ -753,7 +759,7 @@ Preview:
 8. Click OK
 9. Add 1 attribute:
    • Name: OrderStatus
-   • Descreption: OrderStatus
+   • Description: OrderStatus
    • Key Column: OrderStatusForDashboard (5) -> ID (6)
    • Name Column: OrderStatusForDashboard (5) -> Name (7)
    • Type: Regular
@@ -781,7 +787,7 @@ Preview:
 7. Click ok
 8. Add first attribute:
    • Name: Date
-   • Descreption: Date
+   • Description: Date
    • Key Column: TimeTable (1) -> Key (2)
    • Name Column: TimeTable (1) -> Day (3)
    • Type: TimeDays
@@ -795,7 +801,7 @@ Preview:
    • Key Flag: False
 10. Add Third attribute:
     • Name: Month
-    • Descreption: Month
+    • Description: Month
     • Key Column: TimeTable (1) -> Key (2)
     • Name Column: TimeTable (1) -> Month (4)
     • Type: TimeMonths

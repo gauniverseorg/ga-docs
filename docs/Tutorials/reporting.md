@@ -89,7 +89,7 @@ Preview of the products object's data:
 
 Now you will create a relational table to hold this data, you can ignore images since they are not useful in generating reports, to do this in GA do the following:
 
-1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables 
+1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables
 2. Click the + button in the bottom left corner
 3. Assign the table a name
     - Note: This name can't be changed
@@ -98,7 +98,7 @@ Now you will create a relational table to hold this data, you can ignore images 
 6. Add fields:
     - ID (primary string, length 50)
     - Product (string, length 50)
-    - Product_Name_en (string, length 50) 
+    - Product_Name_en (string, length 50)
     - Product_Name_sa (string, length 50)
     - Note: You can ignore the en and sa values if you will generate reports in one language
 
@@ -264,16 +264,15 @@ Preview of the Customer object's data:
 
 We will migrate this into a relational table, the steps are the same steps we did for the Product data migration process with some minor changes. To migrate the data follow the following steps:
 
-1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables 
+1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables
 2. Click the + button in the bottom left corner
 3. Assign the table a name
     - Note: This name can't be changed
 4. Specify the schema name used for the Product table
 5. Select the correct data source
-6. Add fields: 
+6. Add fields:
     - CustomerId (string, length 50)
     - DisplayName (String, length 50)
-
 
 The table structure is:
 
@@ -458,7 +457,6 @@ export class Main {
 
 The resulted relational table after the migration of the OrderStatus ENUM:
 
-
 <center>
 
 ![Results Status table](../../static/img/reporting12.png)
@@ -487,13 +485,13 @@ Since we have a list of products in each order, we will need to create 2 tables 
 
 #### Relational Table Full Order
 
-1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables 
+1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables
 2. Click the + button in the bottom left corner
 3. Assign the table a name
     - Note: This name can't be changed
 4. Specify the schema name used for the Product table
 5. Select the correct data source
-6. Add fields: 
+6. Add fields:
     - OrderId (string, length 50)
     - Customer (string, length 50)
     - Status (string, length 50)
@@ -509,13 +507,13 @@ Since we have a list of products in each order, we will need to create 2 tables 
 
 #### Relational Table Each Product
 
-1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables 
+1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables
 2. Click the + button in the bottom left corner
 3. Assign the table a name
     - Note: This name can't be changed
 4. Specify the schema name used for the Product table.
 5. Select the correct data source.
-6. Add fields: 
+6. Add fields:
     - OrderId (string, length 50)
     - Item (string, length 50)
     - Customer (string, length 50)
@@ -661,24 +659,62 @@ The resulted relational table after the migration of the Per Order DataObject:
 
 ### Running the Workflows
 
-Run the data migration scripts to transfer Product, Order, Customer, and OrderStatus data. Implement schedulers or invoke workflows after DataObject changes for real-time migration. To prevent data inconsistencies from deleting a product with linked orders:
+Run the data migration scripts to transfer Product, Order, Customer, and OrderStatus data. Implement schedulers or invoke workflows after DataObject changes for real-time migration.
+
+To prevent data inconsistencies from deleting a product with linked orders:
 
 1. **Order Deletion**: Delete linked orders before removing a product.
 2. **Default Product Assignment**: Assign orders to a default product instead of deletion.
 3. **Custom Solutions**: Flag deleted products, filtering them during queries, or implement cascading deletes.
 
+I will now show you how to do delete orders linked to a specific product:
+
+The first step is to create a new service side workflow, and name it Delete Effected Products, and inside of it do the following:
+
+1. In the parameters tab, insert a parameter that will be passed by a client side workflow, and name it productId
+
+![Parameters](../../static/img/parameters.png)
+
+2. Insert a read workflow block and query the order data object
+3. Insert a for loop that loops over the orders and inside of the for loop do the following:
+    1. Insert a read properties and read the products and the _Id, and save them as: productList and orderID
+        - Set the productList as the current parameter.
+    2. Insert a define value and name it productInOrder, make it false for now
+    3. Insert a loop that loops over the current productList and inside of do the following:
+        1. Insert a read properties and read the the _Id and save it as: currentProduct
+        2. Insert a data switch with one condition checking if the currentProduct is equal to passed productId
+        3. If the data switch is true, insert a define values block and set productInOrder to be true.
+    4. After the product list loop, insert a data switch with one condition, checking if productInOrder is true.
+    5. If it is true, insert a a delete workblock and query the orderID to delete it.
+4. After the previous loop insert two run the workflows blocks and run the two workflows created above for filling in the products and orders.
+
+Note: The final workflow will look like this:
+
+![Delete Effected Workflow Example](../../static/img/reportingWorkflow.png)
+
+The second step is more simple, and it is just calling the workflow whenever you delete a product, make sure to pass the productId to it, here is an example of that in the client side:
+
+1. Read the values on the element where the product is stored.
+2. Read the _Id from the product and name it productId
+3. Delete the product from the data object table
+4. Refresh the table on the browser
+5. Undo styles on layout that allows editing of data
+6. Run the workflow that was created in step 1, make sure to pass the productId to it.
+
+![Call on Delete](../../static/img/callReporrtingWF.png)
+
 ### Creating a Timetable
 
 Timetables are vital for date-based queries. Here's how to create one in GA Universe:
 
-1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Datetime 
+1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Datetime
 2. Click the + button in the bottom left corner
 3. Assign the table a name
     - Note: This name can't be changed
 4. Assign a data source.
 5. Define the Start Date.
 6. Configure the time span using Years Offset.
-    - Note: the offset is how many years to be generated after the start date. 
+    - Note: the offset is how many years to be generated after the start date.
 7. Select languages if needed.
 
 <center>
@@ -698,7 +734,8 @@ Preview:
 ### Creating Dimensions
 
 #### Crafting a Product Dimension
-1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension 
+
+1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
 2. Click the + button in the bottom left corner
 3. Assign the table a name
     - Note: This name can't be changed

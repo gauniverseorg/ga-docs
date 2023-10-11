@@ -3,7 +3,9 @@ sidebar_position: 3
 ---
 # List Detail
 
-A template for a page that already has a data table so you can see and update or delete the data. A data source must be selected before page creation. ![List detail page overview](../../../../../static/img/Aspose.Words.4a2aeb46-7bb9-47ec-8223-5acb2ad913fb.001.png)
+A template for a page that already has a data table so you can see and update or delete the data. A data source must be selected before page creation. 
+
+![List detail page overview](../../../../../static/img/Aspose.Words.4a2aeb46-7bb9-47ec-8223-5acb2ad913fb.001.png)
 
 List Detail is a page that contains a list box control for display and input fields that allow you to change or add new data points to the table.
 

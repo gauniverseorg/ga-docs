@@ -100,43 +100,43 @@ No code/low code platforms are designed to be faster, easier, and more
 efficient for building applications for beginners and senior
 programmers.
 
-The main differences are:
+  - The main differences are:
 
-- Learning curve, which is lower for no code
+    - Learning curve, which is lower for no code
 
-- Speed of development, no code is more rapid in terms of development
+    - Speed of development, no code is more rapid in terms of development
 
-- Scalability, generally no code applications are easier to scale
+    - Scalability, generally no code applications are easier to scale
 
-- Adaptability, no code applications are more adaptable and agile than
-  traditional code applications
+    - Adaptability, no code applications are more adaptable and agile than traditional code applications
 
-- Benefits of no code
 
-  - Lower cost
+  - Benefits of no code
 
-    - No-code applications does not require as many experienced programmers, resulting in significantly lower development costs.
-
-    - You can save cost by decreasing the number of programmers
-
-    - Reduce costs by reducing development time
-
-  - Agile
-
-    - Developing with no code is proven to be more agile
-
-    - Applications can incorporate a set of templates that can be easily utilized when needed
-
-    - Redesigning and changing the application's themes is easier
-
-  - More productivity
-
-    - With no/low code, you can have a more productive development
-
-  - Digitalization
-
-    - Digitalization involves transforming traditional processes into a digital format.
-
-    - This can be helped by many technologies, among them is no/low code
-
-    - This is the biggest benefit of no code
+    - Lower cost
+  
+      - No-code applications does not require as many experienced programmers, resulting in significantly lower development costs
+  
+      - You can save cost by decreasing the number of programmers
+  
+      - Reduce costs by reducing development time
+  
+    - Agile
+  
+      - Developing with no code is proven to be more agile
+  
+      - Applications can incorporate a set of templates that can be easily utilized when needed
+  
+      - Redesigning and changing the application's themes is easier
+  
+    - More productivity
+  
+      - With no/low code, you can have a more productive development
+  
+    - Digitalization
+  
+      - Digitalization involves transforming traditional processes into a digital format
+  
+      - This can be helped by many technologies, among them is no/low code
+  
+      - This is the biggest benefit of no code

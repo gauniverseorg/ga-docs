@@ -63,6 +63,7 @@ In general for the search to work, every time a markdown file is edited/added, i
 - Run the scraper as per the guide linked
 
 > To run the scraper, clone [this repo](https://github.com/PupilTong/typesense-docsearch-scraper), add the Dockerfile that is in this repo to the newly cloned typesense-docsearch-scraper repo, build using `docker build .`, then run the image as per the following command.
+> > Note: This was used because typesense-docsearch-scraper docker image doesn't have support for ARM64 architecture
 
 ```bash
 docker run -it --env-file=/path/to/your/.env -e "CONFIG=$(cat config.json | jq -r tostring)" <IMAGE-ID>

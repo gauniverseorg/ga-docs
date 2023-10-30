@@ -62,7 +62,7 @@ In general for the search to work, every time a markdown file is edited/added, i
 - Add the new URLs to the `config.json` file, specifically under `site_urls` array
 - Run the scraper as per the guide linked
 
-> To run the scraper, make sure to build the Dockerfile in the repo, then run the image as per the following command.
+> To run the scraper, clone [this repo](https://github.com/PupilTong/typesense-docsearch-scraper), add the Dockerfile that is in this repo to the newly cloned typesense-docsearch-scraper repo, build using `docker build .`, then run the image as per the following command.
 
 ```bash
 docker run -it --env-file=/path/to/your/.env -e "CONFIG=$(cat config.json | jq -r tostring)" <IMAGE-ID>

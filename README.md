@@ -56,7 +56,7 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 ### TypeSense DocSearch
 
-Indexes are currently hosted locally. TypeSense uses the DocSearch scraper, [here](https://typesense.org/docs/guide/docsearch.htm    l#step-1-set-up-docsearch-scraper) is a guide on how to use it.
+Indexes are currently hosted locally. TypeSense uses the DocSearch scraper, [here](https://typesense.org/docs/guide/docsearch.html#step-1-set-up-docsearch-scraper) is a guide on how to use it.
 
 In general for the search to work, every time a markdown file is edited/added, indexes must be regenerated, this can be done by doing the following:
 - Add the new URLs to the `config.json` file, specifically under `site_urls` array

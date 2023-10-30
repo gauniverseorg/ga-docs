@@ -56,15 +56,16 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 ### TypeSense DocSearch
 
-Indexes are currently hosted on the cloud service provided by TypeSense. TypeSense uses the DocSearch scraper, [here](https://typesense.org/docs/guide/docsearch.html#step-1-set-up-docsearch-scraper) is a guide on how to use it.
+Indexes are currently hosted locally. TypeSense uses the DocSearch scraper, [here](https://typesense.org/docs/guide/docsearch.htm    l#step-1-set-up-docsearch-scraper) is a guide on how to use it.
 
 In general for the search to work, every time a markdown file is edited/added, indexes must be regenerated, this can be done by doing the following:
-
 - Add the new URLs to the `config.json` file, specifically under `site_urls` array
 - Run the scraper as per the guide linked
 
+> To run the scraper, make sure to build the Dockerfile in the repo, then run it as per the following command.
+
 ```bash
-docker run -it --env-file=/path/to/your/.env -e "CONFIG=$(cat config.json | jq -r tostring)" typesense/docsearch-scraper:0.8.0
+docker run -it --env-file=/path/to/your/.env -e "CONFIG=$(cat config.json | jq -r tostring)" <IMAGE-ID>
 
 ```
 

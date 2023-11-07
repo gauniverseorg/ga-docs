@@ -23,7 +23,9 @@ Pages are essentially your canvas. The page can have all the control elements an
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+<video controls="controls">
+  <source src="/img/tut2-1.mov" />
+</video>
 
 </center>
 
@@ -51,7 +53,9 @@ Navigations are a set of nodes and sub nodes that represent the URL and path to 
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+<video controls="controls">
+  <source src="/img/tut2-2.mov" />
+</video>
 
 </center>
 
@@ -63,7 +67,7 @@ To access the page elements and workflows, open the AppBuilder by clicking F2
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+![Elements and Workflows](../../static/img/tut2-3.png)
 
 </center>
 
@@ -75,7 +79,7 @@ Each type of layout has different properties, like how a grid is mostly rigid an
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+![Layouts](../../static/img/tut2-4.png)
 
 </center>
 
@@ -85,19 +89,7 @@ Each page has control elements which are in essence the content of the page, lik
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
-
-</center>
-
-<center>
-
-![Hello world gif](../../static/img/placeholder.gif)
-
-</center>
-
-<center>
-
-![Hello world gif](../../static/img/placeholder.gif)
+![Control Elements](../../static/img/tut2-5.png)
 
 </center>
 

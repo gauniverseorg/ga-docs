@@ -29,7 +29,7 @@ In this example we will be creating a workflow that sends an API request to an [
 
 That's it, run it and wait for the email to be sent!
 
-Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings
+>Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings
 
 ## Client Side
 
@@ -37,7 +37,7 @@ Here is an example where client side workflows are used to read the value of a t
 
 1. Navigate to a page, and open the app builder
 
-   - Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
+   >Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
 
 2. Modify the base grid's properties, and change the row definition to add a new row and column
 3. Add a textbox in the first row and first column and modify it's properties to make it editable. You can also change how the elements look and customize them to your liking
@@ -77,4 +77,4 @@ Now try it out! Add text in the textbox and click on the button, and a message b
 
 You can explore and try different things in the workflow editor! Try to create a similar workflow that validates if input equals to a certain value and print a specific message respectively (Hint: use DataSwitch WFB)
 
-Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.
+>Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.

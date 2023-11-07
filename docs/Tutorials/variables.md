@@ -14,9 +14,10 @@ In this example we will assume there is a page with 2 text blocks.
 
 1. Go to the page you want to use the variable in, and open the app builder
 
-    - Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
+    >Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
 
-2. Click on the base and go to the variables property. Note that a local variable can be created in any layout you need.
+2. Click on the base and go to the variables property. 
+    >Note that a local variable can be created in any layout you need.
 3. Click the + sign to create a new one.
 4. Give it a name and a type. You can also give it an initial value using the Formula textbox if you need to initialize it.
 
@@ -86,4 +87,4 @@ Workflows are used to read or change global variables.
 
 </center>
 
-Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.
+>Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.

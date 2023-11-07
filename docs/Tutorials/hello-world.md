@@ -32,7 +32,7 @@ How to use GA to create your first "Hello, world!" page
 <center>
 
 <video controls="controls">
-  <source src="/img/hellopage-create.mov" />
+  <source src="/img/tut1-1.mov" />
 </video>
 
 </center>
@@ -50,7 +50,7 @@ How to use GA to create your first "Hello, world!" page
 <center>
 
 <video controls="controls">
-  <source src="/img/nav-create.mov" />
+  <source src="/img/tut1-2.mov" />
 </video>
 
 </center>
@@ -63,7 +63,7 @@ Note: Because HelloPage is the homepage for the navigation, there is no need to 
 <center>
 
 <video controls="controls">
-  <source src="/img/access-page.mov" />
+  <source src="/img/tut1-3.mov" />
 </video>
 
 </center>
@@ -85,12 +85,9 @@ That's it! Now you can use your newly made page to test out what GA can offer
 <center>
 
 <video controls="controls">
-  <source src="/img/textblock-helloworld.mov" />
+  <source src="/img/tut1-4.mov" />
 </video>
 
 </center>
 
 Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.
-
-<style>
-   </style>

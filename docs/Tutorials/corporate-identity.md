@@ -8,13 +8,7 @@ Corporate identity is where you will design the general look of website you will
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
-
-</center>
-
-<center>
-
-![Hello world gif](../../static/img/placeholder.gif)
+![Corporate Identity](../../static/img/tut4-1.png)
 
 </center>
 
@@ -37,7 +31,7 @@ Let's create a new theme and add them to a navigation
 1. Open the settings website
 2. Click on corporate identity
 3. Click on Themes:
-   1. Click on + To create a new theme
+   1. Click on + to create a new theme
    2. Rename the new theme
    3. Write the translations if needed
    4. Set is default and is dark theme flags as needed
@@ -53,23 +47,27 @@ Let's create a new theme and add them to a navigation
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+<video controls="controls">
+  <source src="/img/tut4-2.mov" />
+</video>
 
 </center>
 
 Now to adding it to the navigation:
 
-4. Go to Layout
-5. Go to Navigation
-6. Select correct navigation
-7. Pick the theme you just added as default theme
-8. Pick the theme you just added in the available themes
-9. Save
+1. Go to Layout
+2. Go to Navigation
+3. Select correct navigation
+4. Pick the theme you just added as default theme
+5. Pick the theme you just added in the available themes
+6. Save
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+<video controls="controls">
+  <source src="/img/tut4-3.mov" />
+</video>
 
 </center>
 
->Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.
+> Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.

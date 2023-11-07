@@ -23,7 +23,7 @@ How to use GA to create your first "Hello, world!" page
 
 4. Name your page and give your URL. For example, let's name it "HelloPage"
 
-   - Note: The URL is how you navigate to it and the name is how you can search for it in the backend and so on.
+> Note: The URL is how you navigate to it and the name is how you can search for it in the backend and so on.
 
 5. Then chose the type of page, for now we will start with an empty page.
 
@@ -58,7 +58,8 @@ How to use GA to create your first "Hello, world!" page
 ## Open the page
 
 Navigate to /NAME OF NAVIGATION/NAME OF PAGE/, for this example the path is /HelloNavigation/HelloPage/
-Note: Because HelloPage is the homepage for the navigation, there is no need to explicitly write it, as /HelloNavigation/ will direct to the homepage
+
+> Note: Because HelloPage is the homepage for the navigation, there is no need to explicitly write it, as /HelloNavigation/ will direct to the homepage
 
 <center>
 
@@ -71,7 +72,7 @@ Note: Because HelloPage is the homepage for the navigation, there is no need to 
 ## Drop Text Block and write "Hello, world!"
 
 1. Open the AppBuilder by clicking F2 on the keyboard
-   - Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
+   > Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
 2. Open the Toolbox tab
 3. Open the controls tab
 4. Find TextBlock element. (You can use the search bar if you're having trouble finding an element)
@@ -90,4 +91,7 @@ That's it! Now you can use your newly made page to test out what GA can offer
 
 </center>
 
-Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.
+> Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.
+
+<style>
+   </style>

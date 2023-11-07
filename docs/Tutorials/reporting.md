@@ -59,7 +59,7 @@ Establishing a ROLAP data source in GA Universe is straightforward:
 1. Navigate to Data Sources under the Data tab
 2. Click the + button in the bottom left corner
 3. Assign a descriptive name
-   - Note: This name can't be changed
+  >Note: This name can't be changed
 4. Choose ROLAP as the data source type
 5. Save your settings
 
@@ -92,7 +92,7 @@ Now you will create a relational table to hold this data, you can ignore images 
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables
 2. Click the + button in the bottom left corner
 3. Assign the table a name
-   - Note: This name can't be changed
+    >Note: This name can't be changed
 4. Specify a schema name
 5. Select the data source
 6. Add fields:
@@ -100,7 +100,7 @@ Now you will create a relational table to hold this data, you can ignore images 
    - Product (string, length 50)
    - Product_Name_en (string, length 50)
    - Product_Name_sa (string, length 50)
-   - Note: You can ignore the en and sa values if you will generate reports in one language
+      >Note: You can ignore the en and sa values if you will generate reports in one language
 
 The table structure is:
 
@@ -199,7 +199,7 @@ export class Main {
 }
 ```
 
-Note, the translation methods were created in a script library, the code is found here:
+>Note, the translation methods were created in a script library, the code is found here:
 
 ```typescript
 export class Utilities {
@@ -267,7 +267,7 @@ We will migrate this into a relational table, the steps are the same steps we di
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables
 2. Click the + button in the bottom left corner
 3. Assign the table a name
-   - Note: This name can't be changed
+    >Note: This name can't be changed
 4. Specify the schema name used for the Product table
 5. Select the correct data source
 6. Add fields:
@@ -488,7 +488,7 @@ Since we have a list of products in each order, we will need to create 2 tables 
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables
 2. Click the + button in the bottom left corner
 3. Assign the table a name
-   - Note: This name can't be changed
+      >Note: This name can't be changed
 4. Specify the schema name used for the Product table
 5. Select the correct data source
 6. Add fields:
@@ -510,7 +510,7 @@ Since we have a list of products in each order, we will need to create 2 tables 
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables
 2. Click the + button in the bottom left corner
 3. Assign the table a name
-   - Note: This name can't be changed
+      >Note: This name can't be changed
 4. Specify the schema name used for the Product table.
 5. Select the correct data source.
 6. Add fields:
@@ -688,7 +688,7 @@ The first step is to create a new service side workflow, and name it Delete Effe
    5. If it is true, insert a a delete workblock and query the orderID to delete it.
 4. After the previous loop insert two run the workflows blocks and run the two workflows created above for filling in the products and orders.
 
-Note: The final workflow will look like this:
+>Note: The final workflow will look like this:
 
 ![Delete Effected Workflow Example](../../static/img/reportingWorkflow.png)
 
@@ -710,11 +710,11 @@ Timetables are vital for date-based queries. Here's how to create one in GA Univ
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Datetime
 2. Click the + button in the bottom left corner
 3. Assign the table a name
-   - Note: This name can't be changed
+    >Note: This name can't be changed
 4. Assign a data source.
 5. Define the Start Date.
 6. Configure the time span using Years Offset.
-   - Note: the offset is how many years to be generated after the start date.
+    >Note: the offset is how many years to be generated after the start date.
 7. Select languages if needed.
 
 <center>
@@ -738,7 +738,7 @@ Preview:
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
 2. Click the + button in the bottom left corner
 3. Assign the table a name
-   - Note: This name can't be changed
+    >Note: This name can't be changed
 4. Select ROLAP Data source
 5. Edit the Query Definition to incorporate the product table
 6. Select all fields
@@ -764,7 +764,7 @@ Preview:
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
 2. Click the + button in the bottom left corner
 3. Assign the table a name
-   - Note: This name can't be changed
+    >Note: This name can't be changed
 4. Select ROLAP Data source
 5. Edit the Query Definition to incorporate the Customer table
 6. Select all fields
@@ -789,7 +789,7 @@ Preview:
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
 2. Click the + button in the bottom left corner
 3. Assign the table a name
-   - Note: This name can't be changed
+    >Note: This name can't be changed
 4. Select ROLAP Data source
 5. Edit the Query Definition to incorporate the OrderStatus table
 6. Select all fields
@@ -814,7 +814,7 @@ Preview:
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
 2. Click the + button in the bottom left corner
 3. Assign the table a name
-   - Note: This name can't be changed
+    >Note: This name can't be changed
 4. Select ROLAP Data source
 5. Mark IsTimeDim
 6. Edit the Query Definition to include the TimeTable
@@ -862,7 +862,7 @@ Preview:
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
 2. Click the + button in the bottom left corner
 3. Assign the table a name
-   - Note: This name can't be changed
+    >Note: This name can't be changed
 4. Select ROLAP
 5. Add the Customer, Status and time dimensions
 6. Define values for ItemCount and TotalPrice
@@ -890,7 +890,7 @@ Preview:
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
 2. Click the + button in the bottom left corner
 3. Assign the table a name
-   - Note: This name can't be changed
+    >Note: This name can't be changed
 4. Select ROLAP
 5. Add the Customer, Status, Product, and Time dimensions
 6. Define values for ItemPrice
@@ -918,7 +918,7 @@ Preview:
 
 1. Open a page and open the AppBuilder followed by Access Data Description:
 
-   - Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
+    >Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
 
 2. Click the + button in the top left corner to add a new query
 3. Remove the default Relational Query
@@ -967,7 +967,7 @@ Average – Customer – TopDown should look similar to this:
 
 </center>
 
-Note: When you add a new task you must first select the task type.
+>Note: When you add a new task you must first select the task type.
 
 ### Visualization
 
@@ -997,7 +997,7 @@ Possible charts:
 
 </center>
 
-Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.
+>Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.
 
 ## Conclusion
 

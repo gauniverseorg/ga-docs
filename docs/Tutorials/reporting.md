@@ -65,7 +65,9 @@ Establishing a ROLAP data source in GA Universe is straightforward:
 
 <center>
 
-![Establishing ROLAP datasource](../../static/img/reporting1.png)
+<video controls="controls">
+  <source src="/img/tut8-1.mov" />
+</video>
 
 </center>
 

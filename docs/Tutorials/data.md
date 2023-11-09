@@ -17,11 +17,13 @@ The following are the steps needed to create a datamodel:
 1. Navigate to the settings
 2. Navigate to the Data tab, and then select the datamodel tab
 3. Open the overview and create your data model by clicking the + button
-  >Note: For this example we assume that you have already created a datasource and configured it. If not, please refer to the documentation on how to create a datasource
+   > Note: For this example we assume that you have already created a datasource and configured it. If not, please refer to the documentation on how to create a datasource
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+<video controls="controls">
+  <source src="/img/tut5-1.mov" />
+</video>
 
 </center>
 
@@ -35,7 +37,9 @@ The following are the steps needed to create a datamodel:
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+<video controls="controls">
+  <source src="/img/tut5-2.mov" />
+</video>
 
 </center>
 
@@ -54,7 +58,9 @@ One other important data type is the Enum or the Enumeration. They are essential
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+<video controls="controls">
+  <source src="/img/tut5-3.mov" />
+</video>
 
 </center>
 
@@ -67,7 +73,7 @@ For this example, we assume that you have already made a data object that has 3 
 1. Navigate to the page where you want your data table
 2. Open the AppBuilder by clicking F2
 
-    >Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
+   > Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
 
 3. Divide the base grid into 2 different rows
 4. In the first row, add a flex add 3 TextBoxes and Buttons inside that flex
@@ -76,18 +82,22 @@ For this example, we assume that you have already made a data object that has 3 
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+<video controls="controls">
+  <source src="/img/tut5-4.mov" />
+</video>
 
 </center>
 
-7. Now go to the base grid properties and add a data source. And also go to the textboxes and the checkbox and bind the data relevant to the control item. 
->Note: The Datasource type is dynamic
-8. After adding the data source, go to the datatable properties and choose the data table columns and select all the data you want to show. 
->Note: you must select the \_Id as must be used when fetching data and filtering and so on
+7. Now go to the base grid properties and add a data source. And also go to the textboxes and the checkbox and bind the data relevant to the control item.
+   > Note: The Datasource type is dynamic
+8. After adding the data source, go to the datatable properties and choose the data table columns and select all the data you want to show.
+   > Note: you must select the \_Id as must be used when fetching data and filtering and so on
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+<video controls="controls">
+  <source src="/img/tut5-5.mov" />
+</video>
 
 </center>
 
@@ -101,20 +111,24 @@ Now you have to create the workflows to add, save, and delete the data.
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+<video controls="controls">
+  <source src="/img/tut5-6.mov" />
+</video>
 
 </center>
 
 ### Save workflow
 
-1. Drop a "Save Item" WFB which uses the flex element. 
->Note: Link the successfully recreated and saved successfully to the next step
+1. Drop a "Save Item" WFB which uses the flex element.
+   > Note: Link the successfully recreated and saved successfully to the next step
 2. Drop a "Refresh" WFB to be used on the DataTable
 3. Save as save
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+<video controls="controls">
+  <source src="/img/tut5-7.mov" />
+</video>
 
 </center>
 
@@ -127,8 +141,8 @@ This requires 2 different workflows
 
 #### Selection
 
-1. Drop a "Get List Item" WFB and set it to get the first entry. 
->Note: this is done because when we later select any item from the datatable the selection is always an array of objects and what we are doing here is just casting it into one object
+1. Drop a "Get List Item" WFB and set it to get the first entry.
+   > Note: this is done because when we later select any item from the datatable the selection is always an array of objects and what we are doing here is just casting it into one object
 2. Drop a "Read Properties" WFB and set it to read the property name "\_Id" and assign it a status key (Ex. idToDelete)
 3. Drop a "Read Data" WFB and select your datasource and filter it by comparing "\_Id" with "idToDelete"
 4. Drop a "Get List Item" WFB once again
@@ -137,7 +151,9 @@ This requires 2 different workflows
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+<video controls="controls">
+  <source src="/img/tut5-8.mov" />
+</video>
 
 </center>
 
@@ -154,7 +170,17 @@ After making the workflows, we have to link them with events.
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+<video controls="controls">
+  <source src="/img/tut5-9.mov" />
+</video>
+
+</center>
+
+<center>
+
+<video controls="controls">
+  <source src="/img/tut5-10.mov" />
+</video>
 
 </center>
 
@@ -162,7 +188,9 @@ That should be it! Try it out by adding, saving and deleting
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+<video controls="controls">
+  <source src="/img/tut5-11.mov" />
+</video>
 
 </center>
 
@@ -174,6 +202,14 @@ Lets assume you were instructed to change the table schema to add 2 elements, an
 2. Add the isActive field and set default as true
 3. Add the department and pick the Enum you created before
 
+<center>
+
+<video controls="controls">
+  <source src="/img/tut5-12.mov" />
+</video>
+
+</center>
+
 These changes should be reflected on the page as well
 
 1. Add a combobox inside the flex and data bind it to the department field
@@ -183,16 +219,21 @@ These changes should be reflected on the page as well
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+<video controls="controls">
+  <source src="/img/tut5-13.mov" />
+</video>
 
 </center>
 
-That's it! The page now functions as intended. 
->Note: if there were any previous data points the new values will be null so it should be changed when the new columns are added. This can be done using a service side workflow or done manually.
+That's it! The page now functions as intended.
+
+> Note: if there were any previous data points the new values will be null so it should be changed when the new columns are added. This can be done using a service side workflow or done manually.
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+<video controls="controls">
+  <source src="/img/tut5-14.mov" />
+</video>
 
 </center>
 
@@ -215,7 +256,9 @@ To store an image in your datatable:
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+<video controls="controls">
+  <source src="/img/tut5-15.mov" />
+</video>
 
 </center>
 
@@ -226,7 +269,9 @@ If you want to include the image in your DataObject:
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+<video controls="controls">
+  <source src="/img/tut5-16.mov" />
+</video>
 
 </center>
 
@@ -242,7 +287,9 @@ For page changes:
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+<video controls="controls">
+  <source src="/img/tut5-17.mov" />
+</video>
 
 </center>
 
@@ -258,8 +305,18 @@ Inside the workflow drop the following:
 
 <center>
 
-![Hello world gif](../../static/img/placeholder.gif)
+<video controls="controls">
+  <source src="/img/tut5-18.mov" />
+</video>
 
 </center>
 
->Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.
+<center>
+
+<video controls="controls">
+  <source src="/img/tut5-19.mov" />
+</video>
+
+</center>
+
+> Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.

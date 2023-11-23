@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Corporate Identity
 
-Corporate identity is where you will design the general look of website you will create using GA
+Corporate identity is where you will design the general look of website you will create using GA.
 
 <center>
 

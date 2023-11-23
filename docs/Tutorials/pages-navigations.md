@@ -14,7 +14,7 @@ Pages are essentially your canvas. The page can have all the control elements an
 2. Go to layout tab
 3. Go to the Pages tab
 4. Click the + button in the bottom left corner
-5. Name your page URL. 
+5. Name your page URL
 >Note: The URL is how you navigate to it and the name is how you can search for it in the backend
 6. Choose the type of page (Empty page, Copy page, List Detail page, Table Detail page)
 7. Click OK
@@ -85,7 +85,7 @@ Each type of layout has different properties, like how a grid is mostly rigid an
 
 ### Control Elements
 
-Each page has control elements which are in essence the content of the page, like (TextBlocks, Buttons, etc)
+Each page has control elements which are in essence the content of the page, like (TextBlocks, Buttons, etc.)
 
 <center>
 

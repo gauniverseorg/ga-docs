@@ -45,7 +45,7 @@ The following are the steps needed to create a datamodel:
 
 ## Enums
 
-One other important data type is the Enum or the Enumeration. They are essentially a group of certain values/constants that doesn’t get appended to or removed during the app execution
+One other important data type is the Enum or the Enumeration. They are essentially a group of certain values/constants that doesn’t get appended to or removed during the app execution.
 
 ### Creating Enums
 
@@ -66,9 +66,9 @@ One other important data type is the Enum or the Enumeration. They are essential
 
 ## Operations on Datamodels
 
-Now you have an Enum, and a data table and you are probably wondering how can I add data to the data model? There are many ways to add the data and you can find it in the documentation but for now we will go about how we add the data from a page
+Now you have an Enum, and a data table and you are probably wondering how can I add data to the data model? There are many ways to add the data and you can find it in the documentation but for now we will go about how we add the data from a page.
 
-For this example, we assume that you have already made a data object that has 3 data fields, two for string and for an integer value. We also assume that the page is empty and has nothing except the base grid
+For this example, we assume that you have already made a data object that has 3 data fields, two for string and for an integer value. We also assume that the page is empty and has nothing except the base grid.
 
 1. Navigate to the page where you want your data table
 2. Open the AppBuilder by clicking F2
@@ -88,9 +88,9 @@ For this example, we assume that you have already made a data object that has 3 
 
 </center>
 
-7. Now go to the base grid properties and add a data source. And also go to the textboxes and the checkbox and bind the data relevant to the control item.
+7. Now go to the base grid properties and add a data source. And also go to the textboxes and the checkbox and bind the data relevant to the control item
    > Note: The Datasource type is dynamic
-8. After adding the data source, go to the datatable properties and choose the data table columns and select all the data you want to show.
+8. After adding the data source, go to the datatable properties and choose the data table columns and select all the data you want to show
    > Note: you must select the \_Id as must be used when fetching data and filtering and so on
 
 <center>
@@ -184,7 +184,7 @@ After making the workflows, we have to link them with events.
 
 </center>
 
-That should be it! Try it out by adding, saving and deleting
+That should be it! Try it out by adding, saving and deleting.
 
 <center>
 
@@ -243,10 +243,10 @@ To store an image in your datatable:
 
 - Make sure you have a media source.
 
-  1. In the settings go to the data tab.
-  2. Inside the data tab, go to the media sources.
-  3. Add your preferred media source and its credentials.
-  4. Make sure you have a data source.
+  1. In the settings go to the data tab
+  2. Inside the data tab, go to the media sources
+  3. Add your preferred media source and its credentials
+  4. Make sure you have a data source
 
 - Create a DataObject for an image class
   1. Create a new dataobject named “Images”

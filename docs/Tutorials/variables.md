@@ -16,9 +16,9 @@ In this example we will assume there is a page with 2 text blocks.
 
    > Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
 
-2. Click on the base and go to the variables property.
+2. Click on the base and go to the variables property
    > Note that a local variable can be created in any layout you need.
-3. Click the + sign to create a new one.
+3. Click the + sign to create a new one
 4. Give it a name and a type. You can also give it an initial value using the Formula textbox if you need to initialize it.
 
 <center>
@@ -33,14 +33,14 @@ In this example we will assume there is a page with 2 text blocks.
 
 Workflows are used to read or change local variables.
 
-1. In the variables category, choose the read variable.
+1. In the variables category, choose the read variable
 2. Now choose the element which has the variable. For this example it was the base
 3. Set it to the text block
 4. Delay for 3 seconds
 5. In the variables category, choose the set variable
 6. Now choose the element which has the variable. For this example it was the base
-7. Choose which variable you want to change.
-8. Give it the value you want.
+7. Choose which variable you want to change
+8. Give it the value you want
 9. Save the WF
 10. And add it to the text block as on init event
 
@@ -91,7 +91,7 @@ Workflows are used to read or change local variables.
 
 Workflows are used to read or change global variables.
 
-1. Choose which variable you want to read.
+1. Choose which variable you want to read
 2. Store it in a static key
 3. Add a show message
 4. Use the stored value as message

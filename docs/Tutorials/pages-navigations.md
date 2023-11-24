@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Pages and Navigations
 
-Pages are essentially your canvas. The page can have all the control elements and layouts on it. It also can have multiple views for reactive web pages. I.E mobile view.
+Pages are essentially your canvas. The page can have all the control elements and layouts on it. It also can have multiple views for reactive web pages i.e. mobile view.
 
 ## Pages
 

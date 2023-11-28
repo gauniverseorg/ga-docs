@@ -7,7 +7,7 @@ A small box that can be checked or unchecked by the user.
 
 | **Property** | **Description** |
 | --- | --- |
-| Caption | a caption for the checkbox |
+| Caption | A caption for the checkbox |
 | Label Position | Position of the text |
 
 | Exclusive event | Description |

@@ -20,7 +20,7 @@ On the left side of the screen, you will have extra settings related to the tabl
 | Sum – Total row | Display the total row |
 | Unfold – Unfold again | Unfold the last element unfolded when refreshing |
 | Unfold – Reloading when unfolding | Reload the table after unfolding |
-| Unfold – Unfold Columns (Pivot) | Unfold X-Axis when there is a pivot. |
+| Unfold – Unfold Columns (Pivot) | Unfold X-Axis when there is a pivot |
 | Format - Show Lines | Show lines |
 | Format - Hide Column Headings | Hide column header |
 | Format – Hide Value Headings | Hide value headings |
@@ -36,18 +36,18 @@ On the left side of the screen, you will have extra settings related to the tabl
 | Format tasks | Edit the format of certain values/ properties from the table (the settings are the same as for the tasks in the datadescription) |
 | Format tasks – value | Add format task to a value |
 | Format tasks – level | Add format tasks to a level |
-| Format tasks – Conditional Value formatting | Add additional condition formatting to a value. E.g., Different color can be applied if the value is smaller/bigger/equal to another value, or decimal points can be added via the "Format" field, or via "gadget" icons can be added to a certain condition |
-| Format tasks – Conditional level formatting | Add additional condition formatting to a level. E.g., Different color can be applied if the level value is smaller/bigger/equal to another value, or decimal points can be added via the "Format" field, or via "gadget" icons can be added to a certain condition |
+| Format tasks – Conditional Value formatting | Add additional condition formatting to a value. e.g., Different color can be applied if the value is smaller/bigger/equal to another value, or decimal points can be added via the "Format" field, or via "gadget" icons can be added to a certain condition |
+| Format tasks – Conditional level formatting | Add additional condition formatting to a level. e.g., Different color can be applied if the level value is smaller/bigger/equal to another value, or decimal points can be added via the "Format" field, or via "gadget" icons can be added to a certain condition |
 | Format tasks – Sum | Format of a sum task |
 | Format tasks – Sum X-Level | Format of the X-Level sum value |
 | Format tasks – Level header | Format the level header content |
 | Format tasks – Value header | Format the value header content |
 | Format tasks – Description column header | Format the description column header |
-| Master Child | Master child relationships manipulations, you must select a variable that has the items you want to use, must be of list type. |
+| Master Child | Master child relationships manipulations, you must select a variable that has the items you want to use, must be of list type |
 
 ## Exclusive events
 
 | Exclusive event | Description |
 | --- | --- |
 | Row Selection | When a row is selected |
-| Cell selection | When a specific cell is selected. |
+| Cell selection | When a specific cell is selected |

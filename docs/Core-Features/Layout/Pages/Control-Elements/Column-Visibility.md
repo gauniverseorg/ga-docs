@@ -7,4 +7,4 @@ Control for controlling the visibility and order of columns inside a specific da
 
 | **Property** | **Description** |
 | --- | --- |
-| Data table. | Data Table to which the Column Visibility refers |
+| Data table | Data Table to which the Column Visibility refers |

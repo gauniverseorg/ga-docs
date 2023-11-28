@@ -21,7 +21,7 @@ Input box that allows user to write or select from, the user can add buttons bef
 | Exclusive event | Description |
 | --- | --- |
 | Text Changed | When entering text and confirming it with the enter key |
-| KeyPress | When a key is entered (Obsolete.) |
+| KeyPress | When a key is entered (Obsolete) |
 | KeyDown | When a key is entered |
 | KeyUp | When the key is no longer pressed |
 | ValidationFailed | When the text validation specified fails |

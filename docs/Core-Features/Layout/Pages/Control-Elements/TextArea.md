@@ -7,7 +7,7 @@ Input multi-line body text.
 
 | **Property** | **Description** |
 | --- | --- |
-| UseFloatingLabel | Only in connection with Bootstrap theme. When the user enters something into the box, the placeholder label is moved to above the box. |
+| UseFloatingLabel | Only in connection with Bootstrap theme. When the user enters something into the box, the placeholder label is moved to above the box |
 | Resizable | Type of resizing |
 
 | Exclusive event | Description |

@@ -3,7 +3,7 @@ sidebar_position: 19
 ---
 # Slider
 
-A Slider to select a numeric value
+A Slider to select a numeric value.
 
 | **Property** | **Description** |
 | --- | --- |
@@ -14,4 +14,4 @@ A Slider to select a numeric value
 
 | Exclusive event | Description |
 | --- | --- |
-| Value Changed | When changing the current value of the slider to another value the event is activated |
+| Value Changed | When changing the current value of the slider to another value, the event is activated |

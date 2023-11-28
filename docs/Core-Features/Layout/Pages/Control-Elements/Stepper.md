@@ -15,4 +15,4 @@ Divide content into logical steps.
 
 | Exclusive event | Description |
 | --- | --- |
-| Step Changed | When selecting an step that is different than the currently selected step |
+| Step Changed | When selecting a step that is different than the currently selected step |

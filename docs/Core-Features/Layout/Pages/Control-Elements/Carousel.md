@@ -24,10 +24,10 @@ Display of multiple items in a horizontal or vertical rotating manner. It showca
 | Show Title | Show the title |
 | autoPlay | Automatic run |
 | Arrows | Icon selection for manual run with detailed setting options |
-| Dots | Display of the carousel slides. |
+| Dots | Display of the carousel slides |
 | Fade | Transition |
 | Infinite | Endless run for manual clicking. |
-| Touch Move | Switch forward with swipe gestures, only useful if you are using a touch screen. |
+| Touch Move | Switch forward with swipe gestures, only useful if you are using a touch screen |
 | Slides to Show | Number of simultaneous display of slides |
 | Slides to Scroll | Number of slides to be scrolled |
 | Show Film Strip | Menu item Carousel Navigation |

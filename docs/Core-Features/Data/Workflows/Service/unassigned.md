@@ -4,7 +4,7 @@ sidebar_position: 11
 
 # Unassigned
 
-WFBs that cannot be assigned to other categories
+WFBs that cannot be assigned to other categories.
 
 | Name            | Description                                                                                  | Parameters                                                                                                       | Result |
 | --------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ------ |

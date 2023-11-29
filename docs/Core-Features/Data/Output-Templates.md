@@ -4,7 +4,7 @@ sidebar_position: 8
 
 # Output Templates
 
-Here Templates are generated, which can be delivered as a PDF file using a workflow module. Output templates in italic are imported from capsules. Output templates in bold are overridden imported Output templates. Several pages are built up one after the other and are output. To use dynamic data a data source and data model should be selected,
+Here Templates are generated, which can be delivered as a PDF file using a workflow module. Output templates in italic are imported from capsules. Output templates in bold are overridden imported Output templates. Several pages are built up one after the other and are output. To use dynamic data a data source and data model should be selected.
 
 Texts and images defined on Root layout are output on every page. The other pages are divided into Single and Multi.
 
@@ -12,11 +12,11 @@ Multi Page breaks down into:
 
 | Section | Description |
 | --- | --- |
-| BaseLayout | Settings here will effect only the current multi page template, if you have 2 different multipage templates, each one will have its own specific base layout. |
-| Single Page | If the section can fit into one page this page is used. |
-| Multi start page | The first page that is printed in a multi page document. |
-| Multi middle page | This will be repeated until all the pages are filled correctly, it should have a repeat element inside of it for the list to be generated correctly. |
-| Multi end page | The final page inside a multi page output template. |
+| BaseLayout | Settings here will effect only the current multi page template, if you have 2 different multipage templates, each one will have its own specific base layout |
+| Single Page | If the section can fit into one page this page is used |
+| Multi start page | The first page that is printed in a multi page document |
+| Multi middle page | This will be repeated until all the pages are filled correctly, it should have a repeat element inside of it for the list to be generated correctly |
+| Multi end page | The final page inside a multi page output template |
 
 The available properties are:
 

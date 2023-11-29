@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Container DateTime
 
-Used when you want to create a data time table to create reporting or other options that need a specific date as a key
+Used when you want to create a data time table to create reporting or other options that need a specific date as a key.
 
 Available properties:
 

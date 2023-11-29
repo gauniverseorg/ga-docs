@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Backup
 
-Trigger a backup based on the options selected
+Trigger a backup based on the options selected.
 
 | Property      | Description                                                                |
 | ------------ | -------------------------------------------------------------------------- |

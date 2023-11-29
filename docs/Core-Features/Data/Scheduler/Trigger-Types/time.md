@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Time
 
-Triggering based on time criteria
+Triggering based on time criteria.
 
 | Property     | Description                                                     |
 | ------------ | --------------------------------------------------------------- |

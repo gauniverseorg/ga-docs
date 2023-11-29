@@ -10,4 +10,4 @@ Auto save is used when you want to save variables inside a page, for the next ti
 | + | Add Auto save |
 | 🗑️ | Delete auto save |
 | Type | Variable or Control |
-| Name | Name of the auto save and variable or control. |
+| Name | Name of the auto save and variable or control |

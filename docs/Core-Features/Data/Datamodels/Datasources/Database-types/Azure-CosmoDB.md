@@ -10,4 +10,4 @@ Required information of Database:
 | User name | Username for database access                 |
 | Password  | Password for database access                 |
 | Use SSL   | SSL-Access                                   |
-| Api-Type  | Data handlers (MongoAPI, SqlAPI)             |
+| API-Type  | Data handlers (MongoAPI, SqlAPI)             |

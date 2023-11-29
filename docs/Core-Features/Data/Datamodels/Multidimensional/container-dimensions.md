@@ -13,11 +13,11 @@ Available properties:
 | Name               | The name of the dimension                                                                                                                                                        |
 | Translation        | The translation of the dimension into different languages                                                                                                                        |
 | Use case sensitive | Mark the dimension keys as being case sensitive                                                                                                                                  |
-| Process dimension  | Process the dimension, only used in case that one of the columns has a parent column that is referenced. When clicked the hierarchy and the columns are automatically generated. |
+| Process dimension  | Process the dimension, only used in case that one of the columns has a parent column that is referenced. When clicked the hierarchy and the columns are automatically generated |
 
 ## Edit query definition
 
-Here you can select the table and which fields to include in the dimension. After dragging and dropping a table into the query, you can select the fields which can be inserted, a gray check mark means that it is required, a green check mark means that it is optional and can be omitted. You can also select the aggregation type from here, but it is not recommended.
+Here, you can select the table and which fields to include in the dimension. After dragging and dropping a table into the query, you can select the fields which can be inserted, a gray check mark means that it is required, a green check mark means that it is optional and can be omitted. You can also select the aggregation type from here, but it is not recommended.
 
 ## Attributes
 
@@ -28,7 +28,7 @@ Available properties:
 | Property                  | Description                                                                                                                                                                                                                                                                    |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | +                         | Add a new attribute                                                                                                                                                                                                                                                            |
-| ⊕                         | Choose multiple attributes to add at once.                                                                                                                                                                                                                                     |
+| ⊕                         | Choose multiple attributes to add at once                                                                                                                                                                                                                                     |
 | Attribute – Name          | The name of the attribute to be added                                                                                                                                                                                                                                          |
 | Attribute – Description   | The description of the attribute to be added                                                                                                                                                                                                                                   |
 | Attribute – Key Column    | The column which will be used as the key of the current attribute                                                                                                                                                                                                              |
@@ -48,7 +48,7 @@ Available properties:
 | ----------- | ------------------------------------------------------------------------------------- |
 | Name        | The name of the hierarchy                                                             |
 | Translation | The translation of the hierarchy into different languages                             |
-| Attribute   | Here you can design the hierarchy of the dimension, only if your attributes allow it. |
+| Attribute   | Here you can design the hierarchy of the dimension, only if your attributes allow it |
 
 ## Relations
 

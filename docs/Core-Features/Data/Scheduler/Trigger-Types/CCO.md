@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # CCO
 
-Triggering based on container class object operations
+Triggering based on container class object operations.
 
 | Property | Description                                                      |
 | -------- | ---------------------------------------------------------------- |

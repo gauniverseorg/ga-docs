@@ -9,14 +9,14 @@ All service workflows are executed in a separate worker. Unless you explicitly s
 
 1. Methods
 
-    - cache(string key, object obj, int validInMinutes = -1): Adds an object to the cache with the specified key and validity period in minutes. By default, the validity period is set to –1, indication that the object has no expiration.
-    - get(string key): Retrieves an object from the cache based on the specified key. If the object exists and its validity period has not expired, it is returned; otherwise, null is returned.
-    - remove(string key): Removes an object from the cache based on the specified key.
+    - cache(string key, object obj, int validInMinutes = -1): Adds an object to the cache with the specified key and validity period in minutes. By default, the validity period is set to –1, indication that the object has no expiration
+    - get(string key): Retrieves an object from the cache based on the specified key. If the object exists and its validity period has not expired, it is returned; otherwise, null is returned
+    - remove(string key): Removes an object from the cache based on the specified key
 
 2. CacheObject class
 
-    - Represents an object stored in the cache.
+    - Represents an object stored in the cache
     - Contains the following properties:
-        - AddedToCache: Represents the date and time when the object was added to the cache.
-        - ValidInMinutes: Specifies the validity period of the object in minutes.
-        - Object: Stores the actual object.
+        - AddedToCache: Represents the date and time when the object was added to the cache
+        - ValidInMinutes: Specifies the validity period of the object in minutes
+        - Object: Stores the actual object

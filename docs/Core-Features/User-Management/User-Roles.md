@@ -15,7 +15,7 @@ In a specific role page, you can edit three options:
 
 ## Permission
 
-A bold marking shows that authorizations have been set for individual points. Here you can give access to role to use specific features of GA. And they are
+A bold marking shows that authorizations have been set for individual points. Here you can give access to role to use specific features of GA and they are
 
 ### User
 

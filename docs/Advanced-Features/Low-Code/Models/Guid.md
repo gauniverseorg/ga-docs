@@ -8,4 +8,4 @@ Guid consists of a 128-bit integer value that aims to always be unique in a give
 
 Example: string guidString = "f06c3c8d-b2c2-4cc6-9a1a-8b3b3c82b9f0"
 
-To generate a new guid in script use Guid.NewGuid()
+To generate a new guid in script use Guid.NewGuid().

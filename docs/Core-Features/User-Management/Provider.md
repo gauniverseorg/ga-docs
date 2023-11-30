@@ -7,18 +7,18 @@ Definition of the providers available for the users, providers are used when the
 
 | Property | Description |
 | --- | --- |
-| Password Options – Required Length | required length of the password |
-| Password Options - RequiredUniqueChars | required non-alphabetic characters |
-| Password Options – Required Nonalphabetic | required non-alphabetic characters |
-| Password Options – RequireLowercase | required lowercase letters |
-| Password Options – RequireUppercase | required uppercase letters |
-| Password Options – RequireDigit | required digits |
-| LockoutOptions – AllowedForNewUsers | for new users, blocking is permitted if the password is entered incorrectly |
+| Password Options – Required Length | Required length of the password |
+| Password Options - RequiredUniqueChars | Required non-alphabetic characters |
+| Password Options – Required Nonalphabetic | Required non-alphabetic characters |
+| Password Options – RequireLowercase | Required lowercase letters |
+| Password Options – RequireUppercase | Required uppercase letters |
+| Password Options – RequireDigit | Required digits |
+| LockoutOptions – AllowedForNewUsers | For new users, blocking is permitted if the password is entered incorrectly |
 | LockoutOptions – MaxFailedAccessAttempts | Maximal wrong attempts |
-| LockoutOptions - DefaultLockoutTimeSpan l | lockout time span |
-| UserOptions – AllowedUserNameCharacters | usable characters |
-| UserOptions – RequireUniqueEmail | required unique E-Mail |
-| SignInOptions – RequireConfirmedEmail | required confirmed E-Mail |
-| SignInOptions – RequireConfirmedPhoneNumber | required confirmed phone number |
-| SignInOptions – RequireConfirmedAccount | required confirmed account |
-| MultiFactorAuthentication – MFA | required QR code scan and authentication to login |
+| LockoutOptions - DefaultLockoutTimeSpan l | Lockout time span |
+| UserOptions – AllowedUserNameCharacters | Usable characters |
+| UserOptions – RequireUniqueEmail | Required unique E-Mail |
+| SignInOptions – RequireConfirmedEmail | Required confirmed E-Mail |
+| SignInOptions – RequireConfirmedPhoneNumber | Required confirmed phone number |
+| SignInOptions – RequireConfirmedAccount | Required confirmed account |
+| MultiFactorAuthentication – MFA | Required QR code scan and authentication to login |

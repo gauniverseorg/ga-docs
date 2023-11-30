@@ -13,4 +13,4 @@ GA Provides the ability to design different dimensions for different viewports. 
 | + | Add resolution |
 | 🗑️ | Delete resolution |
 | Preview | Preview the selected resolution |
-| Exit preview | Exit the preview of the current previewed resolution, if no resolution is selected nothing happens. |
+| Exit preview | Exit the preview of the current previewed resolution, if no resolution is selected nothing happens |

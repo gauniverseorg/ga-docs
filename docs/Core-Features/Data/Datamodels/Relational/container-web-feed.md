@@ -4,7 +4,7 @@ sidebar_position: 7
 
 # Container Web-Feed
 
-Used when you want to use a data source that is available online for everyone to use. For example a WebDAV.
+Used when you want to use a data source that is available online for everyone to use. For example, a WebDAV.
 
 The available properties are:
 

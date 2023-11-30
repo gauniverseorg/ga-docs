@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Mail
 
-Triggering based on Mail criteria
+Triggering based on Mail criteria.
 
 | Property                  | Description                                                           |
 | ------------------------- | --------------------------------------------------------------------- |
@@ -14,7 +14,7 @@ Triggering based on Mail criteria
 | SSL                       | SSL usage                                                             |
 | User                      | Mail user                                                             |
 | Password                  | Mail user password                                                    |
-| Check Interval in Minutes | How often the new mails are checked.                                  |
+| Check Interval in Minutes | How often the new mails are checked                                   |
 | Filter                    | Only emails with the following content are read; Multiselect possible |
 | Filter – Sender           | Will be filtered according to the sender; Multiselect possible        |
 | Filter – Receiver         | Will be filtered according to the receiver; Multiselect possible      |

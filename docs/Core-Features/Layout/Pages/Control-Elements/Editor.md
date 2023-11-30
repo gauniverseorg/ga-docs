@@ -3,7 +3,7 @@ sidebar_position: 5
 ---
 # Editor
 
-Text input with formatting option
+Text input with formatting option.
 
 | **Property** | **Description** |
 | --- | --- |

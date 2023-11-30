@@ -12,7 +12,7 @@ When creating a connector you can give it the following information:
 | Name | The name of the connector |
 | Translation | The name of the connector in different languages. |
 | Usage | Depends on connector type, for example if you only want to read object or you want to write into a relational table.You can select any of: <li> Document store/read</li><li> Document store/write</li><li> Document Store/Bulk</li><li> Data source read</li><li> Data source write</li><li> Data source Db Connection</li><li> Data source read with method type</li><li> Relational Read</li><li> Relational Write</li><li> Relational Create Structure</li><li> Relational Packages</li><li> Relational Stored Procedure</li><li> Relational Functions</li><li> Object Read</li><li> Object Write</li>|
-| Variables | Here you can specify variables that can be used later on when creating the script to read connect to the outside source. |
+| Variables | Here you can specify variables that can be used later on when creating the script to read connect to the outside source |
 | Before execute workflow | Workflow to be executed before connecting |
 | After Execute workflow | Workflow to be executed after connecting |
 
@@ -42,4 +42,4 @@ Available requests are:
 | Replace | Replace a specific element from the connector |
 | Insert | Insert a new element into the connector |
 | Delete | Delete a specific element from the connector |
-| Count | Get the number of elements from the connector. |
+| Count | Get the number of elements from the connector |

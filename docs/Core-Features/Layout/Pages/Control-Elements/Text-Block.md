@@ -3,7 +3,7 @@ sidebar_position: 6
 ---
 # Text Block
 
-Display text predefined by the user
+Display text predefined by the user.
 
 | **Property** | **Description** |
 | --- | --- |

@@ -4,7 +4,7 @@ sidebar_position: 10
 
 # Status
 
-Works with the status keys and cache. Cache is stored using Redis
+Works with the status keys and cache. Cache is stored using Redis.
 
 | Name              | Description                                                     | Parameters                                                              | Result                      |
 | ----------------- | --------------------------------------------------------------- | ----------------------------------------------------------------------- | --------------------------- |

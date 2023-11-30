@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Container JSON
 
-Used when you want to create a container object for a JSON file
+Used when you want to create a container object for a JSON file.
 
 Available properties:
 

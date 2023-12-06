@@ -16,7 +16,7 @@ The following are the steps needed to create a datamodel:
 
 1. Navigate to the settings
 2. Navigate to the Data tab, and then select the datamodel tab
-3. Open the overview and create your data model by clicking the + button
+3. Open the overview and create your data model by clicking on the + Create New button
    > Note: For this example we assume that you have already created a datasource and configured it. If not, please refer to the documentation on how to create a datasource
 
 <center>
@@ -30,7 +30,7 @@ The following are the steps needed to create a datamodel:
 ### Creating a DataObject
 
 1. Open the newly created Datamodel and choose the DataObjects tab
-2. Create a new DataObject by clicking the + button
+2. Create a new DataObject by clicking on the + Create New button
 3. Add fields and types
 4. Name the table
 5. Save
@@ -51,8 +51,8 @@ One other important data type is the Enum or the Enumeration. They are essential
 
 1. Navigate to the settings page
 2. Open the data tab then the data model tab
-3. Open the data model we created in the last example and select the Enums tab
-4. Create your Enum from the + button in the lower left corner
+3. Open the data model we created in the last example, now click on Data Structures and then Enums
+4. Create your Enum from the + Create New button
 5. By clicking the + button in the middle you can add a new Enum value. And these values are unchanged and constant. You can reference these values by an Id that you can get by clicking to the left of the Enum name
 6. Name the Enum and save it
 

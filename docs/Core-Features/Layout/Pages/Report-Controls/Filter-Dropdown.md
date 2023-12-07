@@ -12,9 +12,9 @@ Filtering data on Report Objects.
 | Relational | Relational model toggle |
 | Data Model | Source data model |
 | Dimension | Dimension of the data model user here |
-| Hierarchy | Hierarchy to be filtered. |
+| Hierarchy | Hierarchy to be filtered |
 | Display | Display type of filter members |
-| Variables | List of local variables to be used in filtering, the type should be a list. |
+| Variables | List of local variables to be used in filtering, the type should be a list |
 | Conditional Filter | Conditional filter settings |
 | Dynamic Datetime | Select dynamic time |
 | Sorting | Sorting of elements |

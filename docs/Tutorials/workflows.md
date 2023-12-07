@@ -4,17 +4,17 @@ sidebar_position: 3
 
 # Workflows
 
-Workflows are the functionality of the page. They are designed as no code components, coding can be added for specific functions using the Workflow Block (WFB) Execute Script
+Workflows are the functionality of the page. They are designed as no code components, coding can be added for specific functions using the Workflow Block (WFB) Execute Script.
 
-Workflows can be activated using page events, elements events, or based on scheduler triggers
+Workflows can be activated using page events, elements events, or based on scheduler triggers.
 
 ## Service Side
 
 To use service side workflow block, please navigate to the data section in the settings area and then select workflows followed by service side workflows.
 
-In this example we will be creating a workflow that sends an API request to an [API](https://www.nlp-api.com/) used for topic tagging. For this example we assume an email server has already been set
+In this example we will be creating a workflow that sends an API request to an [API](https://www.nlp-api.com/) used for topic tagging. For this example we assume an email server has already been set.
 
-1. Drop a "Define Values" WFB, and assign the following values which are needed.
+1. Drop a "Define Values" WFB, and assign the following values which are needed
    - API key which you can get when registering at the [API website](https://www.nlp-api.com/)
    - Text you want analyzed
 2. Drop the REST Call with the following parameters
@@ -41,7 +41,7 @@ Here is an example where client side workflows are used to read the value of a t
 
 2. Modify the base grid's properties, and change the row definition to add a new row and column
 3. Add a textbox in the first row and first column and modify it's properties to make it editable. You can also change how the elements look and customize them to your liking
-4. Add a button in the first row, second column.
+4. Add a button in the first row, second column
 5. Create the workflow by navigating to the workflow tab and clicking the + button
 6. Once inside the workflow editor:
 7. Drop a read values WFB from the layout category

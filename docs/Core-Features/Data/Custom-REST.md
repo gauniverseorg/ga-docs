@@ -11,21 +11,21 @@ Here is defined the custom REST for the external access of data and also the sta
 | Name | Unique name, under which the Custom REST is saved |
 | Translation | Name that is displayed for the maintained language |
 | SendRawResult | Send raw result, if this is turned off, the result is sent along with 2 other elements in the json. |
-| UseWorkflow | Allows you to select a specific workflow to use when this API is called. |
-| Use workflow – workflow | Select a specific workflow. |
+| UseWorkflow | Allows you to select a specific workflow to use when this API is called |
+| Use workflow – workflow | Select a specific workflow |
 | Use workflow – Method type | Either a post or get request |
-| Use workflow – Set body to parameter | Send the body to a specific parameter inside the workflow. |
+| Use workflow – Set body to parameter | Send the body to a specific parameter inside the workflow |
 | Use workflow – Execute workflow directly | Runs workflow directly in middleware service and not in a worker. |
 | Static Datasource | Static data source selectable by name |
 | Datamodel | Datamodel for data source |
-| Datasource | Select a specific data table inside the data mode. |
+| Datasource | Select a specific data table inside the data mode |
 | Type | Type of access to the data table, one of the following:<li> Save</li><li> Force Save</li><li>Delete</li><li> Force Delete</li><li>Delete By filter</li><li> Search Objects</li><li> Count Objects</li><li> Open Cached Query</li><li> Close Cached Query</li><li> Execute Cached Count Query</li><li> Execute Cached Query</li><li> Execute Query</li><li> Execute Object Query</li>|
 | HeaderMapping | Override API's request and response parameters |
-| AuthentificationHeaders | Credentials to authenticate a user agent with a server.If left empty, the user should use basic auth when calling this API endpoint. |
-| URL | URL path used to get to this current API endpoint. |
+| AuthentificationHeaders | Credentials to authenticate a user agent with a server.If left empty, the user should use basic auth when calling this API endpoint |
+| URL | URL path used to get to this current API endpoint |
 | Method | The type of method which will be used |
-| Headers | What header values should be included in the request. |
-| Body | What body values should be included in the request. |
+| Headers | What header values should be included in the request |
+| Body | What body values should be included in the request |
 
 ## Save
 
@@ -45,7 +45,7 @@ This type allows the user to insert into a table inside GA, before a save happen
 
 ## Force Save
 
-Similar to Save, it will save an item to a data table but it won't check data types and fields of the passed parameters, not recommended to use. Uses the same format as Save
+Similar to Save, it will save an item to a data table but it won't check data types and fields of the passed parameters, not recommended to use. Uses the same format as Save.
 
 ## Delete
 
@@ -96,7 +96,7 @@ Allows the user to delete multiple objects at the same time using the same filte
 
 ## Search Objects
 
-Returns a list of objects that follow the filtering criteria given to the body. Follows the same format given to delete objects by filter
+Returns a list of objects that follow the filtering criteria given to the body. Follows the same format given to delete objects by filter.
 
 ## Count objects
 
@@ -104,7 +104,7 @@ Returns the number of items that match the filtering criteria given to the body.
 
 ## Open Cached Query
 
-Create a query that can be called using execute cached query/ execute cached query count. An ID is returned that can be used to call this opened query, it follows the same format given to delete objects by filter
+Create a query that can be called using execute cached query/ execute cached query count. An ID is returned that can be used to call this opened query, it follows the same format given to delete objects by filter.
 
 ## Close Cached Query
 

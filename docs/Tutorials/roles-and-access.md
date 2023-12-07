@@ -37,7 +37,7 @@ For this example, we will give our newly created role the ability to edit pages 
 
 </center>
 
-This essentially gives the user the ability to open the Appbuilder and make changes to the pages. But, if you want a full list of the permissions and what do, they mean please refer to the documentation
+This essentially gives the user the ability to open the Appbuilder and make changes to the pages. But, if you want a full list of the permissions and what do, they mean please refer to the documentation.
 
 Now you have to assign the role to the user:
 

@@ -17,8 +17,8 @@ Translate() can be used to translate messages by accessing the key from Settings
 | 1        | Workflow Variables, mostly status values                                                                                 |
 | 2        | System variables, General variables of the corresponding area                                                            |
 | 3        | The list of all global variables that are predefined. For further reading click here.                                    |
-| 4        | System functions for use in the formula                                                                                  |
-| 5        | Logical and mathematical operators for use in the formula                                                                |
+| 4        | System functions to use in the formula                                                                                  |
+| 5        | Logical and mathematical operators to use in the formula                                                                |
 | 6        | Definition of the formula, red text indicates an incorrect syntax for the input, green is a correct syntax for the input |
 
 </center>

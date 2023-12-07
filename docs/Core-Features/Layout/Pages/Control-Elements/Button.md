@@ -16,4 +16,4 @@ A button allows users to perform specific actions upon mouse click.
 
 | Exclusive event | Description |
 | --- | --- |
-| Click | A click of the element, specific to a button. |
+| Click | A click of the element, specific to a button |

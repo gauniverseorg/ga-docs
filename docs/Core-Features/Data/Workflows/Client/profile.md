@@ -4,7 +4,7 @@ sidebar_position: 12
 
 # Profile
 
-Profile management is maintained here. When a profile is created it enables the user to use the created settings and save them. So, each time a profile is selected these settings will be shown. (E.g., when setting filters – if a profile is set those filters are saved and each time the profile is selected the same filters will be predefined)
+Profile management is maintained here. When a profile is created it enables the user to use the created settings and save them. So, each time a profile is selected these settings will be shown. (e.g., when setting filters – if a profile is set those filters are saved, and each time the profile is selected the same filters will be predefined.)
 
 | Name           | Description                   | Parameters                                                                                                                                        | Result |
 | -------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |

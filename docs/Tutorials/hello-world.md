@@ -91,8 +91,12 @@ That's it! Now you can use your newly made page to test out what GA can offer
 
 </center>
 
+<<<<<<< HEAD
 > Note: All changes made are saved locally on your account and are not visible to all other users. To make them visible to all users, please accept the changes in the ChangeLog Overview in the settings.
 
 
 <style>
    </style>
+=======
+> Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.
+>>>>>>> origin/master

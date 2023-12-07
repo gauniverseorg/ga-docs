@@ -7,7 +7,7 @@ Events are used to either trigger a workflow, or read and write the values insid
 
 |Event name|Description|
 | :- | :- |
-|MouseClick|a click of the element|
+|MouseClick|A click of the element|
 |OnInit|When the page is loaded|
 |OnDestroy|When the page is left|
 |MouseEnter|When the mouse goes over the element|

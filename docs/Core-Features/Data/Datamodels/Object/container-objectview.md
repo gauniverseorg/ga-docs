@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Container ObjectView
 
-Used when you want to create an object view for a specific structure in a data source
+Used when you want to create an object view for a specific structure in a data source.
 
 Available properties:
 

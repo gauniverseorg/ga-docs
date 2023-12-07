@@ -27,7 +27,7 @@ You can insert this chart when you want to display the data from a query that wa
 | Axes – Label Axis – Show Auxiliary grid | Show auxiliary grid of the chart |
 | Axes – Label Axis – Font Style | Select which font the chart uses, uploaded in corporate identity |
 | Axes – Label Axis – Font size | Font size for the text in the labels |
-| Axes – Label Axis – Symbols | Select different properties for the text, including bold, underline, background color and resting the text. |
+| Axes – Label Axis – Symbols | Select different properties for the text, including bold, underline, background color and resting the text |
 | Axes – Label Axis – Format | Format type (decimal, scientific, currency, percent, show, long) |
 | Axes – Values Axis – Title | Name of the Values axis |
 | Axes – Values Axis – Show Description | Show the description of the Values axis |
@@ -35,7 +35,7 @@ You can insert this chart when you want to display the data from a query that wa
 | Axes – Values Axis – Show Auxiliary grid | Show auxiliary grid of the chart |
 | Axes – Values Axis – Font Style | Select which font the chart uses, uploaded in corporate identity |
 | Axes – Values Axis – Font size | Font size for the text in the labels |
-| Axes – Values Axis – Symbols | Select different properties for the text, including bold, underline, background color and resting the text. |
+| Axes – Values Axis – Symbols | Select different properties for the text, including bold, underline, background color and resting the text |
 | Axes – Values Axis – Format | Format type (decimal, scientific, currency, percent, show, long) |
 | Axes – Values Axis – Min | Set the minimum value for the manual set |
 | Axes – Values Axis – Maximum | Set the maximum value for the manual set |
@@ -45,7 +45,7 @@ You can insert this chart when you want to display the data from a query that wa
 | Axes – Second Values Axis – Show Auxiliary grid | Show auxiliary grid of the chart |
 | Axes – Second Values Axis – Font Style | Select which font the chart uses, uploaded in corporate identity |
 | Axes – Second Values Axis – Font size | Font size for the text in the labels |
-| Axes – Second Values Axis – Symbols | Select different properties for the text, including bold, underline, background color and resting the text. |
+| Axes – Second Values Axis – Symbols | Select different properties for the text, including bold, underline, background color and resting the text |
 | Axes – Second Values Axis – Format | Format type (decimal, scientific, currency, percent, show, long) |
 | Axes – Second Values Axis – Min | Set the minimum value for the manual set |
 | Axes – Second Values Axis – Maximum | Set the maximum value for the manual set |

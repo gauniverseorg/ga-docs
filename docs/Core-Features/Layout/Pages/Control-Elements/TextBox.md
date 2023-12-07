@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # Textbox
 
-Input box that allows user to type into. Placeholder and tooltip can be set
+Input box that allows user to type into. Placeholder and tooltip can be set.
 
 | **Property** | **Description** |
 | --- | --- |
@@ -16,12 +16,12 @@ Input box that allows user to type into. Placeholder and tooltip can be set
 | Use Validation – CheckWholeExpression | Validates complete text and raises event. Depending on Validate Only only in connection with RegEx |
 | Use Validation – Message | Displays message if validation failed |
 | Use Key Down Delay | Activate Key Down Delay (Delay is in ms) |
-| UseFloatingLabel | Only in connection with Bootstrap ThemeWhen the clicks on the text box, the placeholder is moved to above the box. |
+| UseFloatingLabel | Only in connection with Bootstrap ThemeWhen the clicks on the text box, the placeholder is moved to above the box |
 
 | Exclusive event | Description |
 | --- | --- |
 | Text Changed | When entering text and confirming it with the enter key |
-| KeyPress | When a key is entered (Obsolete.) |
+| KeyPress | When a key is entered (Obsolete) |
 | KeyDown | When a key is entered |
 | KeyUp | When the key is no longer pressed |
 | ValidationFailed | When the text validation specified fails |

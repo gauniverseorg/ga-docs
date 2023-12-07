@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Enums
 
-Enums are short for enumerations which are a predefined static set of values that can be used (Ex. Months.January).
+Enums are short for enumerations which are a predefined static set of values that can be used (e.g., Months: January).
 
 ## Creation
 

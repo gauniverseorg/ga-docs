@@ -17,7 +17,7 @@ The available properties are:
 
 ## Dimensions
 
-Here you can add the dimensions you want to use in the cube
+Here you can add the dimensions you want to use in the cube.
 
 Available properties are:
 

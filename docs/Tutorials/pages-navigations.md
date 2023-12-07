@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Pages and Navigations
 
-Pages are essentially your canvas. The page can have all the control elements and layouts on it. It also can have multiple views for reactive web pages. I.E mobile view.
+Pages are essentially your canvas. The page can have all the control elements and layouts on it. It also can have multiple views for reactive web pages i.e. mobile view.
 
 ## Pages
 
@@ -13,8 +13,13 @@ Pages are essentially your canvas. The page can have all the control elements an
 1. Navigate to the settings backend
 2. Go to layout tab
 3. Go to the Pages tab
+<<<<<<< HEAD
 4. Click the + Create New button in the bottom left corner
 5. Name your page URL. 
+=======
+4. Click the + button in the bottom left corner
+5. Name your page URL
+>>>>>>> origin/master
 >Note: The URL is how you navigate to it and the name is how you can search for it in the backend
 6. Choose the type of page (Empty page, Copy page, List Detail page, Table Detail page)
 7. Click OK
@@ -85,7 +90,7 @@ Each type of layout has different properties, like how a grid is mostly rigid an
 
 ### Control Elements
 
-Each page has control elements which are in essence the content of the page, like (TextBlocks, Buttons, etc)
+Each page has control elements which are in essence the content of the page, like (TextBlocks, Buttons, etc.)
 
 <center>
 

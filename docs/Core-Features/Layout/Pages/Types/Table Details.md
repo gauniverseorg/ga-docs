@@ -3,15 +3,14 @@ sidebar_position: 4
 ---
 # Table Detail
 
-
 The Table Detail page consists of a table control for displaying data and an input option for entering new data.
-![Table page overview](../../../../../static/img/Aspose.Words.4a2aeb46-7bb9-47ec-8223-5acb2ad913fb.005.png)
+![Table page overview](../../../../../static/img/table1.png)
 
-The appropriate data model and container need to be chosen to display and store the relevant data records 
-![Selecting a data model](../../../../../static/img/Aspose.Words.4a2aeb46-7bb9-47ec-8223-5acb2ad913fb.006.png)
+The appropriate data model and container need to be chosen to display and store the relevant data records.
+![Selecting a data model](../../../../../static/img/table2.png)
 
-Then the user must select the appropriate settings
-![Selecting Settings](../../../../../static/img/Aspose.Words.4a2aeb46-7bb9-47ec-8223-5acb2ad913fb.007.png)
+Then the user must select the appropriate settings.
+![Selecting Settings](../../../../../static/img/table3.png)
 
 The available properties are:
 
@@ -29,11 +28,12 @@ The available properties are:
 |Fixed Columns|Definition of fixed columns in integers|
 |Styles|Style definition for table|
 
-The user must then select the members to show
-![Select members ](../../../../../static/img/Aspose.Words.4a2aeb46-7bb9-47ec-8223-5acb2ad913fb.008.png)
+The user must then select the members to show.
+![Select members ](../../../../../static/img/table4.png)
 
 |**Property**|**Description**|
 | :- | :- |
 |⋮|Adjust the order of the fields by dragging and dropping them in the desired placement|
 |Visible|Visibility of the controls|
 |Type|Defining the input control type relative to the data field type|
+| > |Change details which are found in the properties section for the selected type, including placeholder and sorting|

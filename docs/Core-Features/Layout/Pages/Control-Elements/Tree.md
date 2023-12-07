@@ -12,4 +12,4 @@ A data source must be stored on the parent for the data connection of the tree c
 | Extended Display| Manipulate the member’s display |
 | Icon | Icon of the tree |
 | Multiple Selection |Multiple selection in the tree |
-| Next Level – Recursive Data Structure |Specification recursive data structure,  is there a list of children, or is it given by a GUID only.|
+| Next Level – Recursive Data Structure |Specification recursive data structure,  is there a list of children, or is it given by a GUID only|

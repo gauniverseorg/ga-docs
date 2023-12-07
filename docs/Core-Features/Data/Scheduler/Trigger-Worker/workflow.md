@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Workflow
 
-Trigger a workflow based on the options selected
+Trigger a workflow based on the options selected.
 
 | Property  | Description                                                             |
 | -------- | ----------------------------------------------------------------------- |

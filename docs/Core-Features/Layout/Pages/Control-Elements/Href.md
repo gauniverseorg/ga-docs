@@ -3,7 +3,7 @@ sidebar_position: 7
 ---
 # Href
 
-Specifies the placement of a hyperlink that will point to a link
+Specifies the placement of a hyperlink that will point to a link.
 
 | **Property** | **Description** |
 | --- | --- |

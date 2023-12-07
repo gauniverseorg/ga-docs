@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 # Reporting Dashboards
@@ -34,7 +34,7 @@ Conclude by querying data using the ROLAP cube, extracting data segments for the
 
 ## Practical Application: The "Product Sales" Example
 
-While theoretical understanding is crucial, applying these steps in real scenarios offers clarity. Let's consider an application named "Product Sales" for practical insight
+While theoretical understanding is crucial, applying these steps in real scenarios offers clarity. Let's consider an application named "Product Sales" for practical insight.
 
 #### Data Structure
 
@@ -513,8 +513,8 @@ Since we have a list of products in each order, we will need to create 2 tables 
 2. Click the + Create New button in the bottom left corner
 3. Assign the table a name
       >Note: This name can't be changed
-4. Specify the schema name used for the Product table.
-5. Select the correct data source.
+4. Specify the schema name used for the Product table
+5. Select the correct data source
 6. Add fields:
    - OrderId (string, length 50)
    - Item (string, length 50)
@@ -680,15 +680,15 @@ The first step is to create a new service side workflow, and name it Delete Effe
 2. Insert a read workflow block and query the order DataObject
 3. Insert a for loop that loops over the orders and inside of the for loop do the following:
    1. Insert a read properties and read the products and the \_Id, and save them as: productList and orderID
-      - Set the productList as the current parameter.
+      - Set the productList as the current parameter
    2. Insert a define value and name it productInOrder, make it false for now
    3. Insert a loop that loops over the current productList and inside of do the following:
       1. Insert a read properties and read the the \_Id and save it as: currentProduct
       2. Insert a data switch with one condition checking if the currentProduct is equal to passed productId
-      3. If the data switch is true, insert a define values block and set productInOrder to be true.
-   4. After the product list loop, insert a data switch with one condition, checking if productInOrder is true.
-   5. If it is true, insert a a delete workblock and query the orderID to delete it.
-4. After the previous loop insert two run the workflows blocks and run the two workflows created above for filling in the products and orders.
+      3. If the data switch is true, insert a define values block and set productInOrder to be true
+   4. After the product list loop, insert a data switch with one condition, checking if productInOrder is true
+   5. If it is true, insert a a delete workblock and query the orderID to delete it
+4. After the previous loop insert two run the workflows blocks and run the two workflows created above for filling in the products and orders
 
 >Note: The final workflow will look like this:
 
@@ -696,12 +696,12 @@ The first step is to create a new service side workflow, and name it Delete Effe
 
 The second step is more simple, and it is just calling the workflow whenever you delete a product, make sure to pass the productId to it, here is an example of that in the client side:
 
-1. Read the values on the element where the product is stored.
+1. Read the values on the element where the product is stored
 2. Read the \_Id from the product and name it productId
 3. Delete the product from the DataObject table
 4. Refresh the table on the browser
 5. Undo styles on layout that allows editing of data
-6. Run the workflow that was created in step 1, make sure to pass the productId to it.
+6. Run the workflow that was created in step 1, make sure to pass the productId to it
 
 ![Call on Delete](../../static/img/callReportingWF.png)
 
@@ -713,11 +713,11 @@ Timetables are vital for date-based queries. Here's how to create one in GA Univ
 2. Click the + Create New button in the bottom left corner
 3. Assign the table a name
     >Note: This name can't be changed
-4. Assign a data source.
-5. Define the Start Date.
-6. Configure the time span using Years Offset.
-    >Note: the offset is how many years to be generated after the start date.
-7. Select languages if needed.
+4. Assign a data source
+5. Define the Start Date
+6. Configure the time span using Years Offset
+    >Note: the offset is how many years to be generated after the start date
+7. Select languages if needed
 
 <center>
 
@@ -752,7 +752,7 @@ Preview:
    - Name Column: ProductsForDashBoard (6) -> Product (7)
    - Type: Regular
    - Key Flag: True
-   - Add translation if needed.
+   - Add translation if needed
 9. Save
 
 <center>
@@ -928,7 +928,7 @@ Preview:
 5. Add Item count and Total price on X axis
    - Found on the values tab
 6. Add Customer on Y Axis
-7. Test the setup.
+7. Test the setup
 8. Hide the Item count and Total price
    - By right clicking and hiding
 9. Insert Calculated value, name it Average

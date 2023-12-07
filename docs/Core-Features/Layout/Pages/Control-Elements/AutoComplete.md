@@ -9,7 +9,7 @@ Similar to a combo box, but allows the user to write the name or text to filter 
 | --- | --- |
 | Placeholder | Display when no value is set |
 | Order | ASC (Ascending), DESC (Descending) |
-| UseFloatingLabel | Only in connection with Bootstrap theme. When the input is changed, the placeholder is moved above the auto complete element. |
+| UseFloatingLabel | Only in connection with Bootstrap theme. When the input is changed, the placeholder is moved above the auto complete element |
 
 | Exclusive event | Description |
 | --- | --- |

@@ -6,7 +6,7 @@ sidebar_position: 4
 
 The content of the report objects is defined using the data description. Here you can create multidimensional queries. In multidimensional query, a selection of the usable cubes is displayed after the data source has been selected. The cubes and dimensions that can be used here are created under Data – Data Model – Multidimensional. Levels and values can only be dragged and dropped into the designated areas in the Select tab.
 
-A relational query can also be selected, but it is not recommended to use since its still under development.
+A relational query can also be selected, but it is not recommended to use since it is still under development.
 
 A preview of the query result can be displayed using the ➤ arrow. Below the preview you can select the data model.
 
@@ -28,7 +28,7 @@ In this section you can filter the query results based on different criteria def
 
 ## Variables
 
-Variables are listed here and they can be defined using the formula editor
+Variables are listed here and they can be defined using the formula editor.
 
 ## Tasks
 
@@ -51,14 +51,14 @@ Data tasks are used to generate data dynamically based on different criteria, th
 | Task | Description |
 | --- | --- |
 | Accumulate | Select the value for the task to be accumulated (needs to me inserted in the select) |
-| Level Sum | Select the value to be summed up and the Axis value(X/Y), the level can be selected via the numbers 1,2, 3... |
-| Filter | Select the value to be filtered and from which level, Set the condition for the filter, and the opposing level for the filter. |
+| Level Sum | Select the value to be summed up and the Axis value (X/Y), the level can be selected via the numbers 1, 2, 3... |
+| Filter | Select the value to be filtered and from which level, Set the condition for the filter, and the opposing level for the filter |
 | Sort | Sort of selected value, and on which level it should be sorted, Sort by the available properties for the value (Code, Caption, Attribute, Measure) |
-| Top-Down | Display selected top results, add the value for the display reference, select the level and the number (e.g., number 3 will display the first 3 top results), "Add up the rest" adds an additional row with the remaining outputs summed up |
+| Top-Down | Display selected top results, add the value for the display reference, select the level and the number (e.g., number 3 will display the first 3 top results) , "Add up the rest" adds an additional row with the remaining outputs summed up |
 | Display | Select the level and how to be displayed (Code, Description ,Code Description) |
-| Edit | edit the selected value |
+| Edit | Edit the selected value |
 | Rank | Display the results as numbers, the result can also be sorted out |
-| Calculated value | If we have selected a calculated value from the "Select" panel, we can give it the values here. |
+| Calculated value | If we have selected a calculated value from the "Select" panel, we can give it the values here |
 
 ## Value Definition
 
@@ -85,4 +85,4 @@ The available properties are:
 | YearToDate | Display the year as month and date |
 | MonthToDate | Display the month as days |
 | WeekToDate | Display the week as days |
-| Period referencing | Select the Level where the reference will take place and the value (E.g., If we want to have a previous month period value we will set the Month as a level, and the Value will be –1, this means that this property will always hold the previous period) |
+| Period referencing | Select the Level where the reference will take place and the value (e.g., If we want to have a previous month period value we will set the Month as a level, and the Value will be –1, this means that this property will always hold the previous period) |

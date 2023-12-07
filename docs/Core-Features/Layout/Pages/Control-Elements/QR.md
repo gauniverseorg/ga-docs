@@ -3,7 +3,7 @@ sidebar_position: 36
 ---
 # QR
 
-QR Code control, can be used after sitting it using data binding, the data should be a string.
+QR Code control can be used after sitting it using data binding; the data should be a string.
 
 | **Property** | **Description** |
 | --- | --- |

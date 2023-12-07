@@ -4,7 +4,7 @@ sidebar_position: 13
 
 # Offline
 
-Offline values are available also when for example the internet stops unexpectedly – if you are in the shopping basket for example and change the quantity it is stored as an offline value so it will be stored if the internet breaks
+Offline values are also available, for example, when the internet stops unexpectedly – if you are in the shopping basket and change the quantity it is stored as an offline value, ensure it is saved even if the internet connection is lost.
 
 | Name                 | Description                                     | Parameters                                                                | Result |
 | -------------------- | ----------------------------------------------- | ------------------------------------------------------------------------- | ------ |

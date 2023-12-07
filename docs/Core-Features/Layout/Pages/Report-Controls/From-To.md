@@ -14,7 +14,7 @@ Filter data values of report controls.
 | Data Model | Source data model |
 | Dimension | Dimension of the data model used here |
 | Hierarchy | Select the hierarchy |
-| Level | Select the level of the current hierarchy. |
-| Variables | Select the variables that will be used in the filtering. Must be a list type. |
+| Level | Select the level of the current hierarchy |
+| Variables | Select the variables that will be used in the filtering. Must be a list type |
 | Dynamic Time from | Start time of the selection |
 | Dynamic Time to | End time of the selection |

@@ -8,21 +8,12 @@ A list that supports data binding and provides filter/search functionality.
 | **Property** | **Description** |
 | --- | --- |
 | Display Member | If the data source is stored, selection of the member to be displayed |
-<<<<<<< HEAD
 | Extended display | Select which properties of the object to be visible (Ex. In the formula editor is entered Firstname + "" Lastname – then in the listbox the 2 names are shown together) |
 | Order | Sort shown elements (asc & desc) |
 | Multiselect | Multiselect choice |
 | DisableAutoLoad | No automatic filling with data from the stored data source |
 | ShowFilter | Show input box that allows the user to filter the elements inside the list box based on a criteria they enter. |
 | Grow | When turned on the element can grow in height to force the page to be scrollable instead of the element itself. |
-=======
-| **Extended display** | Select which properties of the object to be visible (For Example, in the formula editor is entered Firstname + "" Lastname – then in the listbox the 2 names are shown together) |
-| **Order** | Sort shown elements (asc & desc) |
-| **Multiselect** | Multiselect choice |
-| **DisableAutoLoad** | No automatic filling with data from the stored data source |
-| **ShowFilter** | Show input box that allows the user to filter the elements inside the list box based on a criteria they enter |
-| **Grow** | When turned on the element can grow in height to force the page to be scrollable instead of the element itself |
->>>>>>> origin/master
 
 | Exclusive event | Description |
 | --- | --- |

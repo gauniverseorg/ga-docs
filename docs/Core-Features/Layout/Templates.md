@@ -16,13 +16,8 @@ For example, if you have a certain type of grid that is used on different pages,
 1. Go to Settings – Layout – Templates
 2. Click on the + Create New button
 3. Name the template and click save
-<<<<<<< HEAD
 4. Open the template using the Pen icon:
     1. Change the name of the undefined element into root.
-=======
-4. Open the template using the pen icon:
-    1. Change the name of the undefined element to root
->>>>>>> origin/master
     2. Set the data source on renamed element
     3. Insert text blocks or other elements that can store the data
     4. Data bind the variables into the elements
@@ -30,11 +25,7 @@ For example, if you have a certain type of grid that is used on different pages,
 ## Editing Templates
 
 1. From the creation page select template
-<<<<<<< HEAD
 2. Click on the edit button (Pen icon)
-=======
-2. Click on the edit button (pen icon)
->>>>>>> origin/master
 
 ## Inserting Into Page
 

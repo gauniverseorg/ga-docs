@@ -8,7 +8,7 @@ In this tutorial, I will show you how to use the debugging tools available in GA
 
 ![Debugging image 1](../../static/img/debugging1.png)
 
-That should work for us! (Do not do this in production kids!) Now let us run the workflow and see what happens, oh no, it didn’t read them correctly and it threw an error. What could be the cause? Let’s start using the debugging tools in GA to help lead us in the right direction.
+That should work for us! (Do not do this in production kids!), now let us run the workflow and see what happens, oh no, it didn’t read them correctly and it threw an error. What could be the cause? Let’s start using the debugging tools in GA to help lead us in the right direction.
 
 There are two ways to go about debugging in GA, the first is the simpler one of just checking the logs and seeing where the error occurred, this is useful for runtime errors.
 
@@ -18,11 +18,11 @@ To start with let us use the Log tool available by pressing F12 in any page:
 
 ![Debugging image 2](../../static/img/debugging2.png)
 
-It is empty as a wasteland, how about we fill it with logs ? Navigate to the settings area and check enable logs and click apply:
+It is empty as a wasteland, how about we fill it with logs? Navigate to the settings area and check enable logs and click apply:
 
 ![Debugging image 3](../../static/img/debugging3.png)
 
-Lets test our workflow again, trigger the event that you created for running it and see the logs tab again
+Lets test our workflow again, trigger the event that you created for running the workflow and see the logs tab again
 
 ![Debugging image 4](../../static/img/debugging4.png)
 

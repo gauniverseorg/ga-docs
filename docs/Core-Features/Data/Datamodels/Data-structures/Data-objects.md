@@ -17,7 +17,7 @@ Available properties are:
 
 1. Navigate to Data – Data Model – (Choose the data model) – Datastructure – Dataobjects
 
-2. Click on the add (+) button
+2. Click on the add + Create New
 
 3. Complete the related information (Name, Datasource)
 

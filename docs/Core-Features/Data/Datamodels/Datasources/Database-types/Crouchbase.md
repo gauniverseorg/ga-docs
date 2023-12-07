@@ -1,4 +1,4 @@
-# CrouchbaseDB
+# CouchbaseDB
 
 Required information of Database:
 

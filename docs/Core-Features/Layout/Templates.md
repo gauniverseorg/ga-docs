@@ -4,7 +4,9 @@ sidebar_position: 3
 # Templates
 
 Templates are predesigned pages that can be dropped to another page to expedite the development process.
-For example, if you have a kind of certain grid that is used in different pages it could be better for you to have it as a template so you can:
+
+For example, if you have a certain type of grid that is used on different pages, it could be beneficial to have it as a template so that you can:
+
 - Save time in replicating it
 - Save time in changing it
 - Standardize the development process
@@ -12,9 +14,9 @@ For example, if you have a kind of certain grid that is used in different pages 
 ## Template Creation
 
 1. Go to Settings – Layout – Templates
-2. Click on the add (+) button
+2. Click on the + Create New button
 3. Name the template and click save
-4. Open the template using the Pen sign:
+4. Open the template using the Pen icon:
     1. Change the name of the undefined element into root.
     2. Set the data source on renamed element
     3. Insert text blocks or other elements that can store the data
@@ -23,7 +25,7 @@ For example, if you have a kind of certain grid that is used in different pages 
 ## Editing Templates
 
 1. From the creation page select template
-2. Click on the edit button (Pen sign)
+2. Click on the edit button (Pen icon)
 
 ## Inserting Into Page
 

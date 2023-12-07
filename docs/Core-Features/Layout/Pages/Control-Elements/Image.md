@@ -9,7 +9,7 @@ Show an image.
 | --- | --- |
 | UseForBlob | Image is not based on media source, but can be filled by yourself. Format with manual filling and not from data binding: data: [\<mediatype\>] [;base64], \<data\> |
 | UseCashing | Browser Caching is active. Default: Browser Caching is deactivated, so that the image is always reloaded |
-| Select Mediasource | Media source for image ~~with a replace option~~ |
+| Select Mediasource | Media source for image with a replace option |
 | Object Fit | Content size customization |
 
 | Exclusive event | Description |

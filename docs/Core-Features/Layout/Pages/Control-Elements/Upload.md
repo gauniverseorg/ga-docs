@@ -8,7 +8,7 @@ Allows users to select and upload files from their local device to a website or 
 | **Property** | **Description** |
 | --- | --- |
 | UseForBlob | Image is not based on media source, but can be filled by a blob format. with manual filling and not from data binding: data: [\<mediatype\>] [;base64], \<data\> |
-| **File types** | File type allowed for upload (CSV, Excel 97-2003, Excel 2007+, Text, Image, Html, Video, Audio, Pdf) |
+| File types | File type allowed for upload (CSV, Excel 97-2003, Excel 2007+, Text, Image, Html, Video, Audio, Pdf) |
 | Select Mediasource | Destination – select media source |
 | HideAllFiles | Hides the all files options when uploading a specific file using the button. |
 | MaxFileSize | Maximum size of the upload file in bytes |

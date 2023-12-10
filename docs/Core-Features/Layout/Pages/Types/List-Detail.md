@@ -23,7 +23,7 @@ Select the desired Data Model and Container which in return will return the desi
 |Multiselect|Makes the user able to select multiple elements|
 |DisableAutoLoad|Deactivate automatic filling in the Listbox when the page is called|
 |ShowFilter|Allow filter possibility in the Listbox|
-|Grow|The default height and width available in the parent control When activated, size of elements and grows with the number of elements|
+|Grow|When this attribute is checked, the dimensions of the parent (layout) will be adjusted based on the control element dimensions|
 
 ![Select Members](../../../../../static/img/list4.png)
 

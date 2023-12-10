@@ -22,5 +22,4 @@ Use to view when different events occurred, the data source must have 2 fields t
 | --- | --- |
 | Selection Changed | When an item is selected |
 | Time Changed | When changing the scheduled event's time |
-| Delete | ? |
-| Edit | ? |
+

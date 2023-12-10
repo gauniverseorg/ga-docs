@@ -20,7 +20,7 @@ In this example we will be creating a workflow that sends an API request to an [
 2. Drop the REST Call with the following parameters
     <center>
 
-   ![API parameters](../../static/img/tut3-1.png)
+   ![API parameters](../../static/media/tut3-1.png)
 
    </center>
 
@@ -54,7 +54,7 @@ Here is an example where client side workflows are used to read the value of a t
 <center>
 
 <video controls="controls">
-  <source src="/img/tut3-2.mov" />
+  <source src="/media/tut3-2.mov" />
 </video>
 
 </center>
@@ -64,7 +64,7 @@ Here is an example where client side workflows are used to read the value of a t
 <center>
 
 <video controls="controls">
-  <source src="/img/tut3-3.mov" />
+  <source src="/media/tut3-3.mov" />
 </video>
 
 </center>
@@ -76,7 +76,7 @@ Now try it out! Add text in the textbox and click on the button, and a message b
 <center>
 
 <video controls="controls">
-  <source src="/img/tut3-4.mov" />
+  <source src="/media/tut3-4.mov" />
 </video>
 
 </center>

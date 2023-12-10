@@ -10,7 +10,7 @@ Translate() can be used to translate messages by accessing the key from Settings
 
 <center>
 
-![Formula Editor Explanation](../../../../static/img/formula-editor.png)
+![Formula Editor Explanation](../../../../static/media/formula-editor.png)
 
 | Property | Description                                                                                                              |
 | -------- | ------------------------------------------------------------------------------------------------------------------------ |

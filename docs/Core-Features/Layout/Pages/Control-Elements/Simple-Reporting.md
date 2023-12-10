@@ -10,11 +10,11 @@ This control element will allow you to create a report for any data table as lon
 | **Property** | **Description** |
 | --- | --- |
 | Chart Type | One of: <ol> <li>Bar chart</li> <li>Doughnut chart</li><li>Line chart</li> <li>Pie chart</li>  <li>Polar chart</li> <li>Radar chart</li></ol>|
-| Disable Auto Load | Data won't be loaded on init, and will have to be triggered by a workflow using the refresh WFB |
-|Char Palette| The char palette the report chart will follow, they can be created in the corporate identity area|
+| Disable Auto Load | Data won't be loaded on the initiation of the page, and will have to be triggered by a workflow using the refresh workflow block|
+|Chart Palette| The chart palette the report chart will follow, they can be created in the corporate identity area|
 |Legend Position| One of: <li>Top</li> <li>Bottom</li><li>Left</li> <li>Right</li>  <li>Hide</li> |
-|X Label|The label shown on the X axis , further details can be defined|
-|Y Label|The label shown on the Y axis axes, further details can be defined|
+|X Label|The label shown on the X axis , further details can be set, including italic, bold, size and color of text|
+|Y Label|The label shown on the Y axis axes, further details can be set, including italic, bold, size and color of text|
 |Grid Color| The color of the grid shown in the background, only useful if the grid is shown|
 |Hide X/Y Axis grid|Checkbox to hide/show the respective grid axis|
 

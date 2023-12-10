@@ -32,7 +32,7 @@ How to use GA to create your first "Hello, world!" page.
 <center>
 
 <video controls="controls">
-  <source src="/img/tut1-1.mov" />
+  <source src="/media/tut1-1.mov" />
 </video>
 
 </center>
@@ -50,7 +50,7 @@ How to use GA to create your first "Hello, world!" page.
 <center>
 
 <video controls="controls">
-  <source src="/img/tut1-2.mov" />
+  <source src="/media/tut1-2.mov" />
 </video>
 
 </center>
@@ -64,7 +64,7 @@ Navigate to /NAME OF NAVIGATION/NAME OF PAGE/, for this example the path is /Hel
 <center>
 
 <video controls="controls">
-  <source src="/img/tut1-3.mov" />
+  <source src="/media/tut1-3.mov" />
 </video>
 
 </center>
@@ -86,13 +86,12 @@ That's it! Now you can use your newly made page to test out what GA can offer
 <center>
 
 <video controls="controls">
-  <source src="/img/tut1-4.mov" />
+  <source src="/media/tut1-4.mov" />
 </video>
 
 </center>
 
 > Note: All changes made are saved locally on your account and are not visible to all other users. To make them visible to all users, please accept the changes in the ChangeLog Overview in the settings.
-
 
 <style>
    </style>

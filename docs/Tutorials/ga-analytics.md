@@ -59,14 +59,14 @@ Establishing a ROLAP data source in GA Universe is straightforward:
 1. Navigate to Data Sources under the Data tab
 2. Click the + Create New button in the bottom left corner
 3. Assign a descriptive name
-  >Note: This name can't be changed
+   > Note: This name can't be changed
 4. Choose ROLAP as the data source type
 5. Save your settings
 
 <center>
 
 <video controls="controls">
-  <source src="/img/tut8-1.mov" />
+  <source src="/media/tut8-1.mov" />
 </video>
 
 </center>
@@ -77,7 +77,7 @@ The DataObject structure for the products object is:
 
 <center>
 
-![Products DataObject Structure](../../static/img/reporting2.png)
+![Products DataObject Structure](../../static/media/reporting2.png)
 
 </center>
 
@@ -85,7 +85,7 @@ Preview of the products object's data:
 
 <center>
 
-![Preview of the products object's data](../../static/img/reporting3.png)
+![Preview of the products object's data](../../static/media/reporting3.png)
 
 </center>
 
@@ -94,7 +94,7 @@ Now you will create a relational table to hold this data, you can ignore images 
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables
 2. Click the + Create New button in the bottom left corner
 3. Assign the table a name
-    >Note: This name can't be changed
+   > Note: This name can't be changed
 4. Specify a schema name
 5. Select the data source
 6. Add fields:
@@ -102,13 +102,13 @@ Now you will create a relational table to hold this data, you can ignore images 
    - Product (string, length 50)
    - Product_Name_en (string, length 50)
    - Product_Name_sa (string, length 50)
-      >Note: You can ignore the en and sa values if you will generate reports in one language
+     > Note: You can ignore the en and sa values if you will generate reports in one language
 
 The table structure is:
 
 <center>
 
-![Table Structure](../../static/img/reporting4.png)
+![Table Structure](../../static/media/reporting4.png)
 
 </center>
 
@@ -201,7 +201,7 @@ export class Main {
 }
 ```
 
->Note, the translation methods were created in a script library, the code is found here:
+> Note, the translation methods were created in a script library, the code is found here:
 
 ```typescript
 export class Utilities {
@@ -242,7 +242,7 @@ The resulted relational table after the migration of the Product DataObject:
 
 <center>
 
-![Product Results](../../static/img/reporting5.png)
+![Product Results](../../static/media/reporting5.png)
 
 </center>
 
@@ -252,7 +252,7 @@ The customer DataObject has the following structure:
 
 <center>
 
-![Customer DataObject Structure](../../static/img/reporting6.png)
+![Customer DataObject Structure](../../static/media/reporting6.png)
 
 </center>
 
@@ -260,7 +260,7 @@ Preview of the Customer object's data:
 
 <center>
 
-![Customer Preview](../../static/img/reporting7.png)
+![Customer Preview](../../static/media/reporting7.png)
 
 </center>
 
@@ -269,7 +269,7 @@ We will migrate this into a relational table, the steps are the same steps we di
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables
 2. Click the + button in the bottom left corner
 3. Assign the table a name
-    >Note: This name can't be changed
+   > Note: This name can't be changed
 4. Specify the schema name used for the Product table
 5. Select the correct data source
 6. Add fields:
@@ -280,7 +280,7 @@ The table structure is:
 
 <center>
 
-![Customer Relational Table](../../static/img/reporting8.png)
+![Customer Relational Table](../../static/media/reporting8.png)
 
 </center>
 
@@ -368,7 +368,7 @@ The resulted relational table after the migration of the Customer DataObject:
 
 <center>
 
-![Customer Results](../../static/img/reporting9.png)
+![Customer Results](../../static/media/reporting9.png)
 
 </center>
 
@@ -378,7 +378,7 @@ We have an ENUM for the order status as shown below.
 
 <center>
 
-![Order Status ENUMS](../../static/img/reporting10.png)
+![Order Status ENUMS](../../static/media/reporting10.png)
 
 </center>
 
@@ -386,7 +386,7 @@ We want to migrate it into a relational table, like the one shown below:
 
 <center>
 
-![Order Status Relational Table](../../static/img/reporting11.png)
+![Order Status Relational Table](../../static/media/reporting11.png)
 
 </center>
 
@@ -461,7 +461,7 @@ The resulted relational table after the migration of the OrderStatus ENUM:
 
 <center>
 
-![Results Status table](../../static/img/reporting12.png)
+![Results Status table](../../static/media/reporting12.png)
 
 </center>
 
@@ -471,7 +471,7 @@ We have an order DataObject as shown in the table below:
 
 <center>
 
-![Order DataObject](../../static/img/reporting13.png)
+![Order DataObject](../../static/media/reporting13.png)
 
 </center>
 
@@ -479,7 +479,7 @@ Preview of the Order object's data:
 
 <center>
 
-![Order DataObject Preview](../../static/img/reporting14.png)
+![Order DataObject Preview](../../static/media/reporting14.png)
 
 </center>
 
@@ -490,7 +490,7 @@ Since we have a list of products in each order, we will need to create 2 tables 
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables
 2. Click the + Create New button in the bottom left corner
 3. Assign the table a name
-      >Note: This name can't be changed
+   > Note: This name can't be changed
 4. Specify the schema name used for the Product table
 5. Select the correct data source
 6. Add fields:
@@ -503,7 +503,7 @@ Since we have a list of products in each order, we will need to create 2 tables 
 
 <center>
 
-![Order Relational Table](../../static/img/reporting15.png)
+![Order Relational Table](../../static/media/reporting15.png)
 
 </center>
 
@@ -512,7 +512,7 @@ Since we have a list of products in each order, we will need to create 2 tables 
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables
 2. Click the + Create New button in the bottom left corner
 3. Assign the table a name
-      >Note: This name can't be changed
+   > Note: This name can't be changed
 4. Specify the schema name used for the Product table
 5. Select the correct data source
 6. Add fields:
@@ -647,7 +647,7 @@ The resulted relational table after the migration of the Full Order DataObject:
 
 <center>
 
-![Results Full Order](../../static/img/reporting16.png)
+![Results Full Order](../../static/media/reporting16.png)
 
 </center>
 
@@ -655,7 +655,7 @@ The resulted relational table after the migration of the Per Order DataObject:
 
 <center>
 
-![Results Order per Product](../../static/img/reporting17.png)
+![Results Order per Product](../../static/media/reporting17.png)
 
 </center>
 
@@ -675,7 +675,7 @@ The first step is to create a new service side workflow, and name it Delete Effe
 
 1. In the parameters tab, insert a parameter that will be passed by a client side workflow, and name it productId
 
-![Parameters](../../static/img/parameters.png)
+![Parameters](../../static/media/parameters.png)
 
 2. Insert a read workflow block and query the order DataObject
 3. Insert a for loop that loops over the orders and inside of the for loop do the following:
@@ -690,9 +690,9 @@ The first step is to create a new service side workflow, and name it Delete Effe
    5. If it is true, insert a a delete workblock and query the orderID to delete it
 4. After the previous loop insert two run the workflows blocks and run the two workflows created above for filling in the products and orders
 
->Note: The final workflow will look like this:
+> Note: The final workflow will look like this:
 
-![Delete Effected Workflow Example](../../static/img/reportingWorkflow.png)
+![Delete Effected Workflow Example](../../static/media/reportingWorkflow.png)
 
 The second step is more simple, and it is just calling the workflow whenever you delete a product, make sure to pass the productId to it, here is an example of that in the client side:
 
@@ -703,7 +703,7 @@ The second step is more simple, and it is just calling the workflow whenever you
 5. Undo styles on layout that allows editing of data
 6. Run the workflow that was created in step 1, make sure to pass the productId to it
 
-![Call on Delete](../../static/img/callReportingWF.png)
+![Call on Delete](../../static/media/callReportingWF.png)
 
 ### Creating a Timetable
 
@@ -712,16 +712,16 @@ Timetables are vital for date-based queries. Here's how to create one in GA Univ
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Datetime
 2. Click the + Create New button in the bottom left corner
 3. Assign the table a name
-    >Note: This name can't be changed
+   > Note: This name can't be changed
 4. Assign a data source
 5. Define the Start Date
 6. Configure the time span using Years Offset
-    >Note: the offset is how many years to be generated after the start date
+   > Note: the offset is how many years to be generated after the start date
 7. Select languages if needed
 
 <center>
 
-![Timetable creation](../../static/img/reporting18.png)
+![Timetable creation](../../static/media/reporting18.png)
 
 </center>
 
@@ -729,7 +729,7 @@ Preview:
 
 <center>
 
-![Timetable preview](../../static/img/reporting19.png)
+![Timetable preview](../../static/media/reporting19.png)
 
 </center>
 
@@ -740,7 +740,7 @@ Preview:
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
 2. Click the + Create New button in the bottom left corner
 3. Assign the table a name
-    >Note: This name can't be changed
+   > Note: This name can't be changed
 4. Select ROLAP Data source
 5. Edit the Query Definition to incorporate the product table
 6. Select all fields
@@ -757,7 +757,7 @@ Preview:
 
 <center>
 
-![Product Dimension creation](../../static/img/reporting20.png)
+![Product Dimension creation](../../static/media/reporting20.png)
 
 </center>
 
@@ -766,7 +766,7 @@ Preview:
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
 2. Click the + Create New button in the bottom left corner
 3. Assign the table a name
-    >Note: This name can't be changed
+   > Note: This name can't be changed
 4. Select ROLAP Data source
 5. Edit the Query Definition to incorporate the Customer table
 6. Select all fields
@@ -782,7 +782,7 @@ Preview:
 
 <center>
 
-![Customer Dimension creation](../../static/img/reporting21.png)
+![Customer Dimension creation](../../static/media/reporting21.png)
 
 </center>
 
@@ -791,7 +791,7 @@ Preview:
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
 2. Click the + Create New button in the bottom left corner
 3. Assign the table a name
-    >Note: This name can't be changed
+   > Note: This name can't be changed
 4. Select ROLAP Data source
 5. Edit the Query Definition to incorporate the OrderStatus table
 6. Select all fields
@@ -807,7 +807,7 @@ Preview:
 
 <center>
 
-![Order Status Dimension creation](../../static/img/reporting22.png)
+![Order Status Dimension creation](../../static/media/reporting22.png)
 
 </center>
 
@@ -816,7 +816,7 @@ Preview:
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
 2. Click the + Create New button in the bottom left corner
 3. Assign the table a name
-    >Note: This name can't be changed
+   > Note: This name can't be changed
 4. Select ROLAP Data source
 5. Mark IsTimeDim
 6. Edit the Query Definition to include the TimeTable
@@ -851,11 +851,11 @@ Preview:
 
 <center>
 
-![Time Dimension creation](../../static/img/reporting23.png)
+![Time Dimension creation](../../static/media/reporting23.png)
 
-![Time Dimension creation](../../static/img/reporting24.png)
+![Time Dimension creation](../../static/media/reporting24.png)
 
-![Time Dimension creation](../../static/img/reporting25.png)
+![Time Dimension creation](../../static/media/reporting25.png)
 
 </center>
 
@@ -864,7 +864,7 @@ Preview:
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
 2. Click the + button in the bottom left corner
 3. Assign the table a name
-    >Note: This name can't be changed
+   > Note: This name can't be changed
 4. Select ROLAP
 5. Add the Customer, Status and time dimensions
 6. Define values for ItemCount and TotalPrice
@@ -883,7 +883,7 @@ Preview:
 
 <center>
 
-![Order Cube creation](../../static/img/reporting26.png)
+![Order Cube creation](../../static/media/reporting26.png)
 
 </center>
 
@@ -892,7 +892,7 @@ Preview:
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
 2. Click the + button in the bottom left corner
 3. Assign the table a name
-    >Note: This name can't be changed
+   > Note: This name can't be changed
 4. Select ROLAP
 5. Add the Customer, Status, Product, and Time dimensions
 6. Define values for ItemPrice
@@ -912,7 +912,7 @@ Preview:
 
 <center>
 
-![Order Detail Cube creation](../../static/img/reporting27.png)
+![Order Detail Cube creation](../../static/media/reporting27.png)
 
 </center>
 
@@ -920,7 +920,7 @@ Preview:
 
 1. Open a page and open the AppBuilder followed by Access Data Description:
 
-    >Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
+   > Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
 
 2. Click the + button in the top left corner to add a new query
 3. Remove the default Relational Query
@@ -949,7 +949,7 @@ Select Tab should look similar to this:
 
 <center>
 
-![Cube Tab Selection](../../static/img/reporting28.png)
+![Cube Tab Selection](../../static/media/reporting28.png)
 
 </center>
 
@@ -957,7 +957,7 @@ Average Task should look similar to this:
 
 <center>
 
-![Cube Average Task](../../static/img/reporting29.png)
+![Cube Average Task](../../static/media/reporting29.png)
 
 </center>
 
@@ -965,11 +965,11 @@ Average – Customer – TopDown should look similar to this:
 
 <center>
 
-![Average – Customer – TopDown](../../static/img/reporting30.png)
+![Average – Customer – TopDown](../../static/media/reporting30.png)
 
 </center>
 
->Note: When you add a new task you must first select the task type.
+> Note: When you add a new task you must first select the task type.
 
 ### Visualization
 
@@ -977,7 +977,7 @@ Drag and drop a chart element from the report objects into the page, and then se
 
 <center>
 
-![Query Selection](../../static/img/reporting31.png)
+![Query Selection](../../static/media/reporting31.png)
 
 </center>
 
@@ -985,7 +985,7 @@ In the chart settings on the left side of the page select the chart type to be B
 
 <center>
 
-![Result visualized](../../static/img/reporting32.png)
+![Result visualized](../../static/media/reporting32.png)
 
 </center>
 
@@ -995,11 +995,11 @@ Possible charts:
 
 <center>
 
-![Available Charts](../../static/img/reporting33.png)
+![Available Charts](../../static/media/reporting33.png)
 
 </center>
 
->Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.
+> Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.
 
 ## Conclusion
 

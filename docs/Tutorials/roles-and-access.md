@@ -33,7 +33,7 @@ For this example, we will give our newly created role the ability to edit pages 
 
 <center>
 
-![Roles image](../../static/img/roles.png)
+![Roles image](../../static/media/roles.png)
 
 </center>
 

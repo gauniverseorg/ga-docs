@@ -1,6 +1,7 @@
 ---
 sidebar_position: 9
 ---
+
 # Reporting
 
 Welcome to the comprehensive guide for creating insightful reports in GA_Universe! This tutorial is designed to guide you through the process of transforming your data into meaningful reports that can drive decision-making. Whether you’re new to data analysis or looking to refine your reporting skills, this tutorial will provide you with the tools and knowledge needed to leverage GA_Universe's powerful reporting capabilities. Let's get started on your journey to mastering data reporting!
@@ -33,27 +34,28 @@ By completing this first step, you have successfully initiated the process of cr
 This example will guide you through creating a bar chart in GA_Universe that visualizes movie reviews by different authors over various years. Here’s how to set it up:
 
 1. **Select the Data Source:** Begin by setting your data source to 'Dynamic'.
-2. **Choose the Data Model and Table:** Next, we will select the appropriate data model within GA_Universe. For this example, we will choose the ‘Default’ data model, then choose the 'Reviews' data table, as it contains the information relevant to our  chart.
-    - **Optional Utilize Filtering and Sorting:** You can apply the same filtering and sorting techniques as described in the [Data tutorial](./data.md) of GA_Universe.
+2. **Choose the Data Model and Table:** Next, we will select the appropriate data model within GA_Universe. For this example, we will choose the ‘Default’ data model, then choose the 'Reviews' data table, as it contains the information relevant to our chart.
+   - **Optional Utilize Filtering and Sorting:** You can apply the same filtering and sorting techniques as described in the [Data tutorial](./data.md) of GA_Universe.
 3. **Grouping Data:**
-    - **Primary Grouping (Author):** In the chart settings, find the option to group data and select 'Author' from the dropdown menu. This action groups your data based on the authors of the movie reviews.
 
-    - **Secondary Grouping (Date):** Additionally, you can group by date to analyze the data over time. Select the 'Group by Date' option and choose year, then in the Date column select a date-type column from your data. This step will add a temporal dimension to your analysis.
+   - **Primary Grouping (Author):** In the chart settings, find the option to group data and select 'Author' from the dropdown menu. This action groups your data based on the authors of the movie reviews.
+
+   - **Secondary Grouping (Date):** Additionally, you can group by date to analyze the data over time. Select the 'Group by Date' option and choose year, then in the Date column select a date-type column from your data. This step will add a temporal dimension to your analysis.
 
 4. **Select Aggregation Type and Value:** Decide on an aggregation method (like count, sum, average, etc.) and select the corresponding value to be aggregated. This setting determines how your data will be calculated and displayed in the chart.
 5. **Max Number of Results (Optional):** If you want to limit the number of results displayed, enter an integer in the 'Max Number of Results' field. For this example, leave it blank to view all results.
 6. **Preview the Chart:** Before finalizing, click on 'Preview' to view your chart. This feature allows you to see how your data is represented in the bar chart format and make any necessary adjustments before it is fully integrated into your report.
-By following these steps, you create a dynamic bar chart that visually represents the frequency or nature of movie reviews by various authors across different years. This chart not only adds visual appeal to your report but also provides valuable insights briefly.
+   By following these steps, you create a dynamic bar chart that visually represents the frequency or nature of movie reviews by various authors across different years. This chart not only adds visual appeal to your report but also provides valuable insights briefly.
 
 <center>
 
-![Data for reporting](../../static/img/simplified_reporting1.png)
+![Data for reporting](../../static/media/simplified_reporting1.png)
 
 </center>
 
 <center>
 
-![Data preview](../../static/img/simplified_reporting2.png)
+![Data preview](../../static/media/simplified_reporting2.png)
 
 </center>
 
@@ -66,13 +68,13 @@ After setting up your data source and grouping, the next step is to customize th
 3. **Choose Chart Palette:** If you have a predefined chart palette, select it here to apply specific color schemes to your chart. Since we don’t have a specific palette in this example, leave this option blank.
 4. **Hide Legend Position:** Opt to hide the legend by disabling the legend position. This can help simplify the chart and focus attention on the data itself.
 5. **Set Axis Labels:**
-    - **X Label:** Enter 'Years' as the X-axis label. This label will represent the time dimension in your chart, helping viewers understand that the horizontal axis indicates different years.
-    - **Y Label:** Enter 'Rating' as the Y-axis label. This label guides viewers to interpret the vertical axis as the rating values derived from your data.
+   - **X Label:** Enter 'Years' as the X-axis label. This label will represent the time dimension in your chart, helping viewers understand that the horizontal axis indicates different years.
+   - **Y Label:** Enter 'Rating' as the Y-axis label. This label guides viewers to interpret the vertical axis as the rating values derived from your data.
 6. **Preview the Chart:** As you adjust these settings, the data in the preview will automatically update to reflect these changes. This real-time preview helps you see how your chart is shaping up and allows for immediate adjustments as needed.
 
 <center>
 
-![Chart settings](../../static/img/simplified_reporting3.png)
+![Chart settings](../../static/media/simplified_reporting3.png)
 
 </center>
 
@@ -82,7 +84,7 @@ With these settings configured, your bar chart is now tailored to effectively di
 
 <center>
 
-![Preview of charts](../../static/img/simplified_reporting4.png)
+![Preview of charts](../../static/media/simplified_reporting4.png)
 
 </center>
 

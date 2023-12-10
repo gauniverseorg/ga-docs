@@ -22,7 +22,7 @@ The following are the steps needed to create a datamodel:
 <center>
 
 <video controls="controls">
-  <source src="/img/tut5-1.mov" />
+  <source src="/media/tut5-1.mov" />
 </video>
 
 </center>
@@ -38,7 +38,7 @@ The following are the steps needed to create a datamodel:
 <center>
 
 <video controls="controls">
-  <source src="/img/tut5-2.mov" />
+  <source src="/media/tut5-2.mov" />
 </video>
 
 </center>
@@ -59,7 +59,7 @@ One other important data type is the Enum or the Enumeration. They are essential
 <center>
 
 <video controls="controls">
-  <source src="/img/tut5-3.mov" />
+  <source src="/media/tut5-3.mov" />
 </video>
 
 </center>
@@ -83,7 +83,7 @@ For this example, we assume that you have already made a data object that has 3 
 <center>
 
 <video controls="controls">
-  <source src="/img/tut5-4.mov" />
+  <source src="/media/tut5-4.mov" />
 </video>
 
 </center>
@@ -96,7 +96,7 @@ For this example, we assume that you have already made a data object that has 3 
 <center>
 
 <video controls="controls">
-  <source src="/img/tut5-5.mov" />
+  <source src="/media/tut5-5.mov" />
 </video>
 
 </center>
@@ -112,7 +112,7 @@ Now you have to create the workflows to add, save, and delete the data.
 <center>
 
 <video controls="controls">
-  <source src="/img/tut5-6.mov" />
+  <source src="/media/tut5-6.mov" />
 </video>
 
 </center>
@@ -127,7 +127,7 @@ Now you have to create the workflows to add, save, and delete the data.
 <center>
 
 <video controls="controls">
-  <source src="/img/tut5-7.mov" />
+  <source src="/media/tut5-7.mov" />
 </video>
 
 </center>
@@ -152,7 +152,7 @@ This requires 2 different workflows
 <center>
 
 <video controls="controls">
-  <source src="/img/tut5-8.mov" />
+  <source src="/media/tut5-8.mov" />
 </video>
 
 </center>
@@ -171,7 +171,7 @@ After making the workflows, we have to link them with events.
 <center>
 
 <video controls="controls">
-  <source src="/img/tut5-9.mov" />
+  <source src="/media/tut5-9.mov" />
 </video>
 
 </center>
@@ -179,7 +179,7 @@ After making the workflows, we have to link them with events.
 <center>
 
 <video controls="controls">
-  <source src="/img/tut5-10.mov" />
+  <source src="/media/tut5-10.mov" />
 </video>
 
 </center>
@@ -189,7 +189,7 @@ That should be it! Try it out by adding, saving and deleting.
 <center>
 
 <video controls="controls">
-  <source src="/img/tut5-11.mov" />
+  <source src="/media/tut5-11.mov" />
 </video>
 
 </center>
@@ -205,7 +205,7 @@ Lets assume you were instructed to change the table schema to add 2 elements, an
 <center>
 
 <video controls="controls">
-  <source src="/img/tut5-12.mov" />
+  <source src="/media/tut5-12.mov" />
 </video>
 
 </center>
@@ -220,7 +220,7 @@ These changes should be reflected on the page as well
 <center>
 
 <video controls="controls">
-  <source src="/img/tut5-13.mov" />
+  <source src="/media/tut5-13.mov" />
 </video>
 
 </center>
@@ -232,7 +232,7 @@ That's it! The page now functions as intended.
 <center>
 
 <video controls="controls">
-  <source src="/img/tut5-14.mov" />
+  <source src="/media/tut5-14.mov" />
 </video>
 
 </center>
@@ -257,7 +257,7 @@ To store an image in your datatable:
 <center>
 
 <video controls="controls">
-  <source src="/img/tut5-15.mov" />
+  <source src="/media/tut5-15.mov" />
 </video>
 
 </center>
@@ -270,7 +270,7 @@ If you want to include the image in your DataObject:
 <center>
 
 <video controls="controls">
-  <source src="/img/tut5-16.mov" />
+  <source src="/media/tut5-16.mov" />
 </video>
 
 </center>
@@ -288,7 +288,7 @@ For page changes:
 <center>
 
 <video controls="controls">
-  <source src="/img/tut5-17.mov" />
+  <source src="/media/tut5-17.mov" />
 </video>
 
 </center>
@@ -306,7 +306,7 @@ Inside the workflow drop the following:
 <center>
 
 <video controls="controls">
-  <source src="/img/tut5-18.mov" />
+  <source src="/media/tut5-18.mov" />
 </video>
 
 </center>
@@ -314,7 +314,7 @@ Inside the workflow drop the following:
 <center>
 
 <video controls="controls">
-  <source src="/img/tut5-19.mov" />
+  <source src="/media/tut5-19.mov" />
 </video>
 
 </center>

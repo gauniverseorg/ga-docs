@@ -11,7 +11,7 @@ dotenv.config();
 const config = {
   title: "Docs",
   tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  favicon: "media/favicon.ico",
 
   // Set the production url of your site here
   url: "http://192.168.1.224:3000",
@@ -62,11 +62,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "media/docusaurus-social-card.jpg",
       navbar: {
         logo: {
           alt: "GA_Universe Logo",
-          src: "img/logo.svg",
+          src: "media/logo.svg",
         },
         items: [
           {

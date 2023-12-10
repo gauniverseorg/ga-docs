@@ -8,7 +8,7 @@ Corporate identity is where you will design the general look of websites created
 
 <center>
 
-![Corporate Identity](../../static/img/tut4-1.png)
+![Corporate Identity](../../static/media/tut4-1.png)
 
 </center>
 
@@ -48,7 +48,7 @@ Let's create a new theme and add it to a navigation
 <center>
 
 <video controls="controls">
-  <source src="/img/tut4-2.mov" />
+  <source src="/media/tut4-2.mov" />
 </video>
 
 </center>
@@ -65,7 +65,7 @@ Now to adding it to the navigation:
 <center>
 
 <video controls="controls">
-  <source src="/img/tut4-3.mov" />
+  <source src="/media/tut4-3.mov" />
 </video>
 
 </center>

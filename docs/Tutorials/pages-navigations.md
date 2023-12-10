@@ -14,8 +14,8 @@ Pages are essentially your canvas. The page can have all the control elements an
 2. Go to layout tab
 3. Go to the Pages tab
 4. Click the + Create New button in the bottom left corner
-5. Name your page URL. 
->Note: The URL is how you navigate to it and the name is how you can search for it in the backend
+5. Name your page URL.
+   > Note: The URL is how you navigate to it and the name is how you can search for it in the backend
 6. Choose the type of page (Empty page, Copy page, List Detail page, Table Detail page)
 7. Click OK
 8. After creating the page, you can edit it using the editing button
@@ -24,7 +24,7 @@ Pages are essentially your canvas. The page can have all the control elements an
 <center>
 
 <video controls="controls">
-  <source src="/img/tut2-1.mov" />
+  <source src="/media/tut2-1.mov" />
 </video>
 
 </center>
@@ -54,7 +54,7 @@ Navigations are a set of nodes and sub nodes that represent the URL and path to 
 <center>
 
 <video controls="controls">
-  <source src="/img/tut2-2.mov" />
+  <source src="/media/tut2-2.mov" />
 </video>
 
 </center>
@@ -63,11 +63,11 @@ Navigations are a set of nodes and sub nodes that represent the URL and path to 
 
 To access the page elements and workflows, open the AppBuilder by clicking F2
 
->Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
+> Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
 
 <center>
 
-![Elements and Workflows](../../static/img/tut2-3.png)
+![Elements and Workflows](../../static/media/tut2-3.png)
 
 </center>
 
@@ -79,7 +79,7 @@ Each type of layout has different properties, like how a grid is mostly rigid an
 
 <center>
 
-![Layouts](../../static/img/tut2-4.png)
+![Layouts](../../static/media/tut2-4.png)
 
 </center>
 
@@ -89,8 +89,8 @@ Each page has control elements which are in essence the content of the page, lik
 
 <center>
 
-![Control Elements](../../static/img/tut2-5.png)
+![Control Elements](../../static/media/tut2-5.png)
 
 </center>
 
->Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.
+> Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.

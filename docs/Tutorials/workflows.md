@@ -10,7 +10,7 @@ Workflows can be activated using page events, elements events, or based on sched
 
 ## Service Side
 
-To use service side workflow block, please navigate to the data data section in the settings area and then select workflows followed bed service side workflows.
+To use service side workflow block, please navigate to the data section in the settings area and then select workflows followed by service side workflows.
 
 In this example we will be creating a workflow that sends an API request to an [API](https://www.nlp-api.com/) used for topic tagging. For this example we assume an email server has already been set.
 

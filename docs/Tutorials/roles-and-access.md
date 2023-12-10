@@ -11,7 +11,7 @@ To have a truly secure application, GA offers different roles and access permiss
 1. Navigate to the User management in the settings section
 2. Go to the roles tab
 3. Go to the overview
-4. Click the + button in the left corner of the page
+4. Click the + Create New button in the left corner of the page
 5. Name your role
 6. The 2 options you have here are:
    - Administrator, this means your role has access to everything and has all the permissions. This is akin to the initial admin role.

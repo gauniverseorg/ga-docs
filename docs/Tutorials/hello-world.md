@@ -25,7 +25,7 @@ How to use GA to create your first "Hello, world!" page.
 
 > Note: The URL is how you navigate to it and the name is how you can search for it in the backend and so on
 
-5. Then chose the type of page, for now we will start with an empty page
+5. Then choose the type of page, for now we will start with an empty page
 
 6. Click OK
 
@@ -43,7 +43,7 @@ How to use GA to create your first "Hello, world!" page.
 2. Go to layout tab
 3. Go to navigation tab
 4. Go to overview tab
-5. Click the + button in the bottom left corner
+5. Click the + Create New button in the bottom left corner
 6. Name it and make the home page the one created earlier "HelloPage". Also name the navigation "Hello Navigation"
 7. Save
 
@@ -91,4 +91,8 @@ That's it! Now you can use your newly made page to test out what GA can offer
 
 </center>
 
-> Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings.
+> Note: All changes made are saved locally on your account and are not visible to all other users. To make them visible to all users, please accept the changes in the ChangeLog Overview in the settings.
+
+
+<style>
+   </style>

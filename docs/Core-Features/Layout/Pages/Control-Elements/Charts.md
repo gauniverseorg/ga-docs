@@ -10,10 +10,10 @@ The data source given to this must be created and aggregated before hand, hence 
 | **Property** | **Description** |
 | --- | --- |
 | Chart Type | Display as selected chart type (AnnotationChart, AreaChart, BarChart, Bar, BubbleChart, ColumnChart, ComboChart, CandlestickChart, DonutChart, GeoChart, Histogram, LineChart, Line, Map, PieChart, ScatterChart, SteppedAreaChart, WordTree, OrgChart, Gauge, radar, polarArea, TreeMap, Gantt, Calendar, Timeline, Interval, radialBar, heatmap, Sunburst) |
-| **Data Mapping** | Mapping the elements |
-| **Axes – value** | Axis value to be plotted |
-| **Row** | Row value to display |
-| **Chart Settings** | Depending on the selected chart type |
+| Data Mapping | Mapping the elements |
+| Axes – value | Axis value to be plotted |
+| Row | Row value to display |
+| Chart Settings | Depending on the selected chart type |
 
 | Exclusive event | Description |
 | --- | --- |

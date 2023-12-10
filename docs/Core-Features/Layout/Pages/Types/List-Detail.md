@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 # List Detail
 
-A template for a page that already has a data table so you can see and update or delete the data. A data source must be selected before page creation.
+A template for a page that already has a data table, allowing you to view, update, or delete the data. A data source must be selected before page creation.
 
 ![List detail page overview](../../../../../static/img/list1.png)
 

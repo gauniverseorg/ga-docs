@@ -3,9 +3,7 @@ sidebar_position: 3
 ---
 # BulkOperations
 
-BulkOperations
 It contains several methods that perform batch operations on an object database. Here's an overview of the class and its methods:
-Here's a breakdown of the class structure and its methods:
 
 ## Properties
 

@@ -57,7 +57,7 @@ Visualize average order values using application chart elements, like a bar char
 Establishing a ROLAP data source in GA Universe is straightforward:
 
 1. Navigate to Data Sources under the Data tab
-2. Click the + button in the bottom left corner
+2. Click the + Create New button in the bottom left corner
 3. Assign a descriptive name
   >Note: This name can't be changed
 4. Choose ROLAP as the data source type
@@ -92,7 +92,7 @@ Preview of the products object's data:
 Now you will create a relational table to hold this data, you can ignore images since they are not useful in generating reports, to do this in GA do the following:
 
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables
-2. Click the + button in the bottom left corner
+2. Click the + Create New button in the bottom left corner
 3. Assign the table a name
     >Note: This name can't be changed
 4. Specify a schema name
@@ -488,7 +488,7 @@ Since we have a list of products in each order, we will need to create 2 tables 
 #### Relational Table Full Order
 
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables
-2. Click the + button in the bottom left corner
+2. Click the + Create New button in the bottom left corner
 3. Assign the table a name
       >Note: This name can't be changed
 4. Specify the schema name used for the Product table
@@ -510,7 +510,7 @@ Since we have a list of products in each order, we will need to create 2 tables 
 #### Relational Table Each Product
 
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables
-2. Click the + button in the bottom left corner
+2. Click the + Create New button in the bottom left corner
 3. Assign the table a name
       >Note: This name can't be changed
 4. Specify the schema name used for the Product table
@@ -710,7 +710,7 @@ The second step is more simple, and it is just calling the workflow whenever you
 Timetables are vital for date-based queries. Here's how to create one in GA Universe:
 
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Datetime
-2. Click the + button in the bottom left corner
+2. Click the + Create New button in the bottom left corner
 3. Assign the table a name
     >Note: This name can't be changed
 4. Assign a data source
@@ -738,7 +738,7 @@ Preview:
 #### Crafting a Product Dimension
 
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
-2. Click the + button in the bottom left corner
+2. Click the + Create New button in the bottom left corner
 3. Assign the table a name
     >Note: This name can't be changed
 4. Select ROLAP Data source
@@ -764,7 +764,7 @@ Preview:
 #### Crafting a Customer Dimension
 
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
-2. Click the + button in the bottom left corner
+2. Click the + Create New button in the bottom left corner
 3. Assign the table a name
     >Note: This name can't be changed
 4. Select ROLAP Data source
@@ -789,7 +789,7 @@ Preview:
 #### Constructing an Order Status Dimension
 
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
-2. Click the + button in the bottom left corner
+2. Click the + Create New button in the bottom left corner
 3. Assign the table a name
     >Note: This name can't be changed
 4. Select ROLAP Data source
@@ -814,7 +814,7 @@ Preview:
 #### Constructing a Time Dimension
 
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Multidimensional -> Container Dimension
-2. Click the + button in the bottom left corner
+2. Click the + Create New button in the bottom left corner
 3. Assign the table a name
     >Note: This name can't be changed
 4. Select ROLAP Data source

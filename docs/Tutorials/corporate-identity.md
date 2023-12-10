@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Corporate Identity
 
-Corporate identity is where you will design the general look of website you will create using GA
+Corporate identity is where you will design the general look of websites created by GA.
 
 <center>
 
@@ -26,12 +26,12 @@ Under Corporate Identity, you can modify the following:
 
 ## Example
 
-Let's create a new theme and add them to a navigation
+Let's create a new theme and add it to a navigation
 
 1. Open the settings website
 2. Click on corporate identity
 3. Click on Themes:
-   1. Click on + to create a new theme
+   1. Click on + Create New to create a new theme
    2. Rename the new theme
    3. Write the translations if needed
    4. Set is default and is dark theme flags as needed

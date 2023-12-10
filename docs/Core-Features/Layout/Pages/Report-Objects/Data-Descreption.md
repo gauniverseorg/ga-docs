@@ -23,8 +23,8 @@ In this section you can filter the query results based on different criteria def
 | **Property** | **Description** |
 | --- | --- |
 | Hierarchy | The value which should be filtered (Can be dropped down from the levels area) |
-| **Default** | Set default filters, which will be static |
-| **Variable** | Set dynamic filter, via predefined variable (The normal way, via variables) |
+| Default | Set default filters, which will be static |
+| Variable | Set dynamic filter, via predefined variable (The normal way, via variables) |
 
 ## Variables
 

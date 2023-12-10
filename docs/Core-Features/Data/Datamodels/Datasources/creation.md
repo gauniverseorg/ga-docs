@@ -10,6 +10,6 @@ The following are the steps on how to create datasources:
 2. Click on the (+) add button
 3. Fill in the name and translation
 4. (Optional) Choose an agent
-   a. An agent is used when selecting a data source requires an agent to be used before it is accessed
+   - An agent is used when selecting a data source requires an agent to be used before it is accessed
 5. Choose the database type
 6. Save

@@ -53,9 +53,15 @@ Utilizing GA is as easy as:
 
 ## Tutorials
 
+You can find many tutorials on how to use GA. Such as:
+
 - [Building your first hello world page](./Tutorials/hello-world.md)
 
-- [](#)
+- [Handling data](./Tutorials/data.md)
+
+- [Reporting](./Tutorials/reporting.md)
+
+[And more!](./category/tutorials)
 
 ## Workflows
 

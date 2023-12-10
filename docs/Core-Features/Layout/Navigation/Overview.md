@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # Overview
 
-Here you can create, edit and delete navigation. Navigation structures in italics are imported from capsules. Navigation structures in bold are overridden imported navigation structures. A new menu item can be created at the bottom left using "+ ". Whenever a navigation is added, it is automatically added to all app switchers. The available properties when creating or editing a navigation are:
+Here you can create, edit and delete navigation. Navigation structures in italics are imported from capsules. Navigation structures in bold are overridden imported navigation structures. A new navigation can be created at the bottom using + Create New button. Whenever a navigation is added, it is automatically added to all app switchers. The available properties when creating or editing a navigation are:
 
 | Property | Description |
 | --- | --- |

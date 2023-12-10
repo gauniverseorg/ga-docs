@@ -10,6 +10,3 @@ A countdown timer that displays as separate boxes for each unit (days, hours, mi
 | Show milliseconds | Show additional milliseconds |
 | Horizontal | Horizontal display |
 
-| Exclusive event | Description |
-| --- | --- |
-| Value Changed | ? |

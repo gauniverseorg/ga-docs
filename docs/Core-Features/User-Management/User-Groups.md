@@ -8,5 +8,5 @@ This is the page where you can add, delete and edit user groups. User groups are
 | Property | Description |
 | --- | --- |
 | Selected only | Show only active roles |
-| User | The users assigned to this group. |
-| Roles | The roles assigned to this group. |
+| User | The users assigned to this group |
+| Roles | The roles assigned to this group |

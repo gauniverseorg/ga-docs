@@ -20,4 +20,4 @@ When creating a new Email item, the following parameters are required:
 | OAuth – Provider | Exchange |
 | OAuth – ClientID | Client ID for the email server |
 | OAuth – TenantID | Tenant ID for the email server |
-| OAuth – ClientSecret | Client Secret for the email. |
+| OAuth – ClientSecret | Client Secret for the email |

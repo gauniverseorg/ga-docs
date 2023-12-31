@@ -4,7 +4,7 @@ sidebar_position: 7
 
 # Generate Mobile App
 
-Here you can create or see the created mobile app, you can also download it at the top right.
+You can create or see the generated mobile app here. There are also download buttons present at the top right to download iOS and Android applications.
 
 **_Note:_** You can only generate one mobile app at a time.
 

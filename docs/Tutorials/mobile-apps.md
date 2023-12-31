@@ -15,7 +15,7 @@ Before we begin, ensure you have a basic understanding of mobile app components 
 
 Locate the 'Generate Mobile App' section in the settings area of GA_Universe. Remember, you can only generate one mobile app at a time. Here’s how to start:
 
-Choose the action you wish to perform - either editing an existing app or building a new one. If you are building a new app click on the "+ Create New" button in the top
+Choose the action you wish to perform - either editing an existing app or building a new one. If you are building a new app click on the "+ Create New" button on the top
 
 Or if you editing one please click on the pen icon under the actions section.
 
@@ -34,10 +34,10 @@ Or if you editing one please click on the pen icon under the actions section.
 ##### Building for Android and iOS
 
 - **Android Build**
-  - ***Key Store File***: Upload the file provided by Google Play Store.
-  - ***Key Store Password***: Enter the password for your key store file.
-  - ***Alias***: Specify the alias used in the APK.
-  - ***Alas Password***: Set a secure password for the alias.
+  - **Key Store File**: Upload the file provided by Google Play Store.
+  - **Key Store Password**: Enter the password for your key store file.
+  - **Alias**: Specify the alias used in the APK.
+  - **Alias Password**: Set a secure password for the alias.
 
 Note: These settings are permanent once saved, so ensure accuracy.
 

@@ -265,7 +265,7 @@ kubectl create secret docker-registry regcred \
 - Now deploy each YAML file using the following commands:
 
 ```bash
-kubectl apply -f namespace.yml
+kubectl apply -f namespace.yaml
 ```
 
 ```bash

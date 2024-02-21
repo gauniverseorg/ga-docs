@@ -8,4 +8,5 @@ GA Universe can be easily managed and hosted on server. This gives you complete 
 
 ## Deployment Option (s)
 
+- [Docker](./Docker/Docker.md)
 - [Kubernetes (High Availability and Scalability)](./Kubernetes-k8s/)

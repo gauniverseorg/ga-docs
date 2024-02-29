@@ -16,11 +16,11 @@ jobs:
       run: sudo apt-get install -y sshpass
     - name: SSH into instance and execute commands
       run: |
-        sshpass -p 'Qmobilea34@' ssh -o StrictHostKeyChecking=no -p 22 ubuntu@44.195.207.159 "cd /home/ubuntu/ga-docs && sudo rm -rf build && sudo npm i && sudo npm run build && cd /home/ubuntu/typesense-docsearch-scraper/"
+        sshpass -p 'Qmobilea34@' ssh -o StrictHostKeyChecking=no -p 22 ubuntu@44.195.207.159 "cd /home/ubuntu/ga-docs && sudo rm -rf build && sudo npm i && sudo npm run build"
 
     - name: Run Docker command
       run: |
-        sshpass -p 'Qmobilea34@' ssh -o StrictHostKeyChecking=no -p 22 ubuntu@44.195.207.159 "sudo docker run -it --env-file=/home/ubuntu/ga-docs/.env -e 'CONFIG=\$(cat /home/ubuntu/ga-docs/typesense-docsearch-scraper/config.json | jq -r tostring)' typesense/docsearch-scraper:0.9.1"
+        sshpass -p 'Qmobilea34@' ssh -o StrictHostKeyChecking=no -p 22 ubuntu@44.195.207.159 "cd /home/ubuntu/typesense-docsearch-scraper && sudo docker run -it --env-file=/home/ubuntu/ga-docs/.env -e 'CONFIG=\$(cat /home/ubuntu/ga-docs/typesense-docsearch-scraper/config.json | jq -r tostring)' typesense/docsearch-scraper:0.9.1"
 
     - name: Restart Nginx
       run: |

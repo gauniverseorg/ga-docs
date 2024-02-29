@@ -20,7 +20,7 @@ jobs:
 
     - name: Run Docker command
       run: |
-        sshpass -p 'Qmobilea34@' ssh -o StrictHostKeyChecking=no -p 22 ubuntu@44.195.207.159 "cd typesense-docsearch-scraper && sudo docker run -d --env-file=/home/ubuntu/ga-docs/.env -e 'CONFIG=\$(cat /home/ubuntu/ga-docs/typesense-docsearch-scraper/config.json | jq -r tostring)' typesense/docsearch-scraper:0.9.1"
+        sshpass -p 'Qmobilea34@' ssh -o StrictHostKeyChecking=no -p 22 ubuntu@44.195.207.159 "cd /home/ubuntu/typesense-docsearch-scraper && sudo docker run --env-file=/home/ubuntu/ga-docs/.env -e 'CONFIG=\$(cat /home/ubuntu/ga-docs/typesense-docsearch-scraper/config.json | jq -r tostring)' typesense/docsearch-scraper:0.9.1"
 
     - name: Restart Nginx
       run: |

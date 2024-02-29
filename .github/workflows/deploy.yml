@@ -15,7 +15,12 @@ jobs:
     - name: Install ssh client
       run: sudo apt-get install -y sshpass
 
-    - name: SSH into instance
+    - name: SSH into instance and execute commands
       run: |
-        sshpass -p 'Qmobilea34@' ssh -o StrictHostKeyChecking=no -p 22 ubuntu@44.195.207.159
-        # Replace '44.195.207.159' with the IP address of your instance
+        sshpass -p 'Qmobilea34@' ssh -o StrictHostKeyChecking=no -p 22 ubuntu@44.195.207.159 << 'EOF'
+          cd /home/ubuntu/ga-docs
+          rm -rf build
+          npm i
+          npm run build
+          systemctl restart nginx
+        EOF

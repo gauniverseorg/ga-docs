@@ -13,9 +13,36 @@ jobs:
     - name: SSH into EC2 instance
       uses: appleboy/ssh-action@master
       with:
-        host: ${{ secrets.EC2_HOST }}
-        username: ${{ secrets.EC2_USERNAME }}
-        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        host: 3.237.60.154
+        username: ubuntu
+        key: |
+          -----BEGIN RSA PRIVATE KEY-----
+          MIIEowIBAAKCAQEAsTJZwJdcAPPfa3loQa0D5NrWht3RRDFK3dP2jFVwl0RX5xSp
+          sd56DqhgEjugYGmi9ctf+bWOJbC6zAA7YuhKad6biZQoXlY541bijmzRyghFxW/c
+          hzd8u4wUgx5yoghEknxn4mnMQrQhdkUpb6eLGpJh+5X547devXMl2Zp85F6l/u8t
+          2UKxVmd8AhcMw4fZTIUItl1QjquBOWaYaC9kbMLGknOT2t+lvqPzztJRDezJlw20
+          2pVk6JgxhAFyAUzo44rjNsSQ3/KAtPpu4ZVeHKmEuk380Ur+Fek8h0vbzx+4LuPm
+          AQdArz539/eTG7GhK9artWqzInlP5af/0BGUaQIDAQABAoIBAA7fmBMHYWyfC8jc
+          pvikSihiihFF+zPLI2qdSRucbFf2H57A6EGK2Bn03iOJp7uQAmK5UHQIXkchn3xS
+          JKn3r49VZR7WNdE9UZyYhWnJDo7zxM9+xTcAXFLtvicHXj3ljcPx91JU6RVMQ2bH
+          BWRe3tk7IkhY3WHU2XnzeWDbi9IrT8IiU/PVYCjrEwW+EtvoZxJMy2tJ1y2huQQ/
+          ttdkIA1bxoW+CZH2EQzOSGg4hsy0kf3Ac261fRKy+bGYz2waSV8mSCER/Z/K7mZN
+          5PRqi/L2az+n2i/R/LLMXLUk+OJdmkroc78a3iRfYQydWb1WmX7ubYqWiKqCkQYs
+          Pg4v/IUCgYEA6VjT7bD2TOCS74SsX1kFE4OEk2qCl3cHi/ezdFl/15PL/5hh18zd
+          paFPJ7+Z44omsd3996ZVS5d6c5XvE5trFyt5exMzwTp9JEN9hoVLgbDxxu/TovUe
+          /Gt2ok65urQE23vA/KQ9UPR0mFB+ObaZTByqm0E6ld1F/wcxHlFVP58CgYEAwmYR
+          SaS5Gmf/dWqEqeFOvsWcXsS+010f8u5dUor809coNIA1mZ4OhLRUCuhRjouTJhZ8
+          uFtYWtUL2nof6P075IvT00wYA+rdpD0qqiwxRcG/XRVl1eV4oPjQKi7QHYG+LSNx
+          KAWYsFXHbyDHAMGkLwOKmv5mOZv7KtxDxckZjvcCgYEAw5Oo5RKqDRs47DmmA7Bn
+          +cgEiU3/MJYaJC0zIrSU2wnMNGjysN3LdDQ0VNtZTwYOkou+fh/SY64Neu1S2Xst
+          EdllU0tv2Gd+VbOfdO0psQSuUI/YMUADfYtQfo8/SgXyAEfEI7xAjCanxrXIZfTu
+          nYV1VPUh9lPkg/DyMTf4HH8CgYBrFBOjr/Mxw2UoROMMPAnG9Ux7uv2tqRcHFhsb
+          c2luOo5v1MsxcalnmXjNhUgfL2x/R1WtqssRRVbBIhHfoVVTP14PflOgHMe3RuXw
+          VGVTmjQRTs8IMdzvNf5bret+xU9+x4310JdZUfaHlNNo7EDGkLnRRB4Ez5Fa+3bt
+          RCcq4wKBgG/WA4zRmAg1B20RYFo58kAbfXnW7HMXtr6a6tQyeQzwj9hLJFi3vwTv
+          GGG0Eh4ngcC+Q5bF0OOpudLD9Vv5aP2shJWAbrh3LqFCV5oojOyteF0jHz5v8+ZW
+          nE+KXvl4BELtOv4WgQjxL74VDEtl9g9u8a5Jlsy6cjskNlWNWZKe
+          -----END RSA PRIVATE KEY-----
 
     - name: Go to directory and execute commands
       run: |

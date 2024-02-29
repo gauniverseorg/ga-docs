@@ -1,4 +1,4 @@
-name: deployment of ga-docs
+name: deployment of ga-docss
 
 on:
   push:

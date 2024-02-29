@@ -23,4 +23,7 @@ jobs:
           sudo npm i
           sudo npm run build
           sudo systemctl restart nginx
+          cd /home/ubuntu/typesense-docsearch-scraper
+          sudo docker run -it --env-file=/home/ubuntu/ga-docs/.env -e "CONFIG=$(cat config.json | jq -r tostring)" typesense/docsearch-scraper:0.9.1
+          sudo systemctl restart nginx
         EOF

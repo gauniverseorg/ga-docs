@@ -43,7 +43,9 @@ jobs:
           GGG0Eh4ngcC+Q5bF0OOpudLD9Vv5aP2shJWAbrh3LqFCV5oojOyteF0jHz5v8+ZW
           nE+KXvl4BELtOv4WgQjxL74VDEtl9g9u8a5Jlsy6cjskNlWNWZKe
           -----END RSA PRIVATE KEY-----
-
+    - name: Check SSH connection
+      run: |
+        ssh -o "StrictHostKeyChecking=no" -o "BatchMode=yes" -o "ConnectTimeout=5" ${{ secrets.EC2_USERNAME }}@${{ secrets.EC2_HOST }} echo "SSH connection successful"
     - name: Go to directory and execute commands
       run: |
         cd /home/ubuntu/ga-docs

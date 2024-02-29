@@ -1,1 +1,33 @@
+name: EC2 Deployment
 
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: SSH into EC2 instance
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.EC2_HOST }}
+        username: ${{ secrets.EC2_USERNAME }}
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+    - name: Go to directory and execute commands
+      run: |
+        cd /home/ubuntu/ga-docs
+        sudo rm -rf build
+        sudo npm i
+        sudo npm run build
+
+    - name: Run Docker container
+      run: |
+        cd /home/ubuntu/typesense-docsearch-scraper
+        sudo docker run -it --env-file=/home/ubuntu/ga-docs/.env -e "CONFIG=$(cat config.json | jq -r tostring)" typesense/docsearch-scraper:0.9.1
+
+    - name: Restart Nginx
+      run: sudo systemctl restart nginx

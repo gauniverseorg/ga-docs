@@ -22,7 +22,7 @@ jobs:
         password: Qmobilea34@
     - name: Check SSH connection
       run: |
-        ssh -o "StrictHostKeyChecking=no" -o "BatchMode=yes" -o "ConnectTimeout=5" ${{ secrets.EC2_USERNAME }}@${{ secrets.EC2_HOST }} echo "SSH connection successful"
+         ssh -o "StrictHostKeyChecking=no" -o "BatchMode=yes" -o "ConnectTimeout=5" ubuntu@44.195.207.159 echo "SSH connection successful"
     - name: Go to directory and execute commands
       run: |
         cd /home/ubuntu/ga-docs

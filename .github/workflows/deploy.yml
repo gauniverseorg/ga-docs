@@ -1,4 +1,4 @@
-name: deployment of ga-docss
+name: SSH into Instance
 
 on:
   push:
@@ -6,34 +6,16 @@ on:
       - master
 
 jobs:
-  deploy:
+  ssh:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Install SSH Client
-      run: sudo apt-get install -y openssh-client
-      
-    - name: SSH into EC2 instance
-      uses: appleboy/ssh-action@master
-      with:
-        host: 44.195.207.159
-        port: 22
-        username: ubuntu
-        password: Qmobilea34@
-    - name: Check SSH connection
-      run: |
-          sshpass -p 'Qmobilea34@' ssh -o "StrictHostKeyChecking=no" -o "BatchMode=yes" -o "ConnectTimeout=5" ubuntu@44.195.207.159 echo "SSH connection successful"
-    - name: Go to directory and execute commands
-      run: |
-        cd /home/ubuntu/ga-docs
-        sudo rm -rf build
-        sudo npm i
-        sudo npm run build
+    - name: Checkout code
+      uses: actions/checkout@v2
 
-    - name: Run Docker container
-      run: |
-        cd /home/ubuntu/typesense-docsearch-scraper
-        sudo docker run -it --env-file=/home/ubuntu/ga-docs/.env -e "CONFIG=$(cat config.json | jq -r tostring)" typesense/docsearch-scraper:0.9.1
+    - name: Install ssh client
+      run: sudo apt-get install -y sshpass
 
-    - name: Restart Nginx
-      run: sudo systemctl restart nginx
+    - name: SSH into instance
+      run: |
+        sshpass -p 'Qmobilea34@' ssh -o StrictHostKeyChecking=no -p 222 ubuntu@44.195.207.159
+        # Replace '44.195.207.159' with the IP address of your instance

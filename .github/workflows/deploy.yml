@@ -16,7 +16,7 @@ jobs:
     - name: SSH into EC2 instance
       uses: appleboy/ssh-action@master
       with:
-        host: 3.237.60.154
+        host: 44.195.207.159
         port: 22
         username: ubuntu
         password: Qmobilea34@

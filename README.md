@@ -1,4 +1,4 @@
-# GA_Universe Doc
+# GA_Universe Docs
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 

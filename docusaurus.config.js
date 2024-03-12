@@ -21,7 +21,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "AbdulrahmanAlosaimi", // Usually your GitHub org/user name.
+  organizationName: "gauniverseorg", // Usually your GitHub org/user name.
   projectName: "ga-docs", // Usually your repo name.
 
   onBrokenLinks: "throw",
@@ -46,7 +46,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/AbdulrahmanAlosaimi/ga-docs/tree/master/",
+            "https://github.com/gauniverseorg/ga-docs/tree/master/",
         },
         blog: false,
         theme: {
@@ -70,7 +70,7 @@ const config = {
         },
         items: [
           {
-            href: "https://github.com/AbdulrahmanAlosaimi/ga-docs",
+            href: "https://github.com/gauniverseorg/ga-docs",
             label: "GitHub",
             position: "right",
           },

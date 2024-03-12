@@ -16,7 +16,7 @@ jobs:
       run: sudo apt-get install -y sshpass
     - name: SSH into instance and execute commands
       run: |
-        sshpass -p 'Qmobilea34@' ssh -o StrictHostKeyChecking=no -p 22 ubuntu@44.195.207.159 "cd /home/ubuntu/ga-docs && sudo rm -rf build && sudo npm i && sudo npm run build"
+        sshpass -p 'Qmobilea34@' ssh -o StrictHostKeyChecking=no -p 22 ubuntu@44.195.207.159 "cd /home/ubuntu/ga-docs && git pull origin master && sudo rm -rf build && sudo npm i && sudo npm run build"
     - name: Restart Nginx
       run: |
         sshpass -p 'Qmobilea34@' ssh -o StrictHostKeyChecking=no -p 22 ubuntu@44.195.207.159 "sudo systemctl restart nginx"

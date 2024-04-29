@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Flex
 
-The Flex layout element is a powerful tool for arranging elements within your application interface. It allows for flexible and efficient organization of components, making it ideal for both simple and complex designs.
+The Flex layout element is a powerful tool for arranging elements within your application interface. It allows for flexible and efficient organization of components, making it ideal for creating responsive designs that adjusts automatically for different screen sizes.
 
 ## Key Properties of the Flex Layout Element
 

@@ -10,8 +10,7 @@ The Bootstrap Grid layout element is an essential tool for creating responsive a
 
 1. Column Size:
     - Size: Determines the width of a column within the grid. Values range from 1 to 12, representing portions of the total available space in the row.
-Column Offset:
-2. Offset:
+2. Column Offset:
     - Provides a way to add space before a column. The maximum offset is 12, allowing you to push columns over by up to 12 column-widths.
 3. Responsive Size:
     - sm, md, lg, xl: These settings control how the layout behaves on different screen sizes. Setting these properties ensures that your layout remains functional and visually appealing across devices.

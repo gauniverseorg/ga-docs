@@ -1,6 +1,6 @@
 # GA_Universe Docs
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This website provides documentation for the [No 1 Low-Code/No-Code Platform](https://ga-universe.com) GA Universe.
 
 ### Installation
 

@@ -7,14 +7,22 @@ GA_Universe offers robust support options to assist you with any questions or is
 - Located in the top-right corner of the interface, click on the question mark icon to reveal support options.
 - You will see two available options: Help Centre and Live Chat.
 
-![Live Chat 1](../../../static/media/Livechat1.png)
+<center>
+
+![Live Chat 1](../static/img/Livechat1.png)
+</center>
+
 
 #### Help Centre
 **FAQs:** 
 - The Help Centre contains a comprehensive list of Frequently Asked Questions (FAQs) that address common issues and queries.
 - Browse through different categories or use the search function to find answers to your questions quickly.
 
-![Live Chat 2](../../../static/media/Livechat2.png)
+<center>
+
+![Live Chat 2](../static/img/Livechat.png)
+
+</center>
 
 2. **Live Chat**
 - **Live Chat Accessibility:**
@@ -25,5 +33,11 @@ GA_Universe offers robust support options to assist you with any questions or is
         - **Email:** Provide your email address for follow-up and record-keeping purposes.
         - **Message:** Describe your issue or question in the message box.
      - Once you’ve filled in the details, click on the Send button to connect with a support representative.
+
+<center>
+
+![Live Chat 2](../static/img/Livechat3.png)
+
+</center>
 
 The **Help Centre and Live** Chat features in GA_Universe provide convenient and effective ways to get the support you need. Whether you prefer browsing FAQs or speaking directly with a support representative, these tools are designed to help you resolve any issues efficiently.

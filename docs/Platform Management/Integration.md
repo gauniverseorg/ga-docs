@@ -6,6 +6,8 @@ sidebar_position: 2
 
 The **Integration** page in GA_Universe allows users to connect to various datasources, enabling seamless data management and integration within your applications.
 
+![Integration](../../static/img/Integration1.png)
+
 ### Accessing the Integration Page
 1. From the Dashboard, click on the Integrations link in the left menu bar.
 

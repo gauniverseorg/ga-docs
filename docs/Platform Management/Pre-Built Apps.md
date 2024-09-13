@@ -6,6 +6,8 @@ sidebar_position: 5
 
 The **Pre-built Apps** section in GA_Universe provides a variety of ready-to-use applications that can be quickly deployed and customized to suit your needs.
 
+![Prebuilt Apps](../../static/img/PreBuiltApp.png)
+
 ### Accessing Pre-built Apps
 1. Navigate to the Pre-built Apps page from the landing page by clicking on the Pre-built Apps link.
 

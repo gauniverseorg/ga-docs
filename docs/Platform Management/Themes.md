@@ -7,6 +7,8 @@ sidebar_position: 4
 
 The Themes page in GA_Universe allows you to customize the appearance of your GA_Universe application by choosing from a variety of available themes.
 
+![Themes](../../static/img/Themes.png)
+
 ### Accessing Themes
 Navigate to the Themes page from the landing page by clicking on the Themes link on the left side navigation bar.
 

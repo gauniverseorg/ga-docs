@@ -9,6 +9,7 @@
  Create as many sidebars as you want.
  */
 
+//  changes
 // @ts-check
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */

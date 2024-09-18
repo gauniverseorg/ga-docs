@@ -6,7 +6,7 @@ sidebar_position: 2
 
 Show the results of a query in table format. You can select a query, which can be created in data description. If the query is correct, a table will be shown with the results of the query inside of it.
 
-## Table settings
+### Table settings
 
 On the left side of the screen, you will have extra settings related to the table.
 
@@ -45,7 +45,7 @@ On the left side of the screen, you will have extra settings related to the tabl
 | Format tasks – Description column header | Format the description column header |
 | Master Child | Master child relationships manipulations, you must select a variable that has the items you want to use, must be of list type |
 
-## Exclusive events
+### Exclusive events
 
 | Exclusive event | Description |
 | --- | --- |

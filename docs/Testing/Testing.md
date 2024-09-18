@@ -1,8 +1,8 @@
 ---
-sidebar_position: 6
+sidebar_position: 1
 ---
 
-# Testing
+# Testing in GA
 
 Testing is an integral part of the software development lifecycle. With the help of testing, one can ensure that our application is ready for deployment and use. It helps identify defects and makes sure the application works with the new and updated changes.
 

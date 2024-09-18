@@ -5,7 +5,7 @@ sidebar_position: 1
 
 Filter data on Report Objects using a tree.
 
-| **Property** | Description |
+| Property | Description |
 | --- | --- |
 | Multiselect | Multiple selection possible |
 | Save Selection | Save Selection |

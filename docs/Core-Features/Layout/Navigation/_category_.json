@@ -1,8 +1,0 @@
-{
-  "label": "Navigation",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "Navigation are a set of nodes and sub nodes that represent the URL and path to the pages. Each navigation can have different settings and themes. A “*” indicates the default navigation structure. The settings menu for navigation is divided into 2 parts:"
-  }
-}

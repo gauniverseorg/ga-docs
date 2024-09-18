@@ -22,6 +22,6 @@ A list that supports data binding and provides filter/search functionality.
 
 The listbox has three options for data connection:
 
-- Set Data source on a layout element above the list box: The list box tries to load and display all entries of the DataSource. A selection of properties of the DataSource is available in the DisplayMember
-- Set DataSource on layout above the list box that contains a property that is a list: In the ListboxMenuTab it is now possible to set a data binding on this list. If an object of the DataSource type is now placed on the Grid/Flex, this list property is displayed in the ListBox, and a selection of properties also appears here
-- No DataSource is set: The list must be set directly to the list box using the Set value workflow module, for example. There is no selection in the DisplayMember. However, the PropertyName can be specified there directly
+- **Set Data source on a layout element above the list box:** The list box tries to load and display all entries of the DataSource. A selection of properties of the DataSource is available in the DisplayMember
+- **Set DataSource on layout above the list box that contains a property that is a list:** In the ListboxMenuTab it is now possible to set a data binding on this list. If an object of the DataSource type is now placed on the Grid/Flex, this list property is displayed in the ListBox, and a selection of properties also appears here
+- **No DataSource is set:** The list must be set directly to the list box using the Set value workflow module, for example. There is no selection in the DisplayMember. However, the PropertyName can be specified there directly

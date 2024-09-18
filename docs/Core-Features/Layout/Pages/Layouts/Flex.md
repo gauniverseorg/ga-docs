@@ -6,7 +6,7 @@ sidebar_position: 5
 
 The Flex layout element is a powerful tool for arranging elements within your application interface. It allows for flexible and efficient organization of components, making it ideal for creating responsive designs that adjusts automatically for different screen sizes.
 
-## Key Properties of the Flex Layout Element
+### Key Properties of the Flex Layout Element
 
 1. Orientation:
     - Horizontal: Elements are arranged side by side.
@@ -32,6 +32,6 @@ Setting the orientation helps determine how elements are grouped and displayed w
 3. Align Content:
     - This property accepts the same values as Align Items and is used when there is more than one line of flex items. It helps distribute space between rows (in horizontal orientation) or columns (in vertical orientation).
 
-## Order of Elements
+### Order of Elements
 
 The sequence in which elements are added to the layout plays a critical role in their final presentation. Adjusting the order can affect the prioritization and visibility of elements within your application, making it a crucial aspect of layout management.

@@ -31,9 +31,9 @@ A combo box is a dropdown list. It allows users to select an option from a prede
 
 The Combo Box has three ways of data connection options:
 
-1. Set DataSource on a layout element above the ComboBox: The ComboBox tries to load and display all entries of the DataSource. A selection of properties of the DataSource is available in the DisplayMember
-2. Set DataSource on a layout element above the ComboBox containing a property that is a list: In the ComboBoxMenuTab it is now possible to set a data binding on this list. If an object of the DataSource type is now placed on the Grid/Flex, this list property is displayed in the combo box, and a selection of properties also appears here
-3. No DataSource is set: The list must be set directly to the ComboBox using the Set Value workflow module, for example. There is no selection in the DisplayMember. However, the PropertyName can be specified there directly
+1. **Set DataSource on a layout element above the ComboBox:** The ComboBox tries to load and display all entries of the DataSource. A selection of properties of the DataSource is available in the DisplayMember
+2. **Set DataSource on a layout element above the ComboBox containing a property that is a list:** In the ComboBoxMenuTab it is now possible to set a data binding on this list. If an object of the DataSource type is now placed on the Grid/Flex, this list property is displayed in the combo box, and a selection of properties also appears here
+3. **No DataSource is set:** The list must be set directly to the ComboBox using the Set Value workflow module, for example. There is no selection in the DisplayMember. However, the PropertyName can be specified there directly
 A small box that can be checked or unchecked by the user
 
 | **Property** | **Description** |

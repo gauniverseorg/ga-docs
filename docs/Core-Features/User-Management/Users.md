@@ -15,7 +15,6 @@ This is where you are able to add, delete and edit user information, you can als
 | Password | The account password, must be strong |
 | Password Repeat | Copy of the above |
 | Disabled | Toggle this if you want to disable a user and make them unable to log in |
+| Roles | Assign a role to the user |
 
-Initial admin and user roles are delivered by the system. All other roles are created in the instance under User Management – Roles.
-
-You can also add the roles assigned to the user here, when multiple roles are assigned they add up meaning that with a corresponding selection, the corresponding functionality is denied. If denied and allowed are simultaneously set in a function across multiple roles, denied prevails. The functionalities listed without selection are considered permitted.
+You can also add the roles assigned to the user here, when multiple roles are assigned they add up, which means the corresponding functionality is denied. If denied and allowed are simultaneously set in a function across multiple roles, denied prevails. The functionalities listed without selection are considered permitted.

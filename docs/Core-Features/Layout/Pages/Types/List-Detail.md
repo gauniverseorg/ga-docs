@@ -28,7 +28,7 @@ Select the desired Data Model and Container which in return will return the desi
 
 ![Select Members](../../../../../static/media/list4.png)
 
-| **Property** | **Description**                                                                                                                                         |
+| Property | Description                                                                                                                                        |
 | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | ⋮            | Adjust the order of the fields by dragging and dropping them in the desired placement                                                                   |
 | Visible      | Visibility of the controls                                                                                                                              |

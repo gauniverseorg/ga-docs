@@ -10,24 +10,16 @@ Pages are essentially your canvas. The page can have all the control elements an
 
 ### Creating a page
 
-1. Navigate to the settings backend
-2. Go to layout tab
+1. Navigate to the settings area
+2. Go to the layout tab
 3. Go to the Pages tab
-4. Click the + Create New button in the bottom left corner
+4. Click the *+ Create New button* in the bottom left corner
 5. Name your page URL.
-   > Note: The URL is how you navigate to it and the name is how you can search for it in the backend
 6. Choose the type of page (Empty page, Copy page, List Detail page, Table Detail page)
 7. Click OK
 8. After creating the page, you can edit it using the editing button
 9. Create a navigation so the page can be accessed from the URL
 
-<center>
-
-<video controls="controls">
-  <source src="/media/tut2-1.mov" />
-</video>
-
-</center>
 
 ### Page Types
 
@@ -47,17 +39,10 @@ Navigations are a set of nodes and sub nodes that represent the URL and path to 
 1. Navigate to the settings backend
 2. Go to layout tab
 3. Go to the navigation tab
-4. Go to the overview tab
-5. Click the + Create New button in the bottom left corner
-6. After naming and selecting a home page of the page created, go to the URL of the navigation and open it
-
-<center>
-
-<video controls="controls">
-  <source src="/media/tut2-2.mov" />
-</video>
-
-</center>
+4. Select your application from the Application drop down 
+5. Click on *+ Create Main Node* button. 
+6. Name it, and select a page and save it.
+7. Go to the URL of the application, and open it to see your new navigation.
 
 ## Elements and Workflows
 

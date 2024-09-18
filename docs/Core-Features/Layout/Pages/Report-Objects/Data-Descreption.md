@@ -10,38 +10,38 @@ A relational query can also be selected, but it is not recommended to use since 
 
 A preview of the query result can be displayed using the ➤ arrow. Below the preview you can select the data model.
 
-## Select
+### Select
 
 The selection of the elements is given step by step to the user. After selecting the cube, any number of dimension levels and attributes can be drawn from its dimension hierarchies into the rows (Y-axis) or columns (X-axis) for display. After right clicking the mouse you can access further settings for the areas. Only hierarchies, levels, or attributes, can be drawn, but not entire dimensions.
 
 Several hierarchies can be created in one dimension. Thus, the lowest levels of the individual hierarchies would be displayed twice or more. The selected items can be edited further via the context menu. Special items such as Calculated Value, Empty Item, and Variable Item can also be dragged into the allowable areas. The calculated value is defined in more detail under Tasks. Variables item under the Variables tab. An empty element inserts an empty column or row.
 
-## Filter
+### Filter
 
 In this section you can filter the query results based on different criteria defined by the user, for example a minimum hard coded value, or a dynamic value that is taken from a report control element.
 
-| **Property** | **Description** |
+| Property | Description |
 | --- | --- |
 | Hierarchy | The value which should be filtered (Can be dropped down from the levels area) |
 | Default | Set default filters, which will be static |
 | Variable | Set dynamic filter, via predefined variable (The normal way, via variables) |
 
-## Variables
+### Variables
 
 Variables are listed here and they can be defined using the formula editor.
 
-## Tasks
+### Tasks
 
 Defining tasks for the Data Description.
 
-| **Property** | Description |
+| Property| Description |
 | --- | --- |
 | ⤒ | Move to first position |
 | ↑ | Move up one position |
 | ↓ | Move down one position |
 | ⤓ | Move to last position |
 | 👁 | Set the task to active/inactive |
-| **+** | Add new task |
+| + | Add new task |
 | ⊞ | Copy task |
 | 🗑 | Delete task |
 | Ⓧ | Delete all |
@@ -60,7 +60,7 @@ Data tasks are used to generate data dynamically based on different criteria, th
 | Rank | Display the results as numbers, the result can also be sorted out |
 | Calculated value | If we have selected a calculated value from the "Select" panel, we can give it the values here |
 
-## Value Definition
+### Value Definition
 
 Here you can define some specific values for the measurements using 5 different ways:
 
@@ -78,7 +78,7 @@ The available properties are:
 | Visibility | Visibility of selected value |
 | Aggregation | The type of aggregation |
 
-## Cumulation
+### Cumulation
 
 | Property | Description |
 | --- | --- |

@@ -7,7 +7,7 @@ sidebar_position: 3
 
 | Property | Description |
 | --- | --- |
-| Disk | Save the changes |
+| + Create New | Save the changes |
 | + | Add new fonts as TTF |
 | Bin | Delete item |
 | … | Upload new file |

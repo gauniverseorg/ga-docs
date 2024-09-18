@@ -7,7 +7,7 @@ sidebar_position: 2
 
 | Property | Description |
 | --- | --- |
-| Disk | Save the changes |
+| + Create New | Save the changes |
 | + | Add new icons as SVG |
 | Bin | Delete item |
 | … | Upload new file |

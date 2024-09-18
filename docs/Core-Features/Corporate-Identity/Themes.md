@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # Themes
 
-This is where you define the look and feel of the application. It is based on the front end framework Angular:
+This is where you define the look and feel of the application.
 
 | Property | Description |
 | --- | --- |
@@ -11,7 +11,7 @@ This is where you define the look and feel of the application. It is based on th
 | Translation | What your theme is called in different language |
 | Is Default | Checkbox to mark the theme as the default theme for the app builder |
 | Is dark theme | Checkbox to mark the theme as dark themed or not. |
-| Control style | Pick between:[Material](https://material.angular.io/)[Bootstrap](https://getbootstrap.com/) |
+| Control style | Pick between: [Material](https://material.angular.io/) , [Bootstrap](https://getbootstrap.com/) |
 | General | For picking colors for: <li> Primary </li> <li> Accent </li> <li> Warn </li>|
 | Base font | Font settings:<li>Bold</li><li>Italic</li><li>Underlined</li><li>Font style</li><li>Font size</li> |
 | Table | For picking table color options: <li>Data table header color</li><li>Data table cell text color</li><li>Data table line color</li><li>Spreadsheet header color</li><li>Spreadsheet cell text color</li><li>Spreadsheet cell color</li><li>Spreadsheet line color</li>|

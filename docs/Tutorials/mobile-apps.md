@@ -13,11 +13,11 @@ Before we begin, ensure you have a basic understanding of mobile app components 
 
 ### Initial Setup
 
-Locate the 'Generate Mobile App' section in the settings area of GA_Universe. Remember, you can only generate one mobile app at a time. Here’s how to start:
+1. Locate the 'Generate Mobile App' section in the settings area of GA_Universe. Remember, you can only generate one mobile app at a time. Here’s how to start:
 
-Choose the action you wish to perform - either editing an existing app or building a new one. If you are building a new app click on the "+ Create New" button on the top
+2. Choose the action you wish to perform - either editing an existing app or building a new one. If you are building a new app click on the "+ Create New" button on the top
 
-Or if you editing one please click on the pen icon under the actions section.
+3. Or if you editing one please click on the pen icon under the actions section.
 
 #### Creation and Editing Interface
 

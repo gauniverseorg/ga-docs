@@ -12,22 +12,22 @@ Workflows can be activated using page events, elements events, or based on sched
 
 To use service side workflow block, please navigate to the data section in the settings area and then select workflows followed by service side workflows.
 
-In this example we will be creating a workflow that sends an API request to an [API](https://www.nlp-api.com/) used for topic tagging. For this example we assume an email server has already been set.
 
-1. Drop a "Define Values" WFB, and assign the following values which are needed
-   - API key which you can get when registering at the [API website](https://www.nlp-api.com/)
-   - Text you want analyzed
-2. Drop the REST Call with the following parameters
-    <center>
+In this example we will be creating a workflow that sends an Email to a user. For this example, we assume an email server has already been set.
 
-   ![API parameters](../../static/media/tut3-1.png)
+1. Drop a **Send Email** WFB, and assign the following values which are needed:
+  - Select the Mail Server as “Default Email”
+  - In At field, please add your email address in quotation marks
+  - Write your subject in quotation marks
+  - Write your text in quotation marks
+2. Save your WFB.
 
-   </center>
 
-3. Set the Success output as a status using the "Set Status" WFB
-4. Drop a "Send Email" WFB, assign the email address you want it to be sent to. Remember to use double quotation marks ("") for the email address, and assign the email API output that we assigned to the status as the body of the email
+![Service Workflow](../../static/img/ServiceWFB.png)
 
-That's it, run it and wait for the email to be sent!
+
+That's it, run it by clicking on the play button, and wait for the email to be sent!
+
 
 > Note: All changes made are saved locally on your account, and are not visible to the all other users. To make them visible to all users please accept the changes in the ChangeLog Overview in the settings
 

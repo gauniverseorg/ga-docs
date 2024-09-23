@@ -27,7 +27,6 @@ A bold marking shows that authorizations have been set for individual points. He
 | LoginRight – CanLogin | Login possible |
 | UserAdminRight – DeleteRole | User Management – Delete roles |
 | UserAdminRight – DeleteUser | User Management – Delete user |
-| UserAdminRight – Impersonate | For development – changing in-between roles |
 | UserAdminRight – SaveRole | User Management – Save roles |
 | UserAdminRight – SaveUser | User Management – Save user |
 | AccessRight – Agent | Access to external agent |

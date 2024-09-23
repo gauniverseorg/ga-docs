@@ -27,17 +27,17 @@ Navigate to the previously created role, the following tabs can be found:
 - Layout, from this tab you can give the user access to different pages, or even to see or interact with different elements of these pages
 - Container, this tab gives your user access to which data models and the ability to edit it and so on
 
-To get more information about each tab please refer to the documentation.
+To get more information about each tab please refer to the documentation [here](../Core-Features/User-Management/User-Roles.md)
 
 For this example, we will give our newly created role the ability to edit pages and for that we will go to the permissions tab.
 
 <center>
 
-![Roles image](../../static/media/roles.png)
+![Roles image](../../static/img/RolesandPermission.png)
 
 </center>
 
-This essentially gives the user the ability to open the Appbuilder and make changes to the pages. But, if you want a full list of the permissions and what do, they mean please refer to the documentation.
+This essentially gives the user the ability to open the Appbuilder and make changes to the pages. But, if you want a full list of the permissions and what do, they mean please refer to the [Roles and Access documentation.](../Core-Features/User-Management/User-Roles.md) 
 
 Now you have to assign the role to the user:
 

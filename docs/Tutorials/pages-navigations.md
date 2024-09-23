@@ -36,7 +36,7 @@ Navigations are a set of nodes and sub nodes that represent the URL and path to 
 
 ### Creating a navigation
 
-1. Navigate to the settings backend
+1. Navigate to the settings
 2. Go to layout tab
 3. Go to the navigation tab
 4. Select your application from the Application drop down 

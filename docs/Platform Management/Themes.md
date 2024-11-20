@@ -5,7 +5,7 @@ sidebar_position: 4
 
 # Themes
 
-The Themes page in GA_Universe allows you to customize the appearance of your GA_Universe application by choosing from a variety of available themes.
+The Themes page in General Admin allows you to customize the appearance of your General Admin's application by choosing from a variety of available themes.
 
 ![Themes](../../static/img/Themes.png)
 
@@ -26,6 +26,6 @@ Navigate to the Themes page from the landing page by clicking on the Themes link
 - Once refreshed, the new theme will be visible and applied to your application.
 
  
-By following these steps, you can easily personalize your GA_Universe experience with a theme that suits your preferences. Enjoy exploring the various themes to find the perfect look for your application!
+By following these steps, you can easily personalize your General Admin experience with a theme that suits your preferences. Enjoy exploring the various themes to find the perfect look for your application!
 
 This feature is only available for Premium users.

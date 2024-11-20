@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # EKS Kubernetes Deployment
 
-Here is the step-by-step guide that will help you to deploy GA Universe on Elastic Kubernetes Service (EKS).
+Here is the step-by-step guide that will help you to deploy General Admin on Elastic Kubernetes Service (EKS).
 
 ## Add Node Group in EKS Cluster
 
@@ -317,4 +317,4 @@ kubectl get ingresses
 
 ![EKS Kube Image 23](../../../../static/img/EKSKube23.png)
 
->**_Note:_** Open the web domain in your browser, and you will be able to successfully load the GA Universe. In our case it’s <http://www.gauniv.com>
+>**_Note:_** Open the web domain in your browser, and you will be able to successfully load the General Admin. In our case it’s <http://www.generaladmin.com>

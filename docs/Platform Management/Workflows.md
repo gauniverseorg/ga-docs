@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Workflows
 
-The Workflows section in GA_Universe allows you to manage and create workflows that automate various processes within your applications.
+The Workflows section in General Admin allows you to manage and create workflows that automate various processes within your applications.
 
 ### Accessing Service-Side Workflows
 1. Click on the **Workflows** link in the left menu bar from the Dashboard.

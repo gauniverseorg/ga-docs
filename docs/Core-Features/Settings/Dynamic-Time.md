@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Dynamic Time
 
- Management of the Dynamic time usage in the reporting system of GA.
+ Management of the Dynamic time usage in the reporting system of General Admin.
 
 | **Property** | **Description** |
 | --- | --- |

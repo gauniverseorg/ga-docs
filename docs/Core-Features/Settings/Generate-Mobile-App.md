@@ -24,9 +24,9 @@ Here you can create or edit previously created mobile app
 | --- | --- |
 | **App Name** | The name of the app |
 | **Icon** | The Icon of the app should be 1024 * 1024 |
-| **BaseURL** | The BaseURL of the app for example: <https://develop.gauniv.com/HelloNavigation/login>, when the user opens the application they will redirected to this page|
+| **BaseURL** | The BaseURL of the app for example: <https://develop.generaladmin.com/HelloNavigation/login>, when the user opens the application they will redirected to this page|
 | **Email** | The email address will receive the notification about files being generated|
-| **Identifier** | The wildcard appid for the app for example: com.gauniv.DevsyApp, it is automatically generated|
+| **Identifier** | The wildcard appid for the app for example: com.generaladmin.DevsyApp, it is automatically generated|
 
 ### Android Build
 

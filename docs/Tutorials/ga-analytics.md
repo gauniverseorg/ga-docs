@@ -2,23 +2,23 @@
 sidebar_position: 10
 ---
 
-# GA Analytics
+# General Admin Analytics
 
-Welcome to this tutorial on creating GA Analytics dashboards in GA Universe. This guide will walk you through the significance of reporting and the steps involved in crafting dashboards in the GA Universe platform.
+Welcome to this tutorial on creating General Admin Analytics dashboards in General Admin. This guide will walk you through the significance of reporting and the steps involved in crafting dashboards in the General Admin platform.
 
 ## The Importance of Reporting
 
 Reporting is a cornerstone in today's business environment. By harnessing data visualization, it bolsters decision-making, enabling stakeholders to comprehend intricate data rapidly and efficiently. Not only does reporting offer insights that can spur business growth, but it also ensures real-time identification of business opportunities and challenges. Tracking key performance indicators in real-time is fundamental for maintaining business agility, facilitating prompt interventions when required. Reporting simplifies the often challenging task of data interpretation, making it more streamlined and accessible to relevant entities.
 
-### Prerequisites for GA Analytics
+### Prerequisites for General Admin Analytics
 
-Before delving into GA Analytics, it's essential to lay down the basics. Central to any solid reporting mechanism are DataObjects, which need to be diligently populated with relevant data. This ensures the analyzed and reported information is both accurate and pertinent. The quality of this data can have a significant bearing on the insights derived and decisions made.
+Before delving into General Admin Analytics, it's essential to lay down the basics. Central to any solid reporting mechanism are DataObjects, which need to be diligently populated with relevant data. This ensures the analyzed and reported information is both accurate and pertinent. The quality of this data can have a significant bearing on the insights derived and decisions made.
 
-A vital component in GA Analytics is the ROLAP (Relational Online Analytical Processing) data source, a potent tool enabling dynamic multidimensional analysis of extensive data. Moreover, transitioning DataObjects to a structured, query-optimized setting is crucial. Here, relational tables come into the picture, ensuring seamless DataObject migration and preserving data integrity
+A vital component in General Admin Analytics is the ROLAP (Relational Online Analytical Processing) data source, a potent tool enabling dynamic multidimensional analysis of extensive data. Moreover, transitioning DataObjects to a structured, query-optimized setting is crucial. Here, relational tables come into the picture, ensuring seamless DataObject migration and preserving data integrity
 
 ### Overview of the Steps
 
-GA Universe offers a structured process for report generation, demanding meticulous execution of several steps:
+General Admin offers a structured process for report generation, demanding meticulous execution of several steps:
 
 #### Data Migration and Timetable Creation
 
@@ -42,7 +42,7 @@ While theoretical understanding is crucial, applying these steps in real scenari
 
 #### Migration to Relational Tables
 
-To maximize GA Analytics power, migrate data from these tables to relational tables. Automate this process through service-side workflows, ensuring data accuracy.
+To maximize General Admin power, migrate data from these tables to relational tables. Automate this process through service-side workflows, ensuring data accuracy.
 
 #### Querying the Data
 
@@ -54,7 +54,7 @@ Visualize average order values using application chart elements, like a bar char
 
 ### Setting Up a ROLAP Data Source
 
-Establishing a ROLAP data source in GA Universe is straightforward:
+Establishing a ROLAP data source in General Admin is straightforward:
 
 1. Navigate to Data Sources under the Data tab
 2. Click the + Create New button in the bottom left corner
@@ -89,7 +89,7 @@ Preview of the products object's data:
 
 </center>
 
-Now you will create a relational table to hold this data, you can ignore images since they are not useful in generating reports, to do this in GA do the following:
+Now you will create a relational table to hold this data, you can ignore images since they are not useful in generating reports, to do this in General Admin do the following:
 
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Tables
 2. Click the + Create New button in the bottom left corner
@@ -707,7 +707,7 @@ The second step is more simple, and it is just calling the workflow whenever you
 
 ### Creating a Timetable
 
-Timetables are vital for date-based queries. Here's how to create one in GA Universe:
+Timetables are vital for date-based queries. Here's how to create one in General Admin:
 
 1. Navigate to Data -> Data Model -> <your_data_model_name\> -> Relational -> Container Datetime
 2. Click the + Create New button in the bottom left corner
@@ -916,7 +916,7 @@ Preview:
 
 </center>
 
-### Constructing a GA Query for In-Page Analysis, Top 3 Customers of all time
+### Constructing a General Admin Query for In-Page Analysis, Top 3 Customers of all time
 
 1. Open a page and open the AppBuilder followed by Access Data Description:
 
@@ -989,7 +989,7 @@ In the chart settings on the left side of the page select the chart type to be B
 
 </center>
 
-Do note, we have not used other charts in this tutorial, that is left up to you, to test your knowledge and skills of creating reports in GA!
+Do note, we have not used other charts in this tutorial, that is left up to you, to test your knowledge and skills of creating reports in General Admin!
 
 Possible charts:
 
@@ -1003,4 +1003,4 @@ Possible charts:
 
 ## Conclusion
 
-You're now equipped with the skills to use GA Analytics. For deeper insights, peruse our documentation or consult the GA Community. With knowledge of GA Universe's low-code/no-code development capabilities, we're eager to see your creations. Keep innovating.
+You're now equipped with the skills to use General Admin Analytics. For deeper insights, peruse our documentation or consult the General Admin Community. With knowledge of General Admin's low-code/no-code development capabilities, we're eager to see your creations. Keep innovating.

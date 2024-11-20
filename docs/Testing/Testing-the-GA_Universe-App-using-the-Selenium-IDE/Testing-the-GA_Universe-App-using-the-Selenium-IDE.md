@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Testing the GA_Universe App using the Selenium IDE
+# Testing the General Admin App using the Selenium IDE
 
 Selenium IDE is a plugin that records and plays back all the user interactions. Each user action is recorded and can be played back to ensure that the application runs smoothly.
 

@@ -1,6 +1,6 @@
 # Help Centre and Chat Accessibility
 
-GA_Universe offers robust support options to assist you with any questions or issues you may encounter. By clicking on the question mark icon, you can easily access the following support features:
+General Admin offers robust support options to assist you with any questions or issues you may encounter. By clicking on the question mark icon, you can easily access the following support features:
 
 ### Accessing Support Options
 1. **Question Mark Icon:**
@@ -40,4 +40,4 @@ GA_Universe offers robust support options to assist you with any questions or is
 
 </center>
 
-The **Help Centre and Live** Chat features in GA_Universe provide convenient and effective ways to get the support you need. Whether you prefer browsing FAQs or speaking directly with a support representative, these tools are designed to help you resolve any issues efficiently.
+The **Help Centre and Live** Chat features in General Admin provide convenient and effective ways to get the support you need. Whether you prefer browsing FAQs or speaking directly with a support representative, these tools are designed to help you resolve any issues efficiently.

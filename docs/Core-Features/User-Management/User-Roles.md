@@ -3,7 +3,7 @@ sidebar_position: 3
 ---
 # User Roles
 
-In the overview you can add and delete roles, and edit basic information about user roles, mainly whether they are used by admins or everyone in the overview, the individual roles are defined. Roles in italic are imported from capsules. Roles in bold are overridden imported roles. The Roles Initial Admin and User are provided by GA Universe. The properties here are:
+In the overview you can add and delete roles, and edit basic information about user roles, mainly whether they are used by admins or everyone in the overview, the individual roles are defined. Roles in italic are imported from capsules. Roles in bold are overridden imported roles. The Roles Initial Admin and User are provided by General Admin. The properties here are:
 
 | Property | Description |
 | --- | --- |
@@ -15,7 +15,7 @@ In a specific role page, you can edit three options:
 
 ## Permission
 
-A bold marking shows that authorizations have been set for individual points. Here you can give access to role to use specific features of GA and they are
+A bold marking shows that authorizations have been set for individual points. Here you can give access to role to use specific features of General Admin and they are
 
 ### User
 

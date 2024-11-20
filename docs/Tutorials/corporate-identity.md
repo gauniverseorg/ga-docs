@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Corporate Identity
 
-Corporate identity is where you will design the general look of websites created by GA.
+Corporate identity is where you will design the general look of websites created by General Admin.
 
 Under Corporate Identity, you can modify the following:
 

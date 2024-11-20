@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Data Objects
 
-Definition of the available data structure as ContainerClassObject. Dataobjects serve as GA_universe's internal basis for surfaces etc. The GA_universe is optimized for these objects. The data for data objects are in the standard in the cluster.
+Definition of the available data structure as ContainerClassObject. Dataobjects serve as General Admin's internal basis for surfaces etc. The General Admin is optimized for these objects. The data for data objects are in the standard in the cluster.
 
 Available properties are:
 

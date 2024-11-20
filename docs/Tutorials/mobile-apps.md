@@ -3,17 +3,17 @@ sidebar_position: 10
 ---
 # Mobile Apps
 
-Welcome to the comprehensive tutorial for generating mobile apps in GA_Universe! Whether you are a seasoned developer or just starting out, this guide will walk you through the process of creating a mobile app with ease. Let's dive into the steps to bring your mobile app to life.
+Welcome to the comprehensive tutorial for generating mobile apps in General Admin! Whether you are a seasoned developer or just starting out, this guide will walk you through the process of creating a mobile app with ease. Let's dive into the steps to bring your mobile app to life.
 
 ## Prerequisites
 
-Before we begin, ensure you have a basic understanding of mobile app components such as app names, icons, URLs, and identifiers. This knowledge will be crucial as you navigate through the app creation process in GA_Universe.
+Before we begin, ensure you have a basic understanding of mobile app components such as app names, icons, URLs, and identifiers. This knowledge will be crucial as you navigate through the app creation process in General Admin.
 
 ## Starting the Mobile App Generation
 
 ### Initial Setup
 
-1. Locate the 'Generate Mobile App' section in the settings area of GA_Universe. Remember, you can only generate one mobile app at a time. Here’s how to start:
+1. Locate the 'Generate Mobile App' section in the settings area of General Admin. Remember, you can only generate one mobile app at a time. Here’s how to start:
 
 2. Choose the action you wish to perform - either editing an existing app or building a new one. If you are building a new app click on the "+ Create New" button on the top
 
@@ -27,9 +27,9 @@ Before we begin, ensure you have a basic understanding of mobile app components 
 
 - ***App Name***: Choose a name that resonates with the app's purpose.
 - ***Icon***: Upload the icon. Ensure it is clear and recognizable (Size should be 1024*1024 for best quality, And must be **.jpeg**).
-- ***BaseURL***: Set the BaseURL (e.g., <https://develop.gauniv.com/HelloNavigation/login>). This directs users to the intended page upon application start.
+- ***BaseURL***: Set the BaseURL (e.g., <https://develop.generaladmin.com/HelloNavigation/login>). This directs users to the intended page upon application start.
 - ***Email***: Enter the email address where the notification is sent.
-- ***Identifier***: An automatically generated wildcard app ID (e.g., com.gauniv.DevsyApp).
+- ***Identifier***: An automatically generated wildcard app ID (e.g., com.generaladmin.DevsyApp).
 
 ##### Building for Android and iOS
 
@@ -50,10 +50,10 @@ Note: These settings are permanent once saved, so ensure accuracy.
 
 ## Final Steps
 
-Once all settings are configured, review your choices and make any necessary adjustments. When ready, click save and then proceed to generate or rebuild your app. You'll then be able to download it from the same section in GA_Universe.
+Once all settings are configured, review your choices and make any necessary adjustments. When ready, click save and then proceed to generate or rebuild your app. You'll then be able to download it from the same section in General Admin.
 
 > Note: It takes a few minutes for it to be completed successfully, you will receive a notification by email when the app is completed.
 
 ## Conclusion
 
-Congratulations! You now have the knowledge to generate a mobile app in GA_Universe. This guide has equipped you with the steps and considerations needed to create an app tailored to your needs. Happy app building!
+Congratulations! You now have the knowledge to generate a mobile app in General Admin. This guide has equipped you with the steps and considerations needed to create an app tailored to your needs. Happy app building!

@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Docker
 
-You can follow this tutorial to learn how to install GA_Universe with docker.
+You can follow this tutorial to learn how to install General Admin with docker.
 
 ## Cloud platform
 
@@ -351,7 +351,7 @@ After you finish setting up your instance, access it and do the following:
 
 13. Set the up MinIO:
 
-    Use the following MinIO credentials for the mediasources and login in GA  
+    Use the following MinIO credentials for the mediasources and login in General Admin
 
     ```Text
     Username: admin
@@ -364,7 +364,7 @@ After you finish setting up your instance, access it and do the following:
     ```
 
 14. Access the instance:
-    Use the following Login Credentials to login into the GA_Universe:
+    Use the following Login Credentials to login into the General Admin:
 
     ```Text
     Username: Admin
@@ -375,7 +375,7 @@ After you finish setting up your instance, access it and do the following:
 
 ## Troubleshooting
 
-If you encounter issues after installing GA, such as 404 errors or a white screen, run the following commands in the specified order to restart the Docker containers:
+If you encounter issues after installing General Admin, such as 404 errors or a white screen, run the following commands in the specified order to restart the Docker containers:
 
 ```bash
 sudo docker restart middleware

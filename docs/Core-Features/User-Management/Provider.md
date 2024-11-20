@@ -3,7 +3,7 @@ sidebar_position: 5
 ---
 # Provider
 
-Definition of the providers available for the users, providers are used when the user wants to login to the GA Instance. There are multiple ways for the user to register, you can use the local registration system or you can use social media registration. The available properties for local accounts:
+Definition of the providers available for the users, providers are used when the user wants to login to the General Admin Instance. There are multiple ways for the user to register, you can use the local registration system or you can use social media registration. The available properties for local accounts:
 
 | Property | Description |
 | --- | --- |

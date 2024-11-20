@@ -4,13 +4,13 @@ sidebar_position: 8
 
 # Debugging
 
-In this tutorial, I will show you how to use the debugging tools available in GA_Universe, to start with debugging lets create something that we shouldn’t, how about reading from a database while filtering with a null value?
+In this tutorial, I will show you how to use the debugging tools available in General Admin, to start with debugging lets create something that we shouldn’t, how about reading from a database while filtering with a null value?
 
 ![Debugging image 1](../../static/media/debugging1.png)
 
-That should work for us! (Do not do this in production kids!), now let us run the workflow and see what happens, oh no, it didn’t read them correctly and it threw an error. What could be the cause? Let’s start using the debugging tools in GA to help lead us in the right direction.
+That should work for us! (Do not do this in production kids!), now let us run the workflow and see what happens, oh no, it didn’t read them correctly and it threw an error. What could be the cause? Let’s start using the debugging tools in General Admin to help lead us in the right direction.
 
-There are two ways to go about debugging in GA, the first is the simpler one of just checking the logs and seeing where the error occurred, this is useful for runtime errors.
+There are two ways to go about debugging in General Admin, the first is the simpler one of just checking the logs and seeing where the error occurred, this is useful for runtime errors.
 
 ## Logs
 
@@ -46,7 +46,7 @@ Now it is going to filter the tickets, but it is going to filter incorrectly, wh
 
 A breakpoint is something to use if you want to see what happens in each workflow block, or each line in a script by moving one step at a time or until you reach a different breakpoint. For now, lets show you how to create a breakpoint:
 
-Open the debugging tool by pressing F12, then navigate to the settings tab followed by the breakpoints section, now look up the workflow that you think is causing this issue and insert a break point in any of the workflow blocks for example the start block. Finally navigate to the debug tab and attach the process to the current window (Useful if you have two windows of GA open) and finally click apply in the settings tab.
+Open the debugging tool by pressing F12, then navigate to the settings tab followed by the breakpoints section, now look up the workflow that you think is causing this issue and insert a break point in any of the workflow blocks for example the start block. Finally navigate to the debug tab and attach the process to the current window (Useful if you have two windows of General Admin open) and finally click apply in the settings tab.
 
 <center>
 
@@ -69,4 +69,4 @@ From the debug we can see that is filtering based on an incorrect statement, let
 
 ![Debugging image 10](../../static/media/debugging10.png)
 
-And there you have it, that is how easy it is to debug workflows using GA_Universe!
+And there you have it, that is how easy it is to debug workflows using General Admin!

@@ -4,15 +4,15 @@ sidebar_position: 9
 
 # Reporting
 
-Welcome to the comprehensive guide for creating insightful reports in GA_Universe! This tutorial is designed to guide you through the process of transforming your data into meaningful reports that can drive decision-making. Whether you’re new to data analysis or looking to refine your reporting skills, this tutorial will provide you with the tools and knowledge needed to leverage GA_Universe's powerful reporting capabilities. Let's get started on your journey to mastering data reporting!
+Welcome to the comprehensive guide for creating insightful reports in General Admin! This tutorial is designed to guide you through the process of transforming your data into meaningful reports that can drive decision-making. Whether you’re new to data analysis or looking to refine your reporting skills, this tutorial will provide you with the tools and knowledge needed to leverage General Admin's powerful reporting capabilities. Let's get started on your journey to mastering data reporting!
 
 ## Perquisites
 
-Before we dive into the specifics, it’s important to note that this tutorial assumes you have already set up at least one data table in GA_Universe with numeric values suitable for aggregation. These data tables are the cornerstone of effective reporting, allowing you to explore trends, analyze performance, and uncover hidden insights in your data.
+Before we dive into the specifics, it’s important to note that this tutorial assumes you have already set up at least one data table in General Admin with numeric values suitable for aggregation. These data tables are the cornerstone of effective reporting, allowing you to explore trends, analyze performance, and uncover hidden insights in your data.
 
 ## Inserting the Simplified Reporting Control Element
 
-The first step in creating your report in GA_Universe is to utilize the Simplified Reporting Control Element. This element is a key component for building intuitive and interactive charts. Here’s how to get started:
+The first step in creating your report in General Admin is to utilize the Simplified Reporting Control Element. This element is a key component for building intuitive and interactive charts. Here’s how to get started:
 
 ### Drag and Drop
 
@@ -27,15 +27,15 @@ Once the element is placed on the page, click on it to reveal its properties. On
 - **Data for Reporting**:
   - This critical area is where you connect your data to the chart. Select the appropriate data model and data table from your collection. This selection will determine the data that is aggregated and displayed in your chart. Make sure to choose the table that aligns with the insights you aim to showcase in your report.
 
-By completing this first step, you have successfully initiated the process of creating a dynamic and informative chart in GA_Universe. This sets the foundation for further customization and analysis as you proceed through the tutorial.
+By completing this first step, you have successfully initiated the process of creating a dynamic and informative chart in General Admin. This sets the foundation for further customization and analysis as you proceed through the tutorial.
 
 ## Live example
 
-This example will guide you through creating a bar chart in GA_Universe that visualizes movie reviews by different authors over various years. Here’s how to set it up:
+This example will guide you through creating a bar chart in General Admin that visualizes movie reviews by different authors over various years. Here’s how to set it up:
 
 1. **Select the Data Source:** Begin by setting your data source to 'Dynamic'.
-2. **Choose the Data Model and Table:** Next, we will select the appropriate data model within GA_Universe. For this example, we will choose the ‘Default’ data model, then choose the 'Reviews' data table, as it contains the information relevant to our chart.
-   - **Optional Utilize Filtering and Sorting:** You can apply the same filtering and sorting techniques as described in the [Data tutorial](./data.md) of GA_Universe.
+2. **Choose the Data Model and Table:** Next, we will select the appropriate data model within General Admin. For this example, we will choose the ‘Default’ data model, then choose the 'Reviews' data table, as it contains the information relevant to our chart.
+   - **Optional Utilize Filtering and Sorting:** You can apply the same filtering and sorting techniques as described in the [Data tutorial](./data.md) of General Admin.
 3. **Grouping Data:**
 
    - **Primary Grouping (Author):** In the chart settings, find the option to group data and select 'Author' from the dropdown menu. This action groups your data based on the authors of the movie reviews.
@@ -90,4 +90,4 @@ With these settings configured, your bar chart is now tailored to effectively di
 
 ## Conclusion
 
-And that is it! Now you know how easy it is to use GA for creating reporting dashboards, for more information about the advanced reporting capabilities of GA_Universe, please read the tutorial about utilizing [GA_Analytics](./ga-analytics.md).
+And that is it! Now you know how easy it is to use General Admin for creating reporting dashboards, for more information about the advanced reporting capabilities of General Admin, please read the tutorial about utilizing [GeneralAdmin_Analytics](./ga-analytics.md).

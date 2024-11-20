@@ -4,7 +4,7 @@ sidebar_position: 5
 # Pre-Built Apps
 
 
-The **Pre-built Apps** section in GA_Universe provides a variety of ready-to-use applications that can be quickly deployed and customized to suit your needs.
+The **Pre-built Apps** section in General Admin provides a variety of ready-to-use applications that can be quickly deployed and customized to suit your needs.
 
 ![Prebuilt Apps](../../static/img/PreBuiltApp.png)
 
@@ -24,7 +24,7 @@ The **Pre-built Apps** section in GA_Universe provides a variety of ready-to-use
 2. If you wish to modify the application's navigational structure, click the Edit button. This will allow you to make changes to the app’s layout and flow.
 
 ### Editing Application Properties
-GA_Universe also allows you to customize various properties of the pre-built applications. You can edit the following:
+General Admin also allows you to customize various properties of the pre-built applications. You can edit the following:
 
 - **User Registration Workflow:** Select a User Registration Workflow.
 
@@ -52,4 +52,4 @@ GA_Universe also allows you to customize various properties of the pre-built app
 You can delete a pre-built app by clicking on delete button. Deleting pre-built app will delete all the associated data.
 
 ### Conclusion
-With GA_Universe's Pre-built Apps, you can quickly deploy and customize applications to meet your specific needs.
+With General Admin's Pre-built Apps, you can quickly deploy and customize applications to meet your specific needs.

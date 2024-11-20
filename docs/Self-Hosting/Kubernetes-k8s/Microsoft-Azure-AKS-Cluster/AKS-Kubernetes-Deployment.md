@@ -1,6 +1,6 @@
 # AKS Kubernetes Deployment
 
-Here is the step by step guide that will help you to deploy GA Universe on Azure Kubernetes Service (AKS).
+Here is the step by step guide that will help you to deploy General Admin on Azure Kubernetes Service (AKS).
 
 ### Generate YAML Files
 
@@ -157,4 +157,4 @@ kubectl get ingresses
 
 ![Kube image 7](../../../../static/img/aksKube7.png)
 
->**_Note:_** Open the web domain in your browser, and you will be able to successfully load the GA Universe. In our case it’s <http://www.gauniv.com>
+>**_Note:_** Open the web domain in your browser, and you will be able to successfully load the General Admin. In our case it’s <http://www.generaladmin.com>

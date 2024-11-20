@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Dashboard
-The **Dashboard** serves as the central hub of GA_Universe, providing easy access to all your created and activated applications, as well as quick links to essential features and tools.
+The **Dashboard** serves as the central hub of General Admin, providing easy access to all your created and activated applications, as well as quick links to essential features and tools.
 
 ![Dashboard](/img/Dashboard1.png)
 
@@ -22,9 +22,9 @@ The **Dashboard** is designed for intuitive navigation with the following elemen
 
 - **Pre-built Apps:** Access a selection of ready-to-use applications that can be activated and customized.
 
-- **Documentation:** Access comprehensive guides and documentation for using GA_Universe.
+- **Documentation:** Access comprehensive guides and documentation for using General Admin.
 
-- **Discord:** Join the GA_Universe community on Discord for support, discussions, and updates.
+- **Discord:** Join the General Admin community on Discord for support, discussions, and updates.
 
 ### Landing Page Overview
 The **Landing Page** displays all your Created and Activated applications. Here, you can manage your existing apps or start building new ones.
@@ -48,4 +48,4 @@ The **Landing Page** displays all your Created and Activated applications. Here,
 - **Import Application:** Bring in an existing application from a file or external source.
 
 
-The **Dashboard** in GA_Universe provides a user-friendly interface for managing your applications and accessing important tools and resources. Whether you're creating new apps, customizing existing ones, or exploring available integrations and workflows, the Dashboard is your starting point for all activities within GA_Universe.
+The **Dashboard** in General Admin provides a user-friendly interface for managing your applications and accessing important tools and resources. Whether you're creating new apps, customizing existing ones, or exploring available integrations and workflows, the Dashboard is your starting point for all activities within General Admin.

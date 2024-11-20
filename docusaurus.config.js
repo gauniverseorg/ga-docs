@@ -79,7 +79,7 @@ const config = {
       footer: {
         style: "dark",
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} GA_Universe. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} General Admin. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

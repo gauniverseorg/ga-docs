@@ -29,7 +29,7 @@ Here is defined the custom REST for the external access of data and also the sta
 
 ## Save
 
-This type allows the user to insert into a table inside GA, before a save happens GA middleware first checks if the table can accept this object using different data types and such. The format for such custom rest is:
+This type allows the user to insert into a table inside General Admin, before a save happens General Admin middleware first checks if the table can accept this object using different data types and such. The format for such custom rest is:
 
 ~~~ json
 [
@@ -49,7 +49,7 @@ Similar to Save, it will save an item to a data table but it won't check data ty
 
 ## Delete
 
-Deletes one item from a data table inside GA, it will first check if this item is used any where else in GA before deleting, if it is not used it will be deleted, if it is used it won't be deleted. It requires two parameters inside the body, and they are the version and GUID of the object to be deleted. The format for such a custom rest is:
+Deletes one item from a data table inside General Admin, it will first check if this item is used any where else in General Admin before deleting, if it is not used it will be deleted, if it is used it won't be deleted. It requires two parameters inside the body, and they are the version and GUID of the object to be deleted. The format for such a custom rest is:
 
 ~~~ json
 [
@@ -70,7 +70,7 @@ Similar to delete, the only difference is that it doesn't check if the object is
 
 ## Delete By Filter
 
-Allows the user to delete multiple objects at the same time using the same filtering structure that GA uses. The format for such a custom rest is:
+Allows the user to delete multiple objects at the same time using the same filtering structure that General Admin uses. The format for such a custom rest is:
 
 ~~~ json
 [

@@ -5,13 +5,13 @@ slug: /
 
 # Introduction
 
-This document can be your reference to all GA related information. You
+This document can be your reference to all General Admin related information. You
 will find how to use and utilize the platform to maximize your
 productivity and minimize issues.
 
-## What is GA?
+## What is General Admin?
 
-GA universe is a no code/low code platform that uses the previously
+General Admin is a no code/low code platform that uses the previously
 mentioned techniques to allow users of all experiences to be able to
 design, build, and develop business applications that serve different
 purposes without the need to be savvy in the ins and outs of the
@@ -32,16 +32,16 @@ cases and reasons, of which:
 - Making dashboards and reporting panels from different data sources
   and legacy applications
 
-## Examples of GA usage
+## Examples of General Admin usage
 
-GA is able to create different kinds of business applications like
+General Admin is able to create different kinds of business applications like
 organizational internal tools, simple SPA (Single page
 applications), and complex applications by
 using the low code/no code aspects.
 
-## Using GA
+## Using General Admin
 
-Utilizing GA is as easy as:
+Utilizing General Admin is as easy as:
 
 1. Opening the page
 
@@ -53,7 +53,7 @@ Utilizing GA is as easy as:
 
 ## Tutorials
 
-You can find many tutorials on how to use GA. Such as:
+You can find many tutorials on how to use General Admin. Such as:
 
 - [Building your first hello world page](./Tutorials/hello-world.md)
 

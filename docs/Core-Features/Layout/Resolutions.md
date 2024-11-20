@@ -3,7 +3,7 @@ sidebar_position: 4
 ---
 # Resolutions
 
-GA Provides the ability to design different dimensions for different viewports. Inside the page you can click on the resolutions, the available properties:
+General Admin Provides the ability to design different dimensions for different viewports. Inside the page you can click on the resolutions, the available properties:
 
 | Property | Description |
 | --- | --- |

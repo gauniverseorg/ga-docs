@@ -4,7 +4,7 @@ sidebar_position: 7
 
 # Roles and Access
 
-To have a truly secure application, GA offers different roles and access permissions and groups. These are all granular roles that can be customized by the user to allow complete access to who can see and do what on any page.
+To have a truly secure application, General Admin offers different roles and access permissions and groups. These are all granular roles that can be customized by the user to allow complete access to who can see and do what on any page.
 
 ## Role Creation
 

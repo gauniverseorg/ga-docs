@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Integrations
 
-The **Integration** page in GA_Universe allows users to connect to various datasources, enabling seamless data management and integration within your applications.
+The **Integration** page in General Admin allows users to connect to various datasources, enabling seamless data management and integration within your applications.
 
 ![Integration](../../static/img/Integration1.png)
 

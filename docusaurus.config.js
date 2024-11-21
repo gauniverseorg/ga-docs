@@ -65,8 +65,8 @@ const config = {
       image: "media/docusaurus-social-card.jpg",
       navbar: {
         logo: {
-          alt: "GA_Universe Logo",
-          src: "media/logo.svg",
+          alt: "General Admin Logo",
+          src: "media/logo2.png",
         },
         items: [
           {

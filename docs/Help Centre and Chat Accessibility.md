@@ -20,7 +20,7 @@ General Admin offers robust support options to assist you with any questions or 
 
 <center>
 
-![Live Chat 2](../static/img/Livechat.png)
+![Live Chat 2](../static/img/Help.png)
 
 </center>
 

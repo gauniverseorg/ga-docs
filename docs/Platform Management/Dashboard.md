@@ -5,7 +5,7 @@ sidebar_position: 1
 # Dashboard
 The **Dashboard** serves as the central hub of General Admin, providing easy access to all your created and activated applications, as well as quick links to essential features and tools.
 
-![Dashboard](/img/Dashboard1.png)
+![Dashboard](/img/GA_Dashboard.png)
 
 ### Navigating the Dashboard
 The **Dashboard** is designed for intuitive navigation with the following elements:

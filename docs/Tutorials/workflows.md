@@ -23,7 +23,7 @@ In this example we will be creating a workflow that sends an Email to a user. Fo
 2. Save your WFB.
 
 
-![Service Workflow](../../static/img/ServiceWFB.png)
+![Service Workflow](../../static/img/Emailworkflow.png)
 
 
 That's it, run it by clicking on the play button, and wait for the email to be sent!
@@ -54,7 +54,7 @@ Here is an example where client side workflows are used to read the value of a t
 <center>
 
 <video controls="controls">
-  <source src="/media/tut3-2.mov" />
+  <source src="/media/Workflow1.mp4" />
 </video>
 
 </center>
@@ -64,7 +64,7 @@ Here is an example where client side workflows are used to read the value of a t
 <center>
 
 <video controls="controls">
-  <source src="/media/tut3-3.mov" />
+  <source src="/media/Workflow2.mp4" />
 </video>
 
 </center>
@@ -76,7 +76,7 @@ Now try it out! Add text in the textbox and click on the button, and a message b
 <center>
 
 <video controls="controls">
-  <source src="/media/tut3-4.mov" />
+  <source src="/media/Workflow3.mp4" />
 </video>
 
 </center>

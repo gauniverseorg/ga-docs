@@ -42,16 +42,17 @@ Navigations are a set of nodes and sub nodes that represent the URL and path to 
 5. Click on *+ Create Main Node* button. 
 6. Name it, and select the page you have created before and save it.
 7. Go to the URL of the application, and open it to see your new navigation.
+8. You can also click on Preview button to open the page in another tab.
 
 ## Elements and Workflows
 
-To access the page elements and workflows, open the AppBuilder by clicking F2
+To access the page elements and workflows, open the AppBuilder by clicking F2. You can click on block items to access elements, and workflow icon to make workflows for a particular page.
 
 > Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
 
 <center>
 
-![Elements and Workflows](../../static/media/tut2-3.png)
+![Elements and Workflows](../../static/img/Page.png)
 
 </center>
 
@@ -59,11 +60,11 @@ To access the page elements and workflows, open the AppBuilder by clicking F2
 
 These are the frames of the page. By default, the page would have a grid.
 
-Each type of layout has different properties, like how a grid is mostly rigid and a bootstrap grid is more flexible.
+Each type of layout has different properties, like how a grid is mostly rigid and a bootstrap grid is more flexible. 
 
 <center>
 
-![Layouts](../../static/media/tut2-4.png)
+![Layouts](../../static/img/Layouts.png)
 
 </center>
 
@@ -73,7 +74,7 @@ Each page has control elements which are in essence the content of the page, lik
 
 <center>
 
-![Control Elements](../../static/media/tut2-5.png)
+![Control Elements](../../static/img/Controls.png)
 
 </center>
 

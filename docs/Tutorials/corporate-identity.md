@@ -22,43 +22,40 @@ Under Corporate Identity, you can modify the following:
 
 Let's create a new theme and add it to a navigation
 
-1. Open the settings website
+1. Open the settings area.
 2. Click on corporate identity
 3. Click on Themes:
    1. Click on + Create New to create a new theme
    2. Rename the new theme
    3. Write the translations if needed
-   4. Set is default and is dark theme flags as needed
-   5. Select Control style from Material or Bootstrap, We will go with Material.
-   6. Change the General Settings as needed
-   7. Change the font as needed
-   8. Change table styles as needed:
-   9. Pick chart style from down:
-   10. Change text color as needed
-   11. Change background as needed
-   12. Change foreground as needed
-   13. Click on save to add the style
+   4. Select Control style from Material or Bootstrap, We will go with Material.
+   5. Change the General Settings as needed
+   6. Change the font as needed
+   7. Change table styles as needed
+   8. Pick chart style as needed
+   9. Change text color as needed
+   10. Change background as needed
+   11. Change foreground as needed
+   12. Click on save to add the style
 
 <center>
 
 <video controls="controls">
-  <source src="/media/tut4-2.mov" />
+  <source src="/media/Themes.mp4" />
 </video>
 
 </center>
 
-Now to adding it to the Application:
+Now applying it:
 
-1. Go to Dashboard
-2. Select an application and click on Edit navigation
-3. Pick the theme you just added as default theme
-4. Pick the theme you just added in the available themes
-5. Save
+1. Go to the Themes listing
+2. Click on Manage button of the Theme you created
+3. Refresh the Page.
 
 <center>
 
 <video controls="controls">
-  <source src="/media/tut4-3.mov" />
+  <source src="/media/Themes2.mp4" />
 </video>
 
 </center>

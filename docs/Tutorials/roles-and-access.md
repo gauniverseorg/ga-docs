@@ -25,7 +25,6 @@ Navigate to the previously created role, the following tabs can be found:
 
 - Permissions, in this tab you can give your users which permissions they need to login, edit, or access settings
 - Layout, from this tab you can give the user access to different pages, or even to see or interact with different elements of these pages
-- Container, this tab gives your user access to which data models and the ability to edit it and so on
 
 To get more information about each tab please refer to the documentation [here](../Core-Features/User-Management/User-Roles.md)
 
@@ -33,7 +32,7 @@ For this example, we will give our newly created role the ability to edit pages 
 
 <center>
 
-![Roles image](../../static/img/RolesandPermission.png)
+![Roles image](../../static/img/Permissions.png)
 
 </center>
 

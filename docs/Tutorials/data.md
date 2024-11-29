@@ -22,7 +22,23 @@ The following are the steps needed to create a datamodel:
 <center>
 
 <video controls="controls">
-  <source src="/media/tut5-1.mov" />
+  <source src="/media/DataModel.mp4" />
+</video>
+
+</center>
+
+### Creating a Datasource
+
+1. Click on the Integration
+2. Click on MongoDB
+3. Enter data in all the fields
+4. Click on Check Integration
+5. If it successfully connects, then save it
+
+<center>
+
+<video controls="controls">
+  <source src="/media/Datasource.mp4" />
 </video>
 
 </center>
@@ -38,7 +54,7 @@ The following are the steps needed to create a datamodel:
 <center>
 
 <video controls="controls">
-  <source src="/media/tut5-2.mov" />
+  <source src="/media/DataObject.mp4" />
 </video>
 
 </center>

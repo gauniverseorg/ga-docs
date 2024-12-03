@@ -75,7 +75,7 @@ One other important data type is the Enum or the Enumeration. They are essential
 <center>
 
 <video controls="controls">
-  <source src="/media/tut5-3.mov" />
+  <source src="/media/Enums.mp4" />
 </video>
 
 </center>
@@ -92,14 +92,14 @@ For this example, we assume that you have already made a data object that has 3 
    > Note: When you open the AppBuilder, please select edit mode and not view mode. When you select the edit mode the page becomes locked and you are the only one allowed to change it until the changes are accepted in the ChangeLog.
 
 3. Divide the base grid into 2 different rows
-4. In the first row, add a flex add 3 TextBoxes and Buttons inside that flex
+4. In the first row, add a Grid add 3 TextBoxes and Buttons inside that Grid
 5. Customize the elements as wanted
 6. Add a DataTable element in the second row
 
 <center>
 
 <video controls="controls">
-  <source src="/media/tut5-4.mov" />
+  <source src="/media/Data1.mp4" />
 </video>
 
 </center>
@@ -112,7 +112,7 @@ For this example, we assume that you have already made a data object that has 3 
 <center>
 
 <video controls="controls">
-  <source src="/media/tut5-5.mov" />
+  <source src="/media/Data2.mp4" />
 </video>
 
 </center>
@@ -121,21 +121,21 @@ Now you have to create the workflows to add, save, and delete the data.
 
 ### Add workflow
 
-1. Drop a "Add Item" WFB which uses the flex element
+1. Drop a "Add Item" WFB which uses the Grid element
 2. Drop a "Refresh" WFB to be used on the DataTable
 3. Save as add
 
 <center>
 
 <video controls="controls">
-  <source src="/media/tut5-6.mov" />
+  <source src="/media/AddWF.mp4" />
 </video>
 
 </center>
 
 ### Save workflow
 
-1. Drop a "Save Item" WFB which uses the flex element.
+1. Drop a "Save Item" WFB which uses the Grid element.
    > Note: Link the successfully recreated and saved successfully to the next step
 2. Drop a "Refresh" WFB to be used on the DataTable
 3. Save as save
@@ -143,7 +143,7 @@ Now you have to create the workflows to add, save, and delete the data.
 <center>
 
 <video controls="controls">
-  <source src="/media/tut5-7.mov" />
+  <source src="/media/SaveWF.mp4" />
 </video>
 
 </center>
@@ -162,20 +162,20 @@ This requires 2 different workflows
 2. Drop a "Read Properties" WFB and set it to read the property name "\_Id" and assign it a status key (Ex. idToDelete)
 3. Drop a "Read Data" WFB and select your datasource and filter it by comparing "\_Id" with "idToDelete"
 4. Drop a "Get List Item" WFB once again
-5. Drop a "Set Values" WFB and select the flex element
+5. Drop a "Set Values" WFB and select the Grid element
 6. Save as onSelect
 
 <center>
 
 <video controls="controls">
-  <source src="/media/tut5-8.mov" />
+  <source src="/media/onSelectWF.mp4" />
 </video>
 
 </center>
 
 #### Deletion
 
-1. Drop a "Delete Item" WFB which uses the flex element
+1. Drop a "Delete Item" WFB which uses the Grid element
 2. Drop a "Refresh" WFB to be used on the DataTable
 3. Save as delete
 
@@ -187,7 +187,7 @@ After making the workflows, we have to link them with events.
 <center>
 
 <video controls="controls">
-  <source src="/media/tut5-9.mov" />
+  <source src="/media/DeleteWF.mp4" />
 </video>
 
 </center>
@@ -195,7 +195,7 @@ After making the workflows, we have to link them with events.
 <center>
 
 <video controls="controls">
-  <source src="/media/tut5-10.mov" />
+  <source src="/media/WF3.mp4" />
 </video>
 
 </center>
@@ -205,7 +205,7 @@ That should be it! Try it out by adding, saving and deleting.
 <center>
 
 <video controls="controls">
-  <source src="/media/tut5-11.mov" />
+  <source src="/media/WF4.mp4" />
 </video>
 
 </center>
@@ -216,27 +216,27 @@ Lets assume you were instructed to change the table schema to add 2 elements, an
 
 1. Navigate to DataObjects page in the settings
 2. Add the isActive field and set default as true
-3. Add the department and pick the Enum you created before
+3. Add the Eyecolor and pick the Enum you created before
 
 <center>
 
 <video controls="controls">
-  <source src="/media/tut5-12.mov" />
+  <source src="/media/Data3.mp4" />
 </video>
 
 </center>
 
 These changes should be reflected on the page as well
 
-1. Add a combobox inside the flex and data bind it to the department field
-2. Add a checkbox inside the flex and data bind it to the isActive field
+1. Add a combobox inside the Grid and data bind it to the department field
+2. Add a checkbox inside the Grid and data bind it to the isActive field
 3. Modify their properties to make them editable
 4. Add the 2 columns to the datatable and set them to visible to be able to show them in the datatable
 
 <center>
 
 <video controls="controls">
-  <source src="/media/tut5-13.mov" />
+  <source src="/media/Data4.mp4" />
 </video>
 
 </center>
@@ -248,7 +248,15 @@ That's it! The page now functions as intended.
 <center>
 
 <video controls="controls">
-  <source src="/media/tut5-14.mov" />
+  <source src="/media/Data5.mp4" />
+</video>
+
+</center>
+
+<center>
+
+<video controls="controls">
+  <source src="/media/Data6.mp4" />
 </video>
 
 </center>
@@ -293,7 +301,7 @@ If you want to include the image in your DataObject:
 
 For page changes:
 
-1. Drop a layout inside the flex (Grid, Repeat, etc). For multiple images, use a Repeat layout
+1. Drop a layout inside the Grid (Flex, Repeat, etc). For multiple images, use a Repeat layout
 2. Bind it to the image field
 3. Add an upload button, and set it's type as image
 4. Drop image element in the layout

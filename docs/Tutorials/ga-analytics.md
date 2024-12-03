@@ -66,7 +66,7 @@ Establishing a ROLAP data source in General Admin is straightforward:
 <center>
 
 <video controls="controls">
-  <source src="/media/tut8-1.mov" />
+  <source src="/media/ROLAP.mp4" />
 </video>
 
 </center>

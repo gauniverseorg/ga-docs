@@ -24,7 +24,7 @@ In this example we will assume there is a page with 2 text blocks.
 <center>
 
 <video controls="controls">
-  <source src="/media/tut6-1.mov" />
+  <source src="/media/var1.mp4" />
 </video>
 
 </center>
@@ -47,7 +47,7 @@ Workflows are used to read or change local variables.
 <center>
 
 <video controls="controls">
-  <source src="/media/tut6-2.mov" />
+  <source src="/media/var2.mp4" />
 </video>
 
 </center>
@@ -55,7 +55,7 @@ Workflows are used to read or change local variables.
 <center>
 
 <video controls="controls">
-  <source src="/media/tut6-3.mov" />
+  <source src="/media/var3.mp4" />
 </video>
 
 </center>
@@ -63,7 +63,7 @@ Workflows are used to read or change local variables.
 <center>
 
 <video controls="controls">
-  <source src="/media/tut6-4.mov" />
+  <source src="/media/var4.mp4" />
 </video>
 
 </center>
@@ -82,7 +82,7 @@ Workflows are used to read or change local variables.
 <center>
 
 <video controls="controls">
-  <source src="/media/tut6-5.mov" />
+  <source src="/media/var5.mp4" />
 </video>
 
 </center>
@@ -100,7 +100,7 @@ Workflows are used to read or change global variables.
 <center>
 
 <video controls="controls">
-  <source src="/media/tut6-6.mov" />
+  <source src="/media/var6.mp4" />
 </video>
 
 </center>
@@ -108,7 +108,7 @@ Workflows are used to read or change global variables.
 <center>
 
 <video controls="controls">
-  <source src="/media/tut6-7.mov" />
+  <source src="/media/var7.mp4" />
 </video>
 
 </center>
@@ -116,7 +116,7 @@ Workflows are used to read or change global variables.
 <center>
 
 <video controls="controls">
-  <source src="/media/tut6-8.mov" />
+  <source src="/media/var8.mp4" />
 </video>
 
 </center>

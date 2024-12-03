@@ -51,7 +51,7 @@ Open the debugging tool by pressing F12, then navigate to the settings tab follo
 <center>
 
 <video controls="controls">
-  <source src="/media/debugging8.mkv" />
+  <source src="/media/Debug1.mp4" />
 </video>
 
 </center>
@@ -61,7 +61,7 @@ Now whenever you run the workflow it will stop at the first breakpoint to allow 
 <center>
 
 <video controls="controls">
-  <source src="/media/debugging9.mkv" />
+  <source src="/media/Debug2.mp4" />
 </video>
 
 </center>
